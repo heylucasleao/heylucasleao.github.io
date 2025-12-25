@@ -16,4 +16,4 @@
 [[digital-garden/path-for-the-true-and-brave/text/12. Double Machine Learning\|12. Double Machine Learning]]
 [[digital-garden/path-for-the-true-and-brave/text/13. Guia de Equívocos\|13. Guia de Equívocos]]
 [[digital-garden/path-for-the-true-and-brave/text/14. GenAI\|14. GenAI]]
-
+[[digital-garden/path-for-the-true-and-brave/text/15. Fluxo de Decisão\|15. Fluxo de Decisão]]
