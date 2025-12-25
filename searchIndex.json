@@ -1,7 +1,7 @@
 [
 {
 		"title": "0. Inferência Causal",
-		"date":"Thu Dec 25 2025 16:51:15 GMT+0000 (Coordinated Universal Time)",
+		"date":"Thu Dec 25 2025 16:52:55 GMT+0000 (Coordinated Universal Time)",
 		"url":"/path-for-the-true-and-brave/causalidade/0-inferencia-causal/",
 		"content": "<a class=\"internal-link is-unresolved\" href=\"/404\" target=\"\">0. Roadmap</a>\n<a class=\"internal-link is-unresolved\" href=\"/404\" target=\"\">1. Epifanias</a>\n<a class=\"internal-link is-unresolved\" href=\"/404\" target=\"\">2. Como Predição e Inferência Causal se Conversam</a>\n<a class=\"internal-link is-unresolved\" href=\"/404\" target=\"\">3. Teorias da Causalidade</a>\n<a class=\"internal-link is-unresolved\" href=\"/404\" target=\"\">4. Escada da Causação</a>\n<a class=\"internal-link is-unresolved\" href=\"/404\" target=\"\">5. Design de Experimentos</a>\n<a class=\"internal-link is-unresolved\" href=\"/404\" target=\"\">6. DAG</a>\n<a class=\"internal-link is-unresolved\" href=\"/404\" target=\"\">7. Regressão Linear</a>\n<a class=\"internal-link is-unresolved\" href=\"/404\" target=\"\">8. Viés</a>\n<a class=\"internal-link is-unresolved\" href=\"/404\" target=\"\">9. Escore de Propensão</a>\n<a class=\"internal-link is-unresolved\" href=\"/404\" target=\"\">10. Efeitos Heterogêneos</a>\n<a class=\"internal-link is-unresolved\" href=\"/404\" target=\"\">12. Double Machine Learning</a>\n<a class=\"internal-link is-unresolved\" href=\"/404\" target=\"\">13. Guia de Equívocos</a>\n<a class=\"internal-link is-unresolved\" href=\"/404\" target=\"\">14. GenAI</a>",
 		"tags": [ "note"]
@@ -9,7 +9,7 @@
 
 {
 		"title": "Hey, Lucas Leão!",
-		"date":"Thu Dec 25 2025 16:51:15 GMT+0000 (Coordinated Universal Time)",
+		"date":"Thu Dec 25 2025 16:52:55 GMT+0000 (Coordinated Universal Time)",
 		"url":"/",
 		"content": "<a class=\"internal-link\" target=\"\" data-note-icon=\"undefined\" href=\"/path-for-the-true-and-brave/causalidade/0-inferencia-causal/\">0. Inferência Causal</a>",
 		"tags": [ "note","gardenEntry"]
