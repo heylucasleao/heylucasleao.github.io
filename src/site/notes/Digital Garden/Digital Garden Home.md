@@ -2,4 +2,5 @@
 {"dg-publish":true,"permalink":"/digital-garden/digital-garden-home/","tags":["gardenEntry"]}
 ---
 
-[[path-for-the-true-and-brave/Causalidade/Inferência Causal\|Inferência Causal]]
+[[digital-garden/path-for-the-true-and-brave/text/Inferência Causal\|Inferência Causal]]
+[[digital-garden/meu-modelo-conforme/text/Meu Modelo Conforme\|Meu Modelo Conforme]]
