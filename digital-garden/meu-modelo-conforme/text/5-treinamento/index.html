@@ -1,0 +1,121 @@
+<!doctype html>
+<html lang="pt-br">
+<head>
+<title>5. Treinamento</title>
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<script async type="module">import mermaid from"https://cdn.jsdelivr.net/npm/mermaid@10/dist/mermaid.esm.min.mjs"</script>
+<script async src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.25.0/prism.min.js" integrity="sha512-hpZ5pDCF2bRCweL5WoA0/N1elet1KYL5mx3LP555Eg/0ZguaHawxNvEjF6O3rufAChs16HVNhEc6blF/rZoowQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+<script async src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.25.0/plugins/autoloader/prism-autoloader.min.js" integrity="sha512-sv0slik/5O0JIPdLBCR2A3XDg/1U3WuDEheZfI/DI5n8Yqc3h5kjrnr46FGBNiUAJF7rE4LHKwQ/SoSLRKAxEA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+<script async src="https://cdn.jsdelivr.net/npm/lucide@0.115.0/dist/umd/lucide.min.js"></script>
+<script>window.addEventListener("load",(()=>{document.querySelectorAll(".callout").forEach((e=>{const t=getComputedStyle(e).getPropertyValue("--callout-icon"),l=t&&t.trim().replace(/^lucide-/,"");if(l){const t=e.querySelector(".callout-title");if(t){const e=document.createElement("div"),c=document.createElement("i");e.appendChild(c),c.setAttribute("icon-name",l),e.setAttribute("class","callout-icon"),t.insertBefore(e,t.firstChild)}}})),lucide.createIcons(),Array.from(document.querySelectorAll(".callout.is-collapsible")).forEach((e=>{e.querySelector(".callout-title").addEventListener("click",(t=>{e.classList.contains("is-collapsed")?e.classList.remove("is-collapsed"):e.classList.add("is-collapsed")}))}))}))</script>
+<script async src="https://fastly.jsdelivr.net/npm/force-graph@1.43.0/dist/force-graph.min.js"></script>
+<script async src="https://fastly.jsdelivr.net/npm/@alpinejs/persist@3.11.1/dist/cdn.min.js"></script>
+<script src="https://fastly.jsdelivr.net/npm/alpinejs@3.11.1/dist/cdn.min.js" async></script>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.25.0/themes/prism-okaidia.min.css" integrity="sha512-mIs9kKbaw6JZFfSuo+MovjU+Ntggfoj8RwAmJbVXQ5mkAX5LlgETQEweFPI18humSPHymTb5iikEOKWF7I8ncQ==" crossorigin="anonymous" referrerpolicy="no-referrer" async>
+<script src="https://fastly.jsdelivr.net/npm/whatwg-fetch@3.6.2/dist/fetch.umd.min.js" crossorigin="anonymous" referrerpolicy="no-referrer" async></script>
+<link href="/styles/digital-garden-base.css" rel="stylesheet">
+<link href="/styles/obsidian-base.css" rel="stylesheet">
+<link href="/styles/_theme.e2876fe9.css" rel="stylesheet">
+<link href="/styles/custom-style.css" rel="stylesheet">
+<link rel="icon" href="/favicon.ico" sizes="any">
+<link rel="icon" href="/favicon.svg" type="image/svg+xml">
+<link rel="apple-touch-icon" href="/apple-touch-icon.png">
+<link rel="manifest" href="/manifest.webmanifest">
+<style></style>
+</head>
+<body class="theme-dark markdown-preview-view markdown-rendered markdown-preview-section">
+<nav class="navbar">
+<div class="navbar-inner">
+<a href="/" style="text-decoration:none">
+<h1 style="margin:15px!important">Hey, Lucas Leão!</h1>
+</a>
+</div>
+</nav>
+<main class="content cm-s-obsidian">
+<header>
+<div class="header-meta">
+</div>
+</header>
+<h1 id="treinamento" tabindex="-1">Treinamento</h1>
+<p>Nos meus projetos iniciais de carreira, como o de <a href="https://heylucasleao-ansiedade-e-pandemia-streamlit-app-5889dq.streamlit.app/" target="_blank" class="external-link">ansiedade e pandemia em época de Covid-19</a> ou <a href="https://heylucasleao-covid-no-amazonas-streamlit-app-bxa3n1.streamlit.app/" target="_blank" class="external-link">o balanço sobre os dados e previsibilidade sobre a pandemia na região do Amazonas</a>, eu acreditava que apenas gerar o F1 Score ou analisar o ROC-AUC resolveria todos os meus problemas. Porém, quando me deparava com novos dados, eu não sabia o que estava acontecendo. Percebi, tarde demais, que o modelo não estava calibrado!</p>
+<p><picture src="/img/user/digital-garden/meu-modelo-conforme/assets/image%201.png" alt="image 1.png|Introduction To Conformal Prediction"><source media="(max-width:480px)" srcset="/img/optimized/9JXzxE0C8N-500.webp" type="image/webp">
+<source media="(max-width:480px)" srcset="/img/optimized/9JXzxE0C8N-500.jpeg">
+<source media="(max-width:1920px)" srcset="/img/optimized/9JXzxE0C8N-700.webp" type="image/webp"><source media="(max-width:1920px)" srcset="/img/optimized/9JXzxE0C8N-700.jpeg"><img class="" src="/img/user/digital-garden/meu-modelo-conforme/assets/image%201.png" alt="image 1.png|Introduction To Conformal Prediction" width=""></picture></p>
+<p>Para resolver esse problema, uma opção é transformar nosso modelo em um modelo conforme, que descrevi anteriormente. Eu até poderia ter parado apenas na camada de calibração Venn-Abers, que por si só já transforma nosso modelo em um conforme, mas a geração de cobertura nos dá outras interpretabilidades e possibilidades, que irei comentar no próximos tópicos.</p>
+<div class="callout" data-callout="tip"><div class="callout-title"><div class="callout-title-inner"> 💡<br></div></div>
+<div class="callout-content">
+<p>
+Não há necessidade de termos uma modelo de calibração se quiser calibrar fazendo uma cobertura de previsão conforme. Apenas faço para <strong>melhorar</strong> integridade das probabilidades.</p>
+</div></div>
+<h2 id="divisao-de-dados" tabindex="-1">Divisão de Dados</h2>
+<p>Vamos seguir este processo:</p>
+<ul>
+<li>Durante o treinamento, dividiremos os dados em três partes: dados de treinamento, <strong>calibração</strong> e validação.</li>
+</ul>
+<p>Por motivos de viés, não utilizamos a mesma massa de dados de treinamento do modelo para gerar o nosso ponto de corte para cobertura de dados conformes.</p>
+<pre><code class="language-python">X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.2, random_state=42)
+X_train, X_calib, y_train, y_calib = train_test_split(X_train, y_train, test_size=0.25, random_state=42)
+</code></pre>
+<ul>
+<li>Por conta de meu projeto, vou permanecer com RandomForestClassifier, mas pode ser qualquer um. A fim de simplicidade, deixarei também para termos apenas 2 classes de previsão.</li>
+</ul>
+<pre><code class="language-python">rf = RandomForestClassifier(random_state=42, n_jobs=-1)
+rf.fit(X_train, y_train)
+</code></pre>
+<h2 id="grau-de-incerteza" tabindex="-1">Grau de Incerteza</h2>
+<p>Precisamos tornar esse modelo conforme. Para isso, vamos estabelecer um limite máximo de incerteza do modelo para determinar se a classe predita é provavelmente a verdadeira.</p>
+<p>Esse grau de incerteza é chamado de score de não-conformidade. Existem várias maneiras de calculá-lo, mas para simplificar, usaremos o Hinge Loss, também conhecido como probabilidade inversa. Este score é calculado como 1 − P(y), onde P(y) é a predição do seu modelo. Podemos interpretá-lo como a distância entre a previsão do nosso modelo e a label verdadeira. Quanto mais próximo de 1, mais incerto é o resultado; quanto mais próximo de 0, mais certo.</p>
+<h2 id="cobertura" tabindex="-1">Cobertura</h2>
+<p>Durante o treinamento utilizamos esse score <strong>apenas</strong> para as probabilidades das classes verdadeiras, a fim de gerar um ponto de corte. Esse ponto separa novos dados que podem conter cada uma das classes em potencial. Chamamos isso de <strong>cobertura</strong>, pois garante com um grau de confiabilidade que a label verdadeira estará dentro do conjunto de predição. Abordaremos esse conceito com mais detalhes posteriormente.</p>
+<pre><code class="language-python"># Total de Dados
+n = len(X_calib)
+
+# Score do Modelo
+y_prob = model.predict_proba(X_calib)
+
+# Filtramos apenas para as probabilidades das labels verdadeiras
+y_prob = y_prob[np.arange(n),y_calib]
+
+# Hinge Loss
+non_conformity_score = 1 - y_prob
+</code></pre>
+<p>Uma vez gerado, criaremos o q̂ , que é um ponto de corte baseado em medida de posição. Para todos os scores de não-conformidade, ordenamos seus valores do maior para o menor. Isso nos permite traçar um quantil baseado no nível de confiança, garantindo um percentual de cobertura.</p>
+<p>Recapitulando, o processo envolve:</p>
+<ol>
+<li>Definir nosso nível de confiança α.</li>
+<li>Gerar o q̂, que será o quantil (1 - α) desse score ordenado, do maior para o menor. Esse é o percentual de garantia. Por exemplo: com um α de 0.10, teremos um ponto de corte com 90% de garantia.</li>
+</ol>
+<pre><code class="language-python">n = len(nonconformity_score)
+alpha = 0.1
+q_level = np.ceil((n + 1) * (1 - alpha)) / n
+qhat = np.quantile(nonconformity_score, q_level, method=&quot;higher&quot;)
+</code></pre>
+<div class="callout" data-callout="tip"><div class="callout-title"><div class="callout-title-inner"> 💡</div></div>
+<div class="callout-content">
+<p>
+</p><blockquote>
+<p>O q_level é necessário para ajustar a posição do quantil dentro do conjunto de dados finito, distribuindo adequadamente as posições dos quantis.</p>
+</blockquote>
+<p></p></div></div>
+<p>Com todos os elementos gerados, podemos plotar o resultado. É importante lembrar que tudo abaixo desse q̂ tem <strong>cobertura garantida</strong>. Dessa forma, os 90% de cobertura significam que há a garantia de 90% para a classe verdadeira estar contida no conjunto de predição. É por essa razão que se utiliza o termo &quot;incerteza rigorosa&quot; para Previsão Conforme — existe uma probabilidade empírica por trás disso!</p>
+<pre><code class="language-python">fig = px.histogram(
+    nonconformity_score, 
+    title=&quot;Score de Não Conformidade&quot;, 
+    color_discrete_sequence=[&quot;grey&quot;, &quot;orange&quot;],
+    width=800,
+    height=400)
+fig.update_yaxes(title_text=&quot;Total&quot;)
+fig.update_xaxes(title_text=&quot;Score&quot;)
+fig.update_layout(legend=dict(title=&quot;Label&quot;))
+fig.add_vline(x=qhat, line_dash=&quot;dash&quot;, line_color=&quot;black&quot;, annotation_text=&quot;qhat&quot;, annotation_position=&quot;top&quot;)
+</code></pre>
+<p><picture src="/img/user/digital-garden/meu-modelo-conforme/assets/newplot.png" alt="newplot.png"><source media="(max-width:480px)" srcset="/img/optimized/FSid3xaJJo-500.webp" type="image/webp">
+<source media="(max-width:480px)" srcset="/img/optimized/FSid3xaJJo-500.jpeg">
+<source media="(max-width:1920px)" srcset="/img/optimized/FSid3xaJJo-700.webp" type="image/webp"><source media="(max-width:1920px)" srcset="/img/optimized/FSid3xaJJo-700.jpeg"><img class="" src="/img/user/digital-garden/meu-modelo-conforme/assets/newplot.png" alt="newplot.png" width=""></picture></p>
+</main>
+<script>window.location.hash&&document.getElementById(window.location.hash.slice(1)).classList.add("referred"),window.addEventListener("hashchange",(e=>{const t=e.oldURL.split("#");t[1]&&document.getElementById(t[1]).classList.remove("referred");const n=e.newURL.split("#");n[1]&&document.getElementById(n[1]).classList.add("referred")}),!1);const url_parts=window.location.href.split("#"),url=url_parts[0],referrence=url_parts[1];document.querySelectorAll(".cm-s-obsidian > *[id]").forEach((function(e){e.ondblclick=function(e){const t=url+"#"+e.target.id;navigator.clipboard.writeText(t)}}))</script>
+<script src="https://fastly.jsdelivr.net/npm/luxon@3.2.1/build/global/luxon.min.js"></script>
+<script defer="defer">TIMESTAMP_FORMAT="MMM dd, yyyy h:mm a",document.querySelectorAll(".human-date").forEach((function(e){date=e.getAttribute("data-date")||e.innerText,parsed_date=luxon.DateTime.fromISO(date),null!=parsed_date.invalid&&(parsed_date=luxon.DateTime.fromSQL(date)),null!=parsed_date.invalid&&(parsed_date=luxon.DateTime.fromHTML(date)),e.innerHTML=parsed_date.toFormat(TIMESTAMP_FORMAT)}))</script>
+<script>lucide.createIcons({attrs:{class:["svg-icon"]}})</script>
+</body>
+</html>

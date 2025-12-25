@@ -1,7 +1,7 @@
 <!doctype html>
 <html lang="pt-br">
 <head>
-<title>Meu Modelo Conforme</title>
+<title>1. Introdução</title>
 <meta name="viewport" content="width=device-width,initial-scale=1">
 <script async type="module">import mermaid from"https://cdn.jsdelivr.net/npm/mermaid@10/dist/mermaid.esm.min.mjs"</script>
 <script async src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.25.0/prism.min.js" integrity="sha512-hpZ5pDCF2bRCweL5WoA0/N1elet1KYL5mx3LP555Eg/0ZguaHawxNvEjF6O3rufAChs16HVNhEc6blF/rZoowQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
@@ -36,18 +36,26 @@
 <div class="header-meta">
 </div>
 </header>
-<p><a class="internal-link" target="" data-note-icon="" href="/digital-garden/meu-modelo-conforme/text/1-introducao/">1. Introdução</a><br>
-<a class="internal-link" target="" data-note-icon="" href="/digital-garden/meu-modelo-conforme/text/2-antes-de-comecarmos/">2. Antes de Começarmos…</a><br>
-<a class="internal-link" target="" data-note-icon="" href="/digital-garden/meu-modelo-conforme/text/3-probabilidade-e-calibracao-de-modelo/">3. Probabilidade e Calibração de Modelo</a><br>
-<a class="internal-link" target="" data-note-icon="" href="/digital-garden/meu-modelo-conforme/text/4-previsao-conforme/">4. Previsão Conforme</a><br>
-<a class="internal-link" target="" data-note-icon="" href="/digital-garden/meu-modelo-conforme/text/5-treinamento/">5. Treinamento</a><br>
-<a class="internal-link" target="" data-note-icon="" href="/digital-garden/meu-modelo-conforme/text/6-escoragem/">6. Escoragem</a><br>
-<a class="internal-link" target="" data-note-icon="" href="/digital-garden/meu-modelo-conforme/text/7-validade-e-eficiencia/">7. Validade e Eficiência</a><br>
-<a class="internal-link" target="" data-note-icon="" href="/digital-garden/meu-modelo-conforme/text/8-score-de-nao-conformidade/">8. Score de não-conformidade</a><br>
-<a class="internal-link" target="" data-note-icon="" href="/digital-garden/meu-modelo-conforme/text/9-aprendizado-sensivel-ao-custo/">9. Aprendizado Sensível ao Custo</a><br>
-<a class="internal-link" target="" data-note-icon="" href="/digital-garden/meu-modelo-conforme/text/10-classificador-conforme/">10. Classificador Conforme</a><br>
-<a class="internal-link" target="" data-note-icon="" href="/digital-garden/meu-modelo-conforme/text/11-referencias/">11. Referências</a><br>
-<a class="internal-link" target="" data-note-icon="" href="/digital-garden/meu-modelo-conforme/text/12-regressao/">12. Regressão</a></p>
+<h1 id="introducao" tabindex="-1">Introdução</h1>
+<div class="callout" data-callout="note"><div class="callout-title"><div class="callout-title-inner">Note</div></div>
+<div class="callout-content">
+<p>
+&quot;The true measure of a man is not his intelligence or how high he rises in this freak establishment. No, the true measure of a man is this: how quickly can he respond to the needs of others and how much of himself he can give&quot; — <strong>Philip K. Dick</strong></p>
+</div></div>
+<hr>
+<p>Olá! Se você encontrou este documento, significa que ou foi tapeado ou me conhece... De qualquer forma, seja bem-vindo!</p>
+<p>Meu nome é Lucas Leão, sou Cientista de Dados — ou pelo menos tento ser. Se você, assim como eu, já se sentiu estagnado e desejava se aperfeiçoar em alguma tecnologia ou teoria que só ouvia falar, saiba que estamos no mesmo barco.</p>
+<p>Durante minha jornada criando modelos de Machine Learning, uma dúvida persistia: como posso ter mais confiança nos meus modelos? Não me entenda mal! Confio nas minhas habilidades, mas busco uma garantia extra na modelagem para evitar futuras dores de cabeça, tendo melhor noção sobre as <a href="https://ml-science-book.com/insufficient.html#predictions-come-without-uncertainty-quantification" target="_blank" class="external-link">incertezas das predições</a>.</p>
+<p>Segundo o artigo <a href="https://arxiv.org/abs/2009.09070" target="_blank" class="external-link">Is there a role for statistics in artificial intelligence?</a>, a quantificação de incerteza é frequentemente negligenciada em aplicações de inteligência artificial por dois motivos principais:</p>
+<ul>
+<li>Falsa crença de que &quot;Big Data&quot; automaticamente garante resultados exatos</li>
+<li>Complexidade dos métodos dificulta a criação de regiões de incerteza estatisticamente válidas</li>
+</ul>
+<p>Nos últimos anos, surgiram diversas propostas para quantificar incerteza em modelos de Machine Learning e Deep Learning. No entanto, apenas o método de Previsão Conforme teve sua validade teórica comprovada, demonstrando intervalos de previsão que fornecem cobertura empírica efetiva para dados futuros — ou seja, um intervalo de previsão que de fato cobre valores futuros em (1 - α) das vezes.</p>
+<p>Este documento é um diário dessa jornada para explorar tanto a quantificação de incerteza quanto novos métodos de balanceamento de modelo. Nele, desenvolvi duas camadas adicionais ao modelo de <a href="https://scikit-learn.org/1.5/modules/generated/sklearn.ensemble.RandomForestClassifier.html" target="_blank" class="external-link">RandomForestClassifier</a>, atrelado ao meu objetivo de estudo. Se encontrar qualquer erro ou tiver sugestões de melhoria, por favor, mande-me um e-mail sem receio. Ficarei grato em revisar. Se estiver pensando em aplicar essa metodologia a outro problema, não hesite em me contatar. Valeu!</p>
+<h3 id="strong-github-strong" tabindex="-1"><strong>Github</strong></h3>
+<hr>
+<p><a href="https://github.com/heylucasleao/tinycp" target="_blank" class="external-link">https://github.com/heylucasleao/tinycp</a></p>
 </main>
 <script>window.location.hash&&document.getElementById(window.location.hash.slice(1)).classList.add("referred"),window.addEventListener("hashchange",(e=>{const t=e.oldURL.split("#");t[1]&&document.getElementById(t[1]).classList.remove("referred");const n=e.newURL.split("#");n[1]&&document.getElementById(n[1]).classList.add("referred")}),!1);const url_parts=window.location.href.split("#"),url=url_parts[0],referrence=url_parts[1];document.querySelectorAll(".cm-s-obsidian > *[id]").forEach((function(e){e.ondblclick=function(e){const t=url+"#"+e.target.id;navigator.clipboard.writeText(t)}}))</script>
 <script src="https://fastly.jsdelivr.net/npm/luxon@3.2.1/build/global/luxon.min.js"></script>
