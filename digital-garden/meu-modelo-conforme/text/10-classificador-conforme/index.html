@@ -71,7 +71,7 @@
 <p>É importante ressaltar também que transformo o conjunto de predições em uma única resposta: se o modelo tem certeza de que há apenas o rótulo verdadeiro ou não. Isso compromete a interpretabilidade do conjunto de predições do modelo. Conceitualmente, reconheço que isso pode ser questionável, mas o faço para obter flexibilidade na utilização do Aprendizado Sensível a Custo. Vale notar que internamente ainda é possível recuperar essa informação.</p>
 <h3 id="calibracao-do-valor-a" tabindex="-1">Calibração do Valor α</h3>
 <p>Após a criação do modelo conforme, ainda não há uma definição clara do valor α. Para determiná-lo, calibro para o melhor resultado da acurácia balanceada em um intervalo de 0.01 a 0.10. O objetivo é encontrar a melhor cobertura que permita ao modelo obter o menor custo de erro com uma garantia mínima de 90%. Haverá situações em que não há razão para reduzir α, possibilitando seu estreitamento, enquanto em outras, o modelo poderá ter uma eficiência melhor com um aumento desse valor.</p>
-<div class="callout" data-callout="tip"><div class="callout-title"><div class="callout-title-inner"> 💡<br></div></div>
+<div class="callout" data-callout="tip"><div class="callout-title"><div class="callout-title-inner">Tip</div></div>
 <div class="callout-content">
 <p>
 Ao unir os três tópicos e calibrar o α, estabelecemos um nível de significância que equilibra o custo entre falsos positivos e falsos negativos, evita overfitting e mantém uma distribuição representativa para a cobertura.</p>

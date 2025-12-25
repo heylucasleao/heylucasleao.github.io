@@ -42,7 +42,7 @@
 <source media="(max-width:480px)" srcset="/img/optimized/9JXzxE0C8N-500.jpeg">
 <source media="(max-width:1920px)" srcset="/img/optimized/9JXzxE0C8N-700.webp" type="image/webp"><source media="(max-width:1920px)" srcset="/img/optimized/9JXzxE0C8N-700.jpeg"><img class="" src="/img/user/digital-garden/meu-modelo-conforme/assets/image%201.png" alt="image 1.png|Introduction To Conformal Prediction" width=""></picture></p>
 <p>Para resolver esse problema, uma opção é transformar nosso modelo em um modelo conforme, que descrevi anteriormente. Eu até poderia ter parado apenas na camada de calibração Venn-Abers, que por si só já transforma nosso modelo em um conforme, mas a geração de cobertura nos dá outras interpretabilidades e possibilidades, que irei comentar no próximos tópicos.</p>
-<div class="callout" data-callout="tip"><div class="callout-title"><div class="callout-title-inner"> 💡<br></div></div>
+<div class="callout" data-callout="tip"><div class="callout-title"><div class="callout-title-inner">Tip</div></div>
 <div class="callout-content">
 <p>
 Não há necessidade de termos uma modelo de calibração se quiser calibrar fazendo uma cobertura de previsão conforme. Apenas faço para <strong>melhorar</strong> integridade das probabilidades.</p>
@@ -90,13 +90,11 @@ alpha = 0.1
 q_level = np.ceil((n + 1) * (1 - alpha)) / n
 qhat = np.quantile(nonconformity_score, q_level, method=&quot;higher&quot;)
 </code></pre>
-<div class="callout" data-callout="tip"><div class="callout-title"><div class="callout-title-inner"> 💡</div></div>
+<div class="callout" data-callout="tip"><div class="callout-title"><div class="callout-title-inner">Tip</div></div>
 <div class="callout-content">
 <p>
-</p><blockquote>
-<p>O q_level é necessário para ajustar a posição do quantil dentro do conjunto de dados finito, distribuindo adequadamente as posições dos quantis.</p>
-</blockquote>
-<p></p></div></div>
+</p><p>O q_level é necessário para ajustar a posição do quantil dentro do conjunto de dados finito, distribuindo adequadamente as posições dos quantis.</p>
+</div></div>
 <p>Com todos os elementos gerados, podemos plotar o resultado. É importante lembrar que tudo abaixo desse q̂ tem <strong>cobertura garantida</strong>. Dessa forma, os 90% de cobertura significam que há a garantia de 90% para a classe verdadeira estar contida no conjunto de predição. É por essa razão que se utiliza o termo &quot;incerteza rigorosa&quot; para Previsão Conforme — existe uma probabilidade empírica por trás disso!</p>
 <pre><code class="language-python">fig = px.histogram(
     nonconformity_score, 
