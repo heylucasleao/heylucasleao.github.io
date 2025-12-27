@@ -45,27 +45,17 @@
 <p>Fisher propôs um método rigoroso que visa trazer <strong>facilidade</strong> e <strong>confiança</strong> ao cientista no tópico de experimentação, desde o planejamento (<em>design</em>) até o desenvolvimento e a análise.</p>
 <p>Conceitos Chave de Fisher:</p>
 <ul>
-<li>
-<p><strong>Randomização:</strong> Para garantir que as características não observáveis se distribuam igualmente entre os grupos.</p>
-</li>
-<li>
-<p><strong>Controle:</strong> Para isolar o efeito do tratamento de outros fatores externos.</p>
-</li>
-<li>
-<p><strong>Replicação:</strong> Para reduzir o erro experimental e aumentar a precisão da estimativa.</p>
-</li>
+<li><strong>Randomização:</strong> Para garantir que as características não observáveis se distribuam igualmente entre os grupos.</li>
+<li><strong>Controle:</strong> Para isolar o efeito do tratamento de outros fatores externos.</li>
+<li><strong>Replicação:</strong> Para reduzir o erro experimental e aumentar a precisão da estimativa.</li>
 </ul>
 <h1 id="experimentos-aleatorizados" tabindex="-1">Experimentos Aleatorizados</h1>
 <p>Para contornar o Problema Fundamental da Inferência Causal, suprir a carência de design de experimentos e controlar o viés de variável omitida, recorre-se a métodos de pesquisa como o Experimento Aleatorizado.</p>
 <p>O experimento aleatorizado, ou ensaio clínico randomizado (RCT), é um procedimento no qual as unidades de uma amostra populacional são alocadas de forma aleatória (randomizada) ao grupo de tratamento ou ao grupo de controle.</p>
 <p>A randomização é crucial, pois:</p>
 <ul>
-<li>
-<p>Elimina vieses de seleção e confusão.</p>
-</li>
-<li>
-<p>Cria grupos estatisticamente comparáveis (balanceados).</p>
-</li>
+<li>Elimina vieses de seleção e confusão.</li>
+<li>Cria grupos estatisticamente comparáveis (balanceados).</li>
 </ul>
 <p>Ao garantir que a única diferença sistemática esperada entre os grupos seja a aplicação do tratamento, a randomização permite que a <strong>diferença observacional</strong> nos resultados seja interpretada como uma <strong>estimativa válida do efeito causal</strong> médio do tratamento na população.</p>
 <div class="callout" data-callout="tip"><div class="callout-title"><div class="callout-title-inner"> Premissas Importantes<br></div></div>
@@ -130,12 +120,8 @@ Um bom artigo que podemos observar o carinho de um bom design de experimento e a
 <li>
 <p><strong>Validade Interna:</strong></p>
 <ul>
-<li>
-<p><strong>Definição</strong>: Refere-se à confiança de que o efeito observado no resultado é <strong>causado</strong> unicamente pela manipulação do tratamento (variável independente) e não por fatores externos, vieses ou erros de condução. Um experimento tem alta validade interna se pudermos afirmar com certeza que o tratamento causou a mudança no resultado.</p>
-</li>
-<li>
-<p><strong>Ameaças:</strong> Seleção dos participantes, mudanças naturais ao longo do tempo, eventos externos durante o experimento e mortalidade/perda amostral.</p>
-</li>
+<li><strong>Definição</strong>: Refere-se à confiança de que o efeito observado no resultado é <strong>causado</strong> unicamente pela manipulação do tratamento (variável independente) e não por fatores externos, vieses ou erros de condução. Um experimento tem alta validade interna se pudermos afirmar com certeza que o tratamento causou a mudança no resultado.</li>
+<li><strong>Ameaças:</strong> Seleção dos participantes, mudanças naturais ao longo do tempo, eventos externos durante o experimento e mortalidade/perda amostral.</li>
 </ul>
 </li>
 <li>
@@ -156,11 +142,8 @@ Um bom artigo que podemos observar o carinho de um bom design de experimento e a
 <li>
 <p><strong>Ponto de Atenção:</strong></p>
 <ul>
-<li>
-<p>Deve-se garantir que as métricas realmente capturem a essência dos conceitos (ex: satisfação do cliente, motivação).</p>
-</li>
-<li>
-<p><strong>Ameaças Comuns:</strong></p>
+<li>Deve-se garantir que as métricas realmente capturem a essência dos conceitos (ex: satisfação do cliente, motivação).</li>
+<li><strong>Ameaças Comuns:</strong>
 <ul>
 <li>Sub-representação do Construto: A métrica é incompleta e não captura a totalidade do conceito.</li>
 <li>Variância de Métodos Irrelevantes: A medição é contaminada por fatores alheios ao conceito de interesse.</li>
@@ -179,18 +162,10 @@ Um bom artigo que podemos observar o carinho de um bom design de experimento e a
 <li>
 <p><strong>Exemplos:</strong></p>
 <ul>
-<li>
-<p>Um participante do controle <strong>aprende</strong> sobre a nova funcionalidade com um amigo do tratamento.</p>
-</li>
-<li>
-<p>Um participante do grupo de controle <strong>aprende</strong> sobre a nova funcionalidade com um amigo do grupo de tratamento (contaminação).</p>
-</li>
-<li>
-<p>A mudança de preço em uma loja (tratamento) altera a <strong>demanda</strong> de uma loja vizinha (controle).</p>
-</li>
-<li>
-<p>Em experimentos geográficos, a intervenção em uma área afeta a área contígua.</p>
-</li>
+<li>Um participante do controle <strong>aprende</strong> sobre a nova funcionalidade com um amigo do tratamento.</li>
+<li>Um participante do grupo de controle <strong>aprende</strong> sobre a nova funcionalidade com um amigo do grupo de tratamento (contaminação).</li>
+<li>A mudança de preço em uma loja (tratamento) altera a <strong>demanda</strong> de uma loja vizinha (controle).</li>
+<li>Em experimentos geográficos, a intervenção em uma área afeta a área contígua.</li>
 </ul>
 </li>
 <li>
@@ -251,12 +226,8 @@ Neste contexto, seria concluir que o tratamento não teve um efeito (ou que não
 <ul>
 <li><strong>Relação com o MDE</strong>:
 <ul>
-<li>
-<p>Se o MDE for muito alto (ex: 15%), o estudo é muito &quot;grosseiro&quot; e pode falhar em detectar efeitos menores, mas clinicamente ou economicamente relevantes (ex: 2%), resultando em um aumento da probabilidade do Erro Tipo II.</p>
-</li>
-<li>
-<p>Para <strong>reduzir o MDE</strong> e, assim, aumentar a sensibilidade do estudo a efeitos menores, é necessário **aumentar o Tamanho da Amostra N.</p>
-</li>
+<li>Se o MDE for muito alto (ex: 15%), o estudo é muito &quot;grosseiro&quot; e pode falhar em detectar efeitos menores, mas clinicamente ou economicamente relevantes (ex: 2%), resultando em um aumento da probabilidade do Erro Tipo II.</li>
+<li>Para <strong>reduzir o MDE</strong> e, assim, aumentar a sensibilidade do estudo a efeitos menores, é necessário **aumentar o Tamanho da Amostra N.</li>
 </ul>
 </li>
 </ul>
@@ -279,12 +250,8 @@ Segundo Ron Kovahi, se o MDE for menor que 5%, dificilmente você irá detectá-
 <li>
 <p>Determina o Cálculo da Variância: A forma como a randomização foi feita muda a forma como calculamos o erro padrão.</p>
 <ul>
-<li>
-<p><em>Randomização Simples:</em> Assume independência entre unidades.</p>
-</li>
-<li>
-<p><em>Randomização em Clusters:</em> Exige ajuste de erros padrão clusterizados, pois unidades no mesmo cluster não são independentes.</p>
-</li>
+<li><em>Randomização Simples:</em> Assume independência entre unidades.</li>
+<li><em>Randomização em Clusters:</em> Exige ajuste de erros padrão clusterizados, pois unidades no mesmo cluster não são independentes.</li>
 </ul>
 </li>
 <li>
