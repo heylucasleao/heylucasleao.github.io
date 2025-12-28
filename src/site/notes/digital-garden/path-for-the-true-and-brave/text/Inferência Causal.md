@@ -4,7 +4,7 @@
 
 [[digital-garden/path-for-the-true-and-brave/text/0. Roadmap\|0. Roadmap]]
  [[digital-garden/path-for-the-true-and-brave/text/1. Epifanias\|1. Epifanias]]
-[[digital-garden/path-for-the-true-and-brave/text/2. Como Predição e Inferência Causal se Conversam\|2. Como Predição e Inferência Causal se Conversam]]
+[[digital-garden/path-for-the-true-and-brave/text/2. Predição & Inferência Causal\|2. Predição & Inferência Causal]]
 [[digital-garden/path-for-the-true-and-brave/text/3. Teorias da Causalidade\|3. Teorias da Causalidade]]
 [[digital-garden/path-for-the-true-and-brave/text/4. Escada da Causação\|4. Escada da Causação]]
 [[digital-garden/path-for-the-true-and-brave/text/5. Design de Experimentos\|5. Design de Experimentos]]
@@ -16,4 +16,4 @@
 [[digital-garden/path-for-the-true-and-brave/text/12. Double Machine Learning\|12. Double Machine Learning]]
 [[digital-garden/path-for-the-true-and-brave/text/13. Guia de Equívocos\|13. Guia de Equívocos]]
 [[digital-garden/path-for-the-true-and-brave/text/14. GenAI\|14. GenAI]]
-[[digital-garden/path-for-the-true-and-brave/text/15. Fluxo de Decisão\|15. Fluxo de Decisão]]
+[[digital-garden/path-for-the-true-and-brave/text/15. Boas Práticas\|15. Boas Práticas]]
