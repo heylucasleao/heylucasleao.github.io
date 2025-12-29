@@ -3,7 +3,7 @@
 ---
 
 [[digital-garden/path-for-the-true-and-brave/text/0. Roadmap\|0. Roadmap]]
- [[digital-garden/path-for-the-true-and-brave/text/1. Epifanias\|1. Epifanias]]
+[[digital-garden/path-for-the-true-and-brave/text/1. Introdução\|1. Introdução]]
 [[digital-garden/path-for-the-true-and-brave/text/2. Predição & Inferência Causal\|2. Predição & Inferência Causal]]
 [[digital-garden/path-for-the-true-and-brave/text/3. Teorias da Causalidade\|3. Teorias da Causalidade]]
 [[digital-garden/path-for-the-true-and-brave/text/4. Escada da Causação\|4. Escada da Causação]]
