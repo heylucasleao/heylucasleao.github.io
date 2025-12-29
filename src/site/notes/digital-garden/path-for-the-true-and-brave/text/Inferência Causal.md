@@ -14,6 +14,5 @@
 [[digital-garden/path-for-the-true-and-brave/text/9. Escore de Propensão\|9. Escore de Propensão]]
 [[digital-garden/path-for-the-true-and-brave/text/10. Efeitos Heterogêneos\|10. Efeitos Heterogêneos]]
 [[digital-garden/path-for-the-true-and-brave/text/12. Double Machine Learning\|12. Double Machine Learning]]
-[[13. Guia de Equívocos\|13. Guia de Equívocos]]
 [[digital-garden/path-for-the-true-and-brave/text/13. GenAI\|13. GenAI]]
 [[digital-garden/path-for-the-true-and-brave/text/14. Boas Práticas\|14. Boas Práticas]]
