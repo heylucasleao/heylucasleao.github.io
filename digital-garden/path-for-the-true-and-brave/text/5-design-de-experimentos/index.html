@@ -42,13 +42,19 @@
 <li><strong>Dificuldade de Interpretação:</strong> O leitor e, por vezes, o próprio cientista, poderiam ter interpretações diferentes sobre os resultados, levando a conclusões não suportadas pelos dados ou que poderiam ter ocorrido <strong>por acaso</strong> (chance), mesmo que a hipótese fosse falsa.</li>
 <li><strong>Carência Estrutural (Design):</strong> Falhas lógicas e estruturais tornam o experimento <strong>fundamentalmente incorreto</strong>, muitas vezes devido a controles inadequados ou à ausência de uma comparação válida.</li>
 </ul>
-<p>Fisher propôs um método rigoroso que visa trazer <strong>facilidade</strong> e <strong>confiança</strong> ao cientista no tópico de experimentação, desde o planejamento (<em>design</em>) até o desenvolvimento e a análise.</p>
-<p>Conceitos Chave de Fisher:</p>
-<ul>
-<li><strong>Randomização:</strong> Para garantir que as características não observáveis se distribuam igualmente entre os grupos.</li>
-<li><strong>Controle:</strong> Para isolar o efeito do tratamento de outros fatores externos.</li>
-<li><strong>Replicação:</strong> Para reduzir o erro experimental e aumentar a precisão da estimativa.</li>
-</ul>
+<p>Experimentos mal projetados resultam em desperdício de recursos (tempo e dinheiro) e em decisões estratégicas equivocadas. Em um cenário de tomada de decisão, é imprescindível sermos cautelosos e rigorosos para manter o controle sobre a inferência.</p>
+<p>Fisher propôs um método para trazer <strong>facilidade</strong> e <strong>confiança</strong> à experimentação, baseando-se em três pilares:</p>
+<ol>
+<li>
+<p><strong>Randomização:</strong> Garante que características não observáveis se distribuam igualmente entre os grupos, eliminando viés de seleção.</p>
+</li>
+<li>
+<p><strong>Controle:</strong> Isola o efeito do tratamento de fatores externos (ruído).</p>
+</li>
+<li>
+<p><strong>Replicação:</strong> Reduz o erro experimental e aumenta a precisão da estimativa.</p>
+</li>
+</ol>
 <h1 id="experimentos-aleatorizados" tabindex="-1">Experimentos Aleatorizados</h1>
 <p>Para contornar o Problema Fundamental da Inferência Causal, suprir a carência de design de experimentos e controlar o viés de variável omitida, recorre-se a métodos de pesquisa como o Experimento Aleatorizado.</p>
 <p>O experimento aleatorizado, ou ensaio clínico randomizado (RCT), é um procedimento no qual as unidades de uma amostra populacional são alocadas de forma aleatória (randomizada) ao grupo de tratamento ou ao grupo de controle.</p>
@@ -58,6 +64,11 @@
 <li>Cria grupos estatisticamente comparáveis (balanceados).</li>
 </ul>
 <p>Ao garantir que a única diferença sistemática esperada entre os grupos seja a aplicação do tratamento, a randomização permite que a <strong>diferença observacional</strong> nos resultados seja interpretada como uma <strong>estimativa válida do efeito causal</strong> médio do tratamento na população.</p>
+<div class="callout" data-callout="tip"><div class="callout-title"><div class="callout-title-inner"> Lembre-se: O Conceito do Contrafactual<br></div></div>
+<div class="callout-content">
+<p>
+Ao criarmos dois grupos estatisticamente idênticos na média, o grupo de controle representa uma foto do &quot;futuro que não aconteceu&quot; para o grupo tratado. Isso torna plausível responder a perguntas contrafactuais: &quot;O que teria acontecido se não tivéssemos aplicado a mudança?&quot;</p>
+</div></div>
 <h1 id="premissas" tabindex="-1">Premissas</h1>
 <p><a href="https://www.youtube.com/watch?v=ofAtKK6O2dE&amp;list=TLGGKVDHELD0i-YzMDEyMjAyNQ&amp;t=6s" target="_blank" class="external-link">Molak, em conversa com Thanos Vlontzos</a> enfatiza que nunca nos livramos totalmente das premissas. Todo modelo, causal ou não, repousa sobre suposições; o objetivo não é eliminá‑las, mas escolher aquelas com as quais podemos conviver e torná‑las explícitas. Segundo ele, o problema não é ter premissas iniciais, e sim esquecê‑las: uma suposição negligenciada pode fazer um projeto parecer perfeito na superfície, mas esconder uma &quot;mancha enorme&quot; que, mais tarde, causará problemas. Isso vale tanto para estudos experimentais quanto especialmente para estudos observacionais. As premissas que devemos respeitar são:</p>
 <ul>
