@@ -56,6 +56,7 @@ A Independência Condicional é a chave da inferência causal. Ela permite disti
 As variáveis de confusão (ou variáveis confundidoras, ou confounders) são variáveis que exercem influência tanto na causa quanto no efeito em estudo.<br>
 É crucial identificar e controlar essas variáveis, pois a sua presença afeta diretamente a validade da inferência causal, levando a estimativas enviesadas do verdadeiro efeito, causando o que chamamos de associação espúria.</p>
 </div></div>
+<hr>
 <h1 id="definicao-de-causalidade-causacao-e-associacao" tabindex="-1">Definição de Causalidade, Causação e Associação</h1>
 <p>Como falei, existe uma definição ampla sobre causalidade, a qual varia conforme a área de atuação. Essa pluralidade de conceitos é bem representada no artigo <a href="https://www.researchgate.net/publication/363691336_The_Representation_of_Causality_and_Causation_with_Ontologies_A_Systematic_Literature_Review" target="_blank" class="external-link">The Representation of Causality and Causation with Ontologies: A Systematic Literature Review</a>, que demonstra como as definições mudam ao longo da literatura. Para o escopo probabilístico em que atuaremos, adotaremos uma perspectiva mais próxima à de Judea Pearl.</p>
 <p>Causalidade é a relação direcional de causa e efeito entre entidades, variáveis ou eventos. Já a causação refere-se ao mecanismo ou ação pela qual a causa produz o efeito. Ambos os conceitos envolvem direcionalidade, temporalidade e influência — a ideia de que um elemento efetivamente gera uma alteração no outro.</p>
@@ -65,10 +66,12 @@ As variáveis de confusão (ou variáveis confundidoras, ou confounders) são va
 <p>
 <em>Causal inference is the science of inferring causation from association and understanding when and why they differ. - <a href="https://www.youtube.com/watch?v=y59_XLOnmgI" target="_blank" class="external-link">Matheus Facure</a></em></p>
 </div></div>
+<hr>
 <h1 id="problema-fundamental-da-inferencia-causal" tabindex="-1">Problema Fundamental da Inferência Causal</h1>
 <p>O Problema Fundamental da Inferência Causal reside na impossibilidade de observar simultaneamente, na mesma unidade, o resultado factual e o resultado contrafactual .</p>
 <p>Para quantificar o efeito causal de um tratamento, seria necessário calcular a diferença entre esses dois resultados. No entanto, uma única unidade (seja um indivíduo, evento ou variável) só pode existir em um único estado (tratado ou não tratado) em um dado momento.</p>
 <p>Em essência, a quantificação exata exigiria um universo paralelo onde a unidade pudesse ser observada em condições idênticas, mas sob estados de tratamento opostos. Dado que isso é logisticamente impossível, o problema é considerado o obstáculo central da inferência causal.</p>
+<hr>
 <h1 id="definicao-formal" tabindex="-1">Definição Formal</h1>
 <p>Para formalizar a causalidade, utilizamos a notação de Resultados Potenciais, fundamental para o entendimento do que constitui um efeito causal versus uma associação.</p>
 <h4 id="1-notacao-basica" tabindex="-1">1. Notação Básica</h4>
