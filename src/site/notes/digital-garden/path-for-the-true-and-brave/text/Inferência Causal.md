@@ -15,5 +15,5 @@
 [[digital-garden/path-for-the-true-and-brave/text/10. Efeitos Heterogêneos\|10. Efeitos Heterogêneos]]
 [[digital-garden/path-for-the-true-and-brave/text/11. Variável Instrumental\|11. Variável Instrumental]]
 [[digital-garden/path-for-the-true-and-brave/text/12. Double Machine Learning\|12. Double Machine Learning]]
-[[digital-garden/path-for-the-true-and-brave/text/13. GenAI\|13. GenAI]]
+[[digital-garden/path-for-the-true-and-brave/text/13. GenAI e Causalidade\|13. GenAI e Causalidade]]
 [[digital-garden/path-for-the-true-and-brave/text/14. Boas Práticas\|14. Boas Práticas]]
