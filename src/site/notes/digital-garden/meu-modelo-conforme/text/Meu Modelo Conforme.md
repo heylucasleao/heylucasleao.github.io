@@ -2,8 +2,7 @@
 {"dg-publish":true,"permalink":"/digital-garden/meu-modelo-conforme/text/meu-modelo-conforme/"}
 ---
 
-
-[[digital-garden/meu-modelo-conforme/text/1. Introdução\|digital-garden/meu-modelo-conforme/text/1. Introdução]]
+[[digital-garden/meu-modelo-conforme/text/1. Introdução\|1. Introdução]]
 [[digital-garden/meu-modelo-conforme/text/2. Antes de Começarmos…\|2. Antes de Começarmos…]]
 [[digital-garden/meu-modelo-conforme/text/3. Probabilidade e Calibração de Modelo\|3. Probabilidade e Calibração de Modelo]]
 [[digital-garden/meu-modelo-conforme/text/4. Previsão Conforme\|4. Previsão Conforme]]
