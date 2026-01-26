@@ -37,34 +37,30 @@
 </div>
 </header>
 <h1 id="escada-da-causacao" tabindex="-1">Escada da Causação</h1>
-<p>A escada da causação é uma definição de Judea Pearl que organiza três níveis de raciocínio sobre dados e efeitos. Cada degrau responde a tipos distintos de perguntas e demanda métodos/assunções diferentes.</p>
-<h1 id="1-primeiro-degrau-associacao" tabindex="-1">1. Primeiro Degrau: Associação</h1>
-<p>Associação é o degrau mais básico da escada da causalidade. Trata-se de detectar padrões e regularidades a partir de observações: “A e B tendem a ocorrer juntos” ou “quando X aumenta, Y costuma aumentar/diminuir”. Ela é a forma mais primitiva que temos disso. Como falei, é algo que por padrão, fazemos no nosso dia a dia. É a área do observacional. Pense como uma coruja observando o movimento de um rato: ela não precisa entender a anatomia do rato, apenas associar o ruído na mata ao alimento. Da mesma forma, nossos ancestrais aprenderam que certos cogumelos são venenosos; se quem comeu anteriormente veio a falecer, associamos o consumo à morte.</p>
-<h1 id="2-segundo-degrau-intervencao" tabindex="-1">2. Segundo Degrau: Intervenção</h1>
-<p>A intervenção vai além da observação passiva; ela envolve a <strong>manipulação</strong> ativa de variáveis para observar resultados. É o nível dos experimentos controlados (Testes A/B). Por exemplo:</p>
-<ul>
-<li>Um gerente perguntando &quot;O que acontecerá com nossas vendas de fio dental <strong>se</strong> dobrarmos o preço da pasta de dente?&quot;</li>
-<li>Tomar aspirina para curar dor de cabeça - intervindo na quantidade de aspirina para afetar o status da dor</li>
-<li>Definir preços para vender excesso de estoque</li>
-</ul>
-<p>A intervenção é superior à associação porque envolve não apenas observar, mas <strong>mudar</strong> o que existe. Ver fumaça nos conta uma história completamente diferente sobre a probabilidade de fogo do que fazer fumaça. Não podemos responder questões sobre intervenções apenas com dados coletados passivamente, não importa o tamanho do conjunto de dados ou a profundidade da rede neural.</p>
-<h1 id="3-terceiro-degrau-contrafactuais" tabindex="-1">3. Terceiro Degrau: Contrafactuais</h1>
-<p>Se a Associação é sobre <strong>ver</strong> e a Intervenção é sobre <strong>fazer</strong>, o Contrafactual é sobre <strong>imaginar</strong>. Este é o topo da escada e a característica que nos define como seres humanos. Ele lida com o &quot;e se?&quot;: a capacidade de olhar para o passado, comparar o que aconteceu com o que <em>poderia ter ocorrido</em> sob condições diferentes, e extrair uma lição de causalidade profunda disso.</p>
-<p>Diferente dos degraus anteriores, o contrafactual (o que teria ocorrido se o tratamento não tivesse sido aplicado) <strong>não</strong> pode ser respondido apenas com dados atuais ou experimentos presentes, pois o evento (o que ocorreu com o tratamento) já passou. Exemplos:</p>
+<p>Para Alan Turing, a inteligência de uma máquina era definida pelo comportamento. O Teste de Turing estabelecia que, se uma máquina pudesse replicar o comportamento humano a ponto de se tornar indistinguível de uma pessoa, ela seria considerada inteligente. No entanto, para Judea Pearl, essa visão foca no sintoma, não na causa.</p>
+<p>Em sua obra <a href="https://www.amazon.com.br/Book-Why-Science-Cause-Effect/dp/1541698967/ref=sr_1_1?adgrpid=126456897803&amp;dib=eyJ2IjoiMSJ9.77Kcrbw5e-DGGNNcwPR_y_7cv6iF2gyXhlgd60YaRYyxLXHZx_ePvacqi6vAk6o-4ZAoF8_W6kE-8PVFQ684urYu-Gi-yW3BIURFTwVsvB6Eq3QYM5VqO14naWKBg6aGdx7hXc9_DY6jrvfkCaZ0RIgtfY_c0lBxfB5mXZf4hxT8LkhgFmup4HbDgCmSpjHK6CLRLnXXlZXIsA86P69snFp3H3TwtxeFmjeZuPyNG8WIKcmSflf996ElspDHf3GRX5La0l9LEiU7_wIIyxHLk4iAEFRB_UHqF8met3_tqkc.sDFUzskRCwXfpGQTjBZYHeysvzuS8193NbJuuf0XRVA&amp;dib_tag=se&amp;hvadid=543845286867&amp;hvdev=c&amp;hvlocphy=9101224&amp;hvnetw=g&amp;hvqmt=e&amp;hvrand=4032768595620682766&amp;hvtargid=kwd-300942500351&amp;hydadcr=14662_10954484&amp;keywords=the+book+of+why&amp;mcid=8028456292c1353ab874d4867e649d93&amp;qid=1769430525&amp;sr=8-1&amp;ufe=app_do%3Aamzn1.fos.6d798eae-cadf-45de-946a-f477d47705b9" target="_blank" class="external-link"><em>The Book of Why</em></a>, Pearl argumenta que a verdadeira inteligência não reside na capacidade de imitar padrões, mas na habilidade de compreender as relações de causa e efeito. Para organizar essa transição de pensamento para um conceito causal, Pearl propôs o que chama de Escada da Causação: um framework que divide a capacidade de entendimento em três níveis evolutivos.</p>
+<p>Para Pearl, sua ideia seria diferente, com o foco em identificar a questão causal pelo seu grau, chamado de Escada da Causação, divindido-se em três degraus, aonde cada um responde perguntas distintas.</p>
+<h2 id="1-primeiro-degrau-associacao-ver" tabindex="-1">1. Primeiro Degrau: Associação (Ver)</h2>
+<p>A associação é o nível mais básico e comum, fundamentado na <strong>observação</strong>. Trata-se de detectar padrões e regularidades: “Se eu vejo A, qual a probabilidade de ver B?”. É o domínio da estatística tradicional, da regressão e do aprendizado de máquina atual.</p>
+<p>Neste degrau, apenas replicamos o que observamos por meio da correlação. É um comportamento primitivo que encontramos no dia a dia: um bebê aprendendo associações, ou uma coruja que observa o ruído na mata e o associa ao alimento sem precisar entender a anatomia do rato. Nossos ancestrais também operavam aqui ao aprenderem que certos cogumelos eram venenosos; se o consumo era seguido de morte, criava-se a associação. A inteligência artificial atual por exemplo é excelente neste degrau, mas ela apenas &quot;vê&quot; o mundo sem compreender as engrenagens por trás dele.</p>
+<h2 id="2-segundo-degrau-intervencao-fazer" tabindex="-1">2. Segundo Degrau: Intervenção (Fazer)</h2>
+<p>A intervenção vai além da observação passiva; ela envolve a manipulação ativa de variáveis para observar novos resultados (<em>outcomes</em>). Aqui, não basta observar o meio, é preciso intervir nele para responder perguntas do tipo: &quot;O que acontecerá se eu fizer X?&quot;.</p>
+<p>Um exemplo clássico é o estudo de impacto de medicamentos. Não basta analisar dados de pessoas que já tomam o remédio por conta própria, precisamos de um grupo de controle e uma intervenção direta para isolar efeitos adversos e entender o impacto real. É o nível dos experimentos controlados e Testes A/B. A intervenção é superior à associação porque mudar o que existe gera informações que os dados passivos não conseguem fornecer: ver fumaça nos dá uma probabilidade de fogo, mas <em>fazer</em> fumaça é uma ação que altera o sistema. Questões de intervenção não podem ser respondidas apenas com dados observacionais como <em>Big Data</em> ou redes neurais profundas se não houver um modelo que modifique a ação que observamos.</p>
+<h2 id="3-terceiro-degrau-contrafactuais-imaginar" tabindex="-1">3. Terceiro Degrau: Contrafactuais (Imaginar)</h2>
+<p>Se a associação é sobre <strong>ver</strong> e a intervenção é sobre <strong>fazer</strong>, o contrafactual é sobre <strong>imaginar</strong>. Este é o topo da escada e a característica que nos define como seres humanos. Ele lida com o &quot;E se?&quot;: a capacidade de olharmos para o passado, criarmos um universo paralelo em nossa mente e comparar o que ocorreu com o que <em>poderia ter ocorrido</em> sob condições diferentes.</p>
+<p>Diferente dos degraus anteriores, o contrafactual não pode ser respondido apenas com dados atuais ou experimentos presentes, pois o evento já passou. É um exercício de retrospectiva e rigor lógico. Utilizamos essa habilidade em diversas áreas:</p>
 <ul>
 <li>
-<p><strong>Medicina e Saúde:</strong> &quot;O paciente faleceu. Será que ele teria sobrevivido <strong>se</strong> tivéssemos administrado o antibiótico duas horas antes?&quot;</p>
+<p><strong>Medicina:</strong> &quot;O paciente faleceu. Ele teria sobrevivido <strong>se</strong> tivéssemos administrado o antibiótico antes?&quot;</p>
 </li>
 <li>
-<p><strong>Marketing e E-commerce:</strong> &quot;Tivemos 1.000 vendas nesta campanha. Quantas vendas teríamos feito <strong>se não</strong> tivéssemos oferecido o cupom de desconto?&quot;</p>
+<p><strong>Negócios:</strong> &quot;Tivemos 1.000 vendas. Quantas teríamos feito <strong>se não</strong> tivéssemos oferecido o cupom?&quot;</p>
 </li>
 <li>
-<p><strong>Segurança Pública:</strong> &quot;A criminalidade caiu após a instalação de novas câmeras. Ela teria caído da mesma forma <strong>se</strong> a taxa de desemprego não tivesse diminuído no mesmo período?&quot;</p>
-</li>
-<li>
-<p><strong>Justiça e Ética:</strong> &quot;O réu foi condenado por negligência. Ele teria evitado o acidente <strong>se</strong> tivesse feito a manutenção dos freios?&quot;</p>
+<p><strong>Justiça e Ética:</strong> &quot;O réu teria evitado o acidente <strong>se</strong> tivesse feito a manutenção dos freios?&quot;</p>
 </li>
 </ul>
+<p>Este nível permite o aprendizado profundo e a atribuição de responsabilidade, sendo o pilar fundamental para uma inteligência que compreende, de fato, o funcionamento do mundo.</p>
 </main>
 <script>window.location.hash&&document.getElementById(window.location.hash.slice(1)).classList.add("referred"),window.addEventListener("hashchange",(e=>{const t=e.oldURL.split("#");t[1]&&document.getElementById(t[1]).classList.remove("referred");const n=e.newURL.split("#");n[1]&&document.getElementById(n[1]).classList.add("referred")}),!1);const url_parts=window.location.href.split("#"),url=url_parts[0],referrence=url_parts[1];document.querySelectorAll(".cm-s-obsidian > *[id]").forEach((function(e){e.ondblclick=function(e){const t=url+"#"+e.target.id;navigator.clipboard.writeText(t)}}))</script>
 <script src="https://fastly.jsdelivr.net/npm/luxon@3.2.1/build/global/luxon.min.js"></script>
