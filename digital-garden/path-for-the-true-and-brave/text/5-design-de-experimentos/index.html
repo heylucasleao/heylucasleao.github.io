@@ -55,6 +55,16 @@
 <p><strong>Replicação:</strong> Reduz o erro experimental e aumenta a precisão da estimativa.</p>
 </li>
 </ol>
+<h1 id="por-que-nao-utilizar-apenas-dados-observacionais" tabindex="-1">Por que não utilizar apenas dados observacionais?</h1>
+<p>A utilização exclusiva de dados históricos ou observacionais para a extração de conclusões de causa e efeito é metodologicamente errada. A mera existência de grandes volumes de dados não supre a necessidade de um desenho experimental rigoroso. Judea Pearl argumenta que os dados, por si só, operam sob a lógica das probabilidades e proporções, sendo &quot;agnósticos&quot; aos mecanismos causais que os geraram, ou seja, eles não explicitam os mecanismos causais neles contidos. Assumir que qualquer dado observacional permite inferir causalidade sem o conhecimento de como o tratamento foi atribuído, de como as características dos grupos se representam ou se as premissas da inferência causal são atendidas, compromete a integridade dos resultados e pode conduzir a conclusões de pesquisa equivocadas.</p>
+<div class="callout" data-callout="tip"><div class="callout-title"><div class="callout-title-inner"> Citação<br></div></div>
+<div class="callout-content">
+<p>
+The tension starts because they stand on two different rungs of the Ladder of Causation and is aggravated by the fact that human intuition operates under the logic of causation, while data conform to the logic of probabilities and proportions. Paradoxes arise when we misapply the rules we have learned in one realm to the other. - Judea Pearl, The Book of Why</p>
+</div></div>
+<p>A inferência causal a partir de bases observacionais, sem o devido controle sobre o mecanismo de atribuição do tratamento ou o cumprimento de premissas explícitas, invalida a robustez das conclusões. O risco reside, por exemplo, na impossibilidade de isolar o efeito do tratamento de causas comuns entre o tratamento e o outcome e vieses inerentes à coleta passiva de dados.</p>
+<p>Um exemplo clássico desta limitação é o debate histórico sobre a relação entre o tabagismo e a mortalidade, detalhado no capítulo 05 de <em>The Book of Why</em>. Durante anos, a dependência exclusiva de análises estatísticas e dados observacionais, dada a ausência de um <em>framework</em> causal robusto na época, permitiu que correlações fossem utilizadas para contestar a causalidade direta, retardando intervenções de saúde pública.</p>
+<p>Embora métodos quasi-experimentais busquem mitigar tais limitações quando a randomização é inviável, eles ainda dependem de premissas rigorosas de identificação. Sem o controle experimental, a transição da correlação para a causalidade permanece um salto metodológico arriscado.</p>
 <h1 id="experimentos-aleatorizados" tabindex="-1">Experimentos Aleatorizados</h1>
 <p>Para contornar o Problema Fundamental da Inferência Causal, suprir a carência de design de experimentos e controlar o viés de variável omitida, recorre-se a métodos de pesquisa como o Experimento Aleatorizado.</p>
 <p>O experimento aleatorizado, ou ensaio clínico randomizado (RCT), é um procedimento no qual as unidades de uma amostra populacional são alocadas de forma aleatória (randomizada) ao grupo de tratamento ou ao grupo de controle.</p>
