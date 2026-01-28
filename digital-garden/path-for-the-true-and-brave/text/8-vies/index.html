@@ -109,6 +109,15 @@ Nela, conseguiremos ver se há uma correlação forte das covariáveis com o tra
 <p>
 Podemos ver uma representação de OVB e como avaliar variáveis de controle em uma regressão a partir da aula ministrada em <em><a href="https://www.aeaweb.org/webcasts/2020/mastering-mostly-harmless-econometrics-part-2" target="_blank" class="external-link">Mastering Mostly Harmless Econometrics - Part 2</a></em>, a partir de 01:14:00.</p>
 </div></div>
+<h1 id="a-necessidade-de-raciocinio-causal" tabindex="-1">A Necessidade de Raciocínio Causal</h1>
+<p>Voltando menos para uma formalização, é fundamental compreendermos que a construção adequada do pensamento causal é nossa defesa contra os múltiplos vieses descritos neste capítulo. Como demonstrado em <a class="internal-link" target="" data-note-icon="" href="/digital-garden/path-for-the-true-and-brave/text/5-design-de-experimentos/">5. Design de Experimentos</a> e <a class="internal-link" target="" data-note-icon="" href="/digital-garden/path-for-the-true-and-brave/text/6-dag/">6. DAG</a>, sem uma análise crítica prévia dos mecanismos causais subjacentes aos dados, corremos o risco não apenas de mascarar os verdadeiros efeitos do tratamento, mas de chegarmos a conclusões opostas à realidade.</p>
+<p>O capítulo 6 de The Book of Why - não apenas exemplifica isso, como também vale a leitura - expõe como a dependência exclusiva de análises estatísticos pode nos levar a armadilhas causais. Quando analisamos dados sem mapear as relações causais ficamos vulneráveis a:</p>
+<ul>
+<li>Controlar variáveis que deveríamos deixar livres;</li>
+<li>Ignorar variáveis que deveríamos ajustar;</li>
+<li>Condicionar colisores e criando dependências artificiais;</li>
+</ul>
+<p>A lição fundamental é que dados não falam por si só - precisamos de frameworks causais para interpretá-los. Sem essa fundamentação prévia, mesmo as técnicas estatísticas mais avançadas podem nos conduzir a conclusões perigosamente equivocadas. O pensamento causal é nossa principal ferramenta para distinguir entre <strong>o que os dados mostram</strong> e <strong>o que realmente significam</strong> para a tomada de decisão. É a diferença entre ser enganado por padrões estatísticos e compreender verdadeiramente como o mundo funciona.</p>
 </main>
 <script>window.location.hash&&document.getElementById(window.location.hash.slice(1)).classList.add("referred"),window.addEventListener("hashchange",(e=>{const t=e.oldURL.split("#");t[1]&&document.getElementById(t[1]).classList.remove("referred");const n=e.newURL.split("#");n[1]&&document.getElementById(n[1]).classList.add("referred")}),!1);const url_parts=window.location.href.split("#"),url=url_parts[0],referrence=url_parts[1];document.querySelectorAll(".cm-s-obsidian > *[id]").forEach((function(e){e.ondblclick=function(e){const t=url+"#"+e.target.id;navigator.clipboard.writeText(t)}}))</script>
 <script src="https://fastly.jsdelivr.net/npm/luxon@3.2.1/build/global/luxon.min.js"></script>
