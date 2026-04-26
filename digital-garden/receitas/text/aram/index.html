@@ -1,7 +1,7 @@
 <!doctype html>
 <html lang="pt-br">
 <head>
-<title>Digital Garden Home</title>
+<title>ARAM</title>
 <meta name="viewport" content="width=device-width,initial-scale=1">
 <script async type="module">import mermaid from"https://cdn.jsdelivr.net/npm/mermaid@10/dist/mermaid.esm.min.mjs"</script>
 <script async src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.25.0/prism.min.js" integrity="sha512-hpZ5pDCF2bRCweL5WoA0/N1elet1KYL5mx3LP555Eg/0ZguaHawxNvEjF6O3rufAChs16HVNhEc6blF/rZoowQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
@@ -36,13 +36,79 @@
 <div class="header-meta">
 </div>
 </header>
+<div class="table-wrapper"><table>
+<thead>
+<tr>
+<th>Método</th>
+<th>Moedor</th>
+<th>Moagem</th>
+<th>Giro</th>
+<th>Grama - Grão</th>
+<th>Miligrama - Água</th>
+<th>Celsius</th>
+<th>Tempo de Extração (Segundos)</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>ARAM</td>
+<td>Bravito</td>
+<td>Fino</td>
+<td>1,04v ~ 1,07v</td>
+<td>22</td>
+<td>60</td>
+<td>100</td>
+<td>30 ~ 35</td>
+</tr>
+</tbody>
+</table></div>
+<p>Observações</p>
 <ul>
-<li><a class="internal-link" target="" data-note-icon="" href="/digital-garden/meu-modelo-conforme/text/meu-modelo-conforme/">Meu Modelo Conforme</a></li>
-<li><a class="internal-link" target="" data-note-icon="" href="/digital-garden/path-for-the-true-and-brave/text/inferencia-causal/">Inferência Causal</a></li>
-<li><a href="https://github.com/heylucasleao/tinyshift" target="_blank" class="external-link">Tinyshift</a></li>
-<li><a class="internal-link" target="" data-note-icon="" href="/digital-garden/receitas/receitas/">Receitas</a></li>
+<li>Escaldar 3 vezes o ARAM, sendo o primeiro junto com naked e puck screen. Todos a 100 graus.</li>
+<li>Utilizar WDT do fundo ao topo da cesta.</li>
 </ul>
+<h3 id="perfil-de-pressao" tabindex="-1">Perfil de Pressão</h3>
+<div class="table-wrapper"><table>
+<thead>
+<tr>
+<th>Indicador Focus</th>
+<th>Voltas</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>2</td>
+<td>6</td>
+</tr>
+<tr>
+<td>4</td>
+<td>6</td>
+</tr>
+<tr>
+<td>6</td>
+<td>10</td>
+</tr>
+<tr>
+<td>4</td>
+<td>6</td>
+</tr>
+<tr>
+<td>2</td>
+<td>6</td>
+</tr>
+</tbody>
+</table></div>
+<ul>
+<li>Tempo de Extração: 30 a 35 segundos</li>
+<li>Após pré-infusão do ARAM, girar rapidamente até chegar em 2 bar.</li>
+<li>A cada mês, fazer manutenção preventiva do ARAM.</li>
+</ul>
+<h3 id="montagem-and-amp-desmontagem-do-aram" tabindex="-1">Montagem &amp; Desmontagem do ARAM</h3>
+<p><img src="https://youtu.be/f96biIs4vMA?si=Ow1i9eco-g9Lz8Wg" alt=""></p>
 </main>
+<script>window.location.hash&&document.getElementById(window.location.hash.slice(1)).classList.add("referred"),window.addEventListener("hashchange",(e=>{const t=e.oldURL.split("#");t[1]&&document.getElementById(t[1]).classList.remove("referred");const n=e.newURL.split("#");n[1]&&document.getElementById(n[1]).classList.add("referred")}),!1);const url_parts=window.location.href.split("#"),url=url_parts[0],referrence=url_parts[1];document.querySelectorAll(".cm-s-obsidian > *[id]").forEach((function(e){e.ondblclick=function(e){const t=url+"#"+e.target.id;navigator.clipboard.writeText(t)}}))</script>
+<script src="https://fastly.jsdelivr.net/npm/luxon@3.2.1/build/global/luxon.min.js"></script>
+<script defer="defer">TIMESTAMP_FORMAT="MMM dd, yyyy h:mm a",document.querySelectorAll(".human-date").forEach((function(e){date=e.getAttribute("data-date")||e.innerText,parsed_date=luxon.DateTime.fromISO(date),null!=parsed_date.invalid&&(parsed_date=luxon.DateTime.fromSQL(date)),null!=parsed_date.invalid&&(parsed_date=luxon.DateTime.fromHTML(date)),e.innerHTML=parsed_date.toFormat(TIMESTAMP_FORMAT)}))</script>
 <script>lucide.createIcons({attrs:{class:["svg-icon"]}})</script>
 </body>
 </html>

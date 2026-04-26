@@ -1,0 +1,160 @@
+<!doctype html>
+<html lang="pt-br">
+<head>
+<title>Koar</title>
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<script async type="module">import mermaid from"https://cdn.jsdelivr.net/npm/mermaid@10/dist/mermaid.esm.min.mjs"</script>
+<script async src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.25.0/prism.min.js" integrity="sha512-hpZ5pDCF2bRCweL5WoA0/N1elet1KYL5mx3LP555Eg/0ZguaHawxNvEjF6O3rufAChs16HVNhEc6blF/rZoowQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+<script async src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.25.0/plugins/autoloader/prism-autoloader.min.js" integrity="sha512-sv0slik/5O0JIPdLBCR2A3XDg/1U3WuDEheZfI/DI5n8Yqc3h5kjrnr46FGBNiUAJF7rE4LHKwQ/SoSLRKAxEA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+<script async src="https://cdn.jsdelivr.net/npm/lucide@0.115.0/dist/umd/lucide.min.js"></script>
+<script>window.addEventListener("load",(()=>{document.querySelectorAll(".callout").forEach((e=>{const t=getComputedStyle(e).getPropertyValue("--callout-icon"),l=t&&t.trim().replace(/^lucide-/,"");if(l){const t=e.querySelector(".callout-title");if(t){const e=document.createElement("div"),c=document.createElement("i");e.appendChild(c),c.setAttribute("icon-name",l),e.setAttribute("class","callout-icon"),t.insertBefore(e,t.firstChild)}}})),lucide.createIcons(),Array.from(document.querySelectorAll(".callout.is-collapsible")).forEach((e=>{e.querySelector(".callout-title").addEventListener("click",(t=>{e.classList.contains("is-collapsed")?e.classList.remove("is-collapsed"):e.classList.add("is-collapsed")}))}))}))</script>
+<script async src="https://fastly.jsdelivr.net/npm/force-graph@1.43.0/dist/force-graph.min.js"></script>
+<script async src="https://fastly.jsdelivr.net/npm/@alpinejs/persist@3.11.1/dist/cdn.min.js"></script>
+<script src="https://fastly.jsdelivr.net/npm/alpinejs@3.11.1/dist/cdn.min.js" async></script>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.25.0/themes/prism-okaidia.min.css" integrity="sha512-mIs9kKbaw6JZFfSuo+MovjU+Ntggfoj8RwAmJbVXQ5mkAX5LlgETQEweFPI18humSPHymTb5iikEOKWF7I8ncQ==" crossorigin="anonymous" referrerpolicy="no-referrer" async>
+<script src="https://fastly.jsdelivr.net/npm/whatwg-fetch@3.6.2/dist/fetch.umd.min.js" crossorigin="anonymous" referrerpolicy="no-referrer" async></script>
+<link href="/styles/digital-garden-base.css" rel="stylesheet">
+<link href="/styles/obsidian-base.css" rel="stylesheet">
+<link href="/styles/_theme.328fd82b.css" rel="stylesheet">
+<link href="/styles/custom-style.css" rel="stylesheet">
+<link rel="icon" href="/favicon.ico" sizes="any">
+<link rel="icon" href="/favicon.svg" type="image/svg+xml">
+<link rel="apple-touch-icon" href="/apple-touch-icon.png">
+<link rel="manifest" href="/manifest.webmanifest">
+<style></style>
+</head>
+<body class="theme-dark markdown-preview-view markdown-rendered markdown-preview-section">
+<nav class="navbar">
+<div class="navbar-inner">
+<a href="/" style="text-decoration:none">
+<h1 style="margin:15px!important">Hey, Lucas Leão!</h1>
+</a>
+</div>
+</nav>
+<main class="content cm-s-obsidian">
+<header>
+<div class="header-meta">
+</div>
+</header>
+<div class="table-wrapper"><table>
+<thead>
+<tr>
+<th>Filtro</th>
+<th>Método</th>
+<th>Moedor</th>
+<th>Moagem</th>
+<th>Giro</th>
+<th>Proporção</th>
+<th>Grama - Grão</th>
+<th>Miligrama - Água</th>
+<th>Celsius</th>
+<th>Borrifadas (WDT)</th>
+<th>Quantidade (WDT)</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Koar</td>
+<td>Koar<br>(Cerâmica)</td>
+<td>Bravito</td>
+<td>Médio-Fino</td>
+<td>1,30v</td>
+<td>1:18</td>
+<td>17</td>
+<td>300</td>
+<td>88 ~~ 92</td>
+<td>3</td>
+<td>0,30g</td>
+</tr>
+</tbody>
+</table></div>
+<p>Essa é uma receita baseada em uma ideia do <a href="https://flowerchildcoffee.com/" target="_blank" class="external-link">Prestin</a>, onde quero aproveitar a porosidade do filtro do Koar. Ele sendo mais denso auxilia para uma passagem mais lenta e um contato prolongado da água com os grãos. Também, pela sua espessura, consigo aproveitar o uso de moinhos que propositalmente produzem mais fines que o normal, tornando o leito menos permeável. Moinhos da ITALMIL — como do <a href="https://www.bravocoffee.com.br/moedor-de-cafe-bravo-it" target="_blank" class="external-link">Bravito</a> e <a href="https://pt.aliexpress.com/item/1005008655484280.html?src=google&amp;src=google&amp;traffic_server_nav=true&amp;albch=shopping&amp;acnt=768-202-3196&amp;isdl=y&amp;slnk=&amp;plac=&amp;mtctp=&amp;albbt=Google_7_shopping&amp;aff_platform=google&amp;aff_short_key=UneMJZVf&amp;gclsrc=aw.ds&amp;albagn=888888&amp;ds_e_adid=&amp;ds_e_matchtype=&amp;ds_e_device=c&amp;ds_e_network=x&amp;ds_e_product_group_id=&amp;ds_e_product_id=pt1005008655484280&amp;ds_e_product_merchant_id=5403888665&amp;ds_e_product_country=BR&amp;ds_e_product_language=pt&amp;ds_e_product_channel=online&amp;ds_e_product_store_id=&amp;ds_url_v=2&amp;albcp=21106536414&amp;albag=&amp;isSmbAutoCall=false&amp;needSmbHouyi=false&amp;gad_source=1&amp;gad_campaignid=21106537179&amp;gbraid=0AAAAAC_WlP_huxvEuW3uvONKDTU4Lz-li&amp;gclid=CjwKCAjwqazPBhALEiwAOuXqdP95YBctni08z4iGiPdCKBb5B9W0F43i29T11B6M2uil--OwKmMXWxoCjwIQAvD_BwE" target="_blank" class="external-link">Kingrinder K4</a> — são meus favoritos para isso, pois trazem um balanço excelente. Assim, a água fica mais tempo em contato com o pó, facilitando a extração de óleos insolúveis e trazendo mais textura, corpo e presença para a boca, em comparação à receita do ODZ. Ainda sim, é perceptível a acidez e uma certa complexidade.</p>
+<p>Essa viscosidade, ou a espessura em relação à água, é uma função da quantidade de material sólido extraídos. Nesse contexto, os óleos do café produzem uma textura mais pesada, preenchendo na boca.</p>
+<h1 id="perfil" tabindex="-1">Perfil</h1>
+<p>Focado em corpo, doçura, textura.</p>
+<h2 id="observacoes" tabindex="-1">Observações</h2>
+<div class="callout" data-callout="note"><div class="callout-title"><div class="callout-title-inner"> 📝</div></div>
+<div class="callout-content">
+<p>
+</p><ol>
+<li><strong>Chaleira:</strong> manter bem próximo do método, com Melodrip no centro.</li>
+<li><strong>WDT + Kubomi:</strong> faço WDT e Kubomi. Não é necessário fazer uma depressão com o Kubomi. O importante é o <a href="https://www.youtube.com/watch?v=dS9NwmLtDsA" target="_blank" class="external-link">formato final</a>, pois ajuda na pré-infusão e na liberação de CO2.</li>
+<li>**Filtro: **A ideia originalmente funciona pois a porosidade do filtro do Koar é menor comparado aos filtros da CAFEC. A ideia aqui é utilizar isso em favor a extrair os insolúveis na medida certa entre a clareza, moendo mais fino que o normal e segurando os fines e microfines sem que eles entupam ou apareçam na xícara.</li>
+<li><strong>Ataques:</strong> iniciar no centro do método até as bordas, de dentro para fora, de forma circular. Manter **fluxo lento **em toda a extração. Os ataques ocorrem direto acima de uma camada de água, mais ou menos de 1 cm de água sob o leito. Isso vai manter uma pressão hidrostática e serve como camada de “amortecedor” sob o leito, reduzindo o impacto da turbulência.</li>
+<li>**Tempo: **o intervalo dos tempos não são exatos, eles servem mais para verificar como está a permeabilidade do leito do café. Se o delta entre eles não forem respeitados, é um indicativo que o tempo de pré-infusão não foi suficiente para liberar suficiente dióxido de carbono - o que pode não produzir o máximo do grão na xícara. Para isso, basta corrigir o tempo e pré-infusão para um tempo maior.</li>
+<li><strong>Filtração e clareza:</strong> fazer com que cada grão participe da extração e que a filtração seja eficiente. Evitar que os microfines se concentrem no fundo, pois isso reduz a clareza das notas. Para isso, é importante que os grãos não fiquem na superfície da água.</li>
+<li><strong>Quackers:</strong> ao pesar 17g, faça uma triagem rápida e remova <a href="https://www.youtube.com/watch?v=y8kb80dvxKs" target="_blank" class="external-link"><em>quackers</em></a><a href="https://www.youtube.com/watch?v=y8kb80dvxKs" target="_blank" class="external-link"> </a>(grãos subdesenvolvidos, muitas vezes mais claros ou esverdeados). Eles costumam ter <strong>baixa solubilidade</strong> e podem adicionar <strong>adstringência</strong>, <strong>amargor</strong> e notas de <strong>amendoim/papel/vegetal</strong>, além de “sujar” a clareza em métodos que buscam frutado. Como a dose é pequena, 1 ou 2 grãos já impactam perceptivelmente o resultado.</li>
+<li><strong>Melodrip:</strong> Ele altera o padrão de fluxo da extração e, em geral, reduz o TDS em comparação com a chaleira (por diminuir a turbulência e a erosão do leito). Também ajuda a redistribuir os microfines e tende a levantar o <em>chaff</em>. Por isso, gosto de usar nos três ataques: como ele naturalmente extrai menos, neste caso faço o mais lento possível (mantendo a mesma trajetória do centro para as bordas e fluxo forte) para aumentar o tempo de contato do café com a água, já que a moagem é média-fina, dando uma permeabilidade baixa, facilitando a extração dos insolúveis.</li>
+</ol>
+<p></p></div></div>
+<h3 id="a-href-https-youtu-be-2mr-li-e4il-xw-si-kgib-i-vmc5m-h-bm7-gn-target-blank-class-external-link-tabela-de-tempos-a" tabindex="-1"><a href="https://youtu.be/2mrLiE4ilXw?si=kgibIVmc5mHBm7GN" target="_blank" class="external-link">Tabela de Tempos</a></h3>
+<div class="table-wrapper"><table>
+<thead>
+<tr>
+<th>Pré-Infusão</th>
+<th>Primeiro Ataque</th>
+<th>Segundo Ataque</th>
+<th>Terceiro Ataque</th>
+<th>Descanso</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>~0:30’</td>
+<td>0:30’</td>
+<td>0:50’</td>
+<td>3:00’</td>
+<td>4:00’</td>
+</tr>
+<tr>
+<td>~1:00’</td>
+<td>1:00’</td>
+<td>1:20’</td>
+<td>3:30’</td>
+<td>4:00’</td>
+</tr>
+<tr>
+<td>~2:00’</td>
+<td>2:00’</td>
+<td>2:20’</td>
+<td>4:30’</td>
+<td>5:00’</td>
+</tr>
+</tbody>
+</table></div>
+<p>O tempo de extração deve variar conforme o grão, o tempo de torra e o tipo de processo de secagem.</p>
+<ul>
+<li><strong>Anaeróbico:</strong> Pré-infusões curtas. Cafés fermentados são extremamente solúveis. Se deixar a água em contato por muito tempo na pré-infusão, corre o risco de extrair notas alcoólicas ou acéticas (vinagre) indesejadas.</li>
+<li><strong>Natural &amp; Honey:</strong> Padrão ouro, iniciar com ~0:30’ e avaliar resultados.</li>
+<li><strong>Lavado:</strong> Pré-infusões mais longas. Cafés lavados tendem a ser mais densos e menos porosos; uma pré-infusão prolongada garante a hidratação total das partículas e a liberação adequada do dióxido de carbono.</li>
+</ul>
+<h3 id="pre-infusao" tabindex="-1">Pré-Infusão</h3>
+<ul>
+<li><strong>Quantidade:</strong> 40g a 60g</li>
+<li><strong>Temperatura:</strong> 88°C a 92°C</li>
+<li><strong>Técnica:</strong> Fluxo delicado no centro para as bordas. Mexer com bastão de vidro.</li>
+</ul>
+<h3 id="primeiro-ataque" tabindex="-1">Primeiro Ataque</h3>
+<ul>
+<li><strong>Quantidade:</strong> Completar 100g</li>
+<li><strong>Técnica:</strong> Fluxo delicado no centro usando Melodrip em todos os ataques</li>
+</ul>
+<h3 id="segundo-ataque" tabindex="-1">Segundo Ataque</h3>
+<ul>
+<li><strong>Quantidade:</strong> +150g</li>
+</ul>
+<h3 id="terceiro-ataque" tabindex="-1">Terceiro Ataque</h3>
+<ul>
+<li><strong>Quantidade:</strong> +50g</li>
+</ul>
+<h3 id="finalizacao" tabindex="-1">Finalização</h3>
+<ul>
+<li><strong>Técnica:</strong> Utilizar uma esfera gelada no café &amp; aerar</li>
+</ul>
+</main>
+<script>window.location.hash&&document.getElementById(window.location.hash.slice(1)).classList.add("referred"),window.addEventListener("hashchange",(e=>{const t=e.oldURL.split("#");t[1]&&document.getElementById(t[1]).classList.remove("referred");const n=e.newURL.split("#");n[1]&&document.getElementById(n[1]).classList.add("referred")}),!1);const url_parts=window.location.href.split("#"),url=url_parts[0],referrence=url_parts[1];document.querySelectorAll(".cm-s-obsidian > *[id]").forEach((function(e){e.ondblclick=function(e){const t=url+"#"+e.target.id;navigator.clipboard.writeText(t)}}))</script>
+<script src="https://fastly.jsdelivr.net/npm/luxon@3.2.1/build/global/luxon.min.js"></script>
+<script defer="defer">TIMESTAMP_FORMAT="MMM dd, yyyy h:mm a",document.querySelectorAll(".human-date").forEach((function(e){date=e.getAttribute("data-date")||e.innerText,parsed_date=luxon.DateTime.fromISO(date),null!=parsed_date.invalid&&(parsed_date=luxon.DateTime.fromSQL(date)),null!=parsed_date.invalid&&(parsed_date=luxon.DateTime.fromHTML(date)),e.innerHTML=parsed_date.toFormat(TIMESTAMP_FORMAT)}))</script>
+<script>lucide.createIcons({attrs:{class:["svg-icon"]}})</script>
+</body>
+</html>

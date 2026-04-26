@@ -1,0 +1,190 @@
+<!doctype html>
+<html lang="pt-br">
+<head>
+<title>ODZ</title>
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<script async type="module">import mermaid from"https://cdn.jsdelivr.net/npm/mermaid@10/dist/mermaid.esm.min.mjs"</script>
+<script async src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.25.0/prism.min.js" integrity="sha512-hpZ5pDCF2bRCweL5WoA0/N1elet1KYL5mx3LP555Eg/0ZguaHawxNvEjF6O3rufAChs16HVNhEc6blF/rZoowQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+<script async src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.25.0/plugins/autoloader/prism-autoloader.min.js" integrity="sha512-sv0slik/5O0JIPdLBCR2A3XDg/1U3WuDEheZfI/DI5n8Yqc3h5kjrnr46FGBNiUAJF7rE4LHKwQ/SoSLRKAxEA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+<script async src="https://cdn.jsdelivr.net/npm/lucide@0.115.0/dist/umd/lucide.min.js"></script>
+<script>window.addEventListener("load",(()=>{document.querySelectorAll(".callout").forEach((e=>{const t=getComputedStyle(e).getPropertyValue("--callout-icon"),l=t&&t.trim().replace(/^lucide-/,"");if(l){const t=e.querySelector(".callout-title");if(t){const e=document.createElement("div"),c=document.createElement("i");e.appendChild(c),c.setAttribute("icon-name",l),e.setAttribute("class","callout-icon"),t.insertBefore(e,t.firstChild)}}})),lucide.createIcons(),Array.from(document.querySelectorAll(".callout.is-collapsible")).forEach((e=>{e.querySelector(".callout-title").addEventListener("click",(t=>{e.classList.contains("is-collapsed")?e.classList.remove("is-collapsed"):e.classList.add("is-collapsed")}))}))}))</script>
+<script async src="https://fastly.jsdelivr.net/npm/force-graph@1.43.0/dist/force-graph.min.js"></script>
+<script async src="https://fastly.jsdelivr.net/npm/@alpinejs/persist@3.11.1/dist/cdn.min.js"></script>
+<script src="https://fastly.jsdelivr.net/npm/alpinejs@3.11.1/dist/cdn.min.js" async></script>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.25.0/themes/prism-okaidia.min.css" integrity="sha512-mIs9kKbaw6JZFfSuo+MovjU+Ntggfoj8RwAmJbVXQ5mkAX5LlgETQEweFPI18humSPHymTb5iikEOKWF7I8ncQ==" crossorigin="anonymous" referrerpolicy="no-referrer" async>
+<script src="https://fastly.jsdelivr.net/npm/whatwg-fetch@3.6.2/dist/fetch.umd.min.js" crossorigin="anonymous" referrerpolicy="no-referrer" async></script>
+<link href="/styles/digital-garden-base.css" rel="stylesheet">
+<link href="/styles/obsidian-base.css" rel="stylesheet">
+<link href="/styles/_theme.328fd82b.css" rel="stylesheet">
+<link href="/styles/custom-style.css" rel="stylesheet">
+<link rel="icon" href="/favicon.ico" sizes="any">
+<link rel="icon" href="/favicon.svg" type="image/svg+xml">
+<link rel="apple-touch-icon" href="/apple-touch-icon.png">
+<link rel="manifest" href="/manifest.webmanifest">
+<style></style>
+</head>
+<body class="theme-dark markdown-preview-view markdown-rendered markdown-preview-section">
+<nav class="navbar">
+<div class="navbar-inner">
+<a href="/" style="text-decoration:none">
+<h1 style="margin:15px!important">Hey, Lucas Leão!</h1>
+</a>
+</div>
+</nav>
+<main class="content cm-s-obsidian">
+<header>
+<div class="header-meta">
+</div>
+</header>
+<div class="table-wrapper"><table>
+<thead>
+<tr>
+<th>Filtro</th>
+<th>Método</th>
+<th>Moedor</th>
+<th>Moagem</th>
+<th>Giro</th>
+<th>Proporção</th>
+<th>Grama - Grão</th>
+<th>Miligrama - Água</th>
+<th>Celsius</th>
+<th>Borrifadas (WDT)</th>
+<th>Quantidade (WDT)</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Origami (Small)</td>
+<td>ODZ<br>(Cerâmica)</td>
+<td>ZP6-S</td>
+<td><em>Médio Grosso</em></td>
+<td>55</td>
+<td>1:17</td>
+<td>15</td>
+<td>250</td>
+<td>88 ~~ 92</td>
+<td>3</td>
+<td>0,30g</td>
+</tr>
+</tbody>
+</table></div>
+<p>Esta é uma receita que venho trabalhando desde 2021. As decisões deste método foram baseadas em testes práticos pessoais, evidências sensoriais e trocas de experiências entre pessoas mais experientes. Em 2026, resolvi coletar embasamento cientifico e observei pesquisas que corroboram essas escolhas.</p>
+<p>Antes de seguir qualquer receita, sugiro fortemente a leitura dos artigos recomendados abaixo. Eles formam a base teórica necessária, principalmente o primeiro artigo; os livros citados são complementares e podem ser explorados conforme o interesse.</p>
+<h3 id="tempo-e-eficiencia" tabindex="-1">Tempo e Eficiência</h3>
+<p>Em métodos filtrados, o pó libera material solúvel de forma acelerada nos primeiros <strong>2 minutos</strong>. Nesse intervalo, o rendimento de extração gira em torno de 18% a 22%, o que representa de 65% a 75% de todo o material de sabor disponível. Após 5 minutos, mais de 80% dos solúveis já foram removidos, segundo <a href="https://static1.squarespace.com/static/587af1d4db29d69a1a226b95/t/60cbcc1052eac94fe8487a39/1623968786983/CUPPERS+HANDBOOK+01-12-2015.pdf" target="_blank" class="external-link">The Coffee Cupper’s Handbook</a>.</p>
+<p><picture src="/img/user/digital-garden/receitas/assets/transference-of-taste-components.png" alt="transference-of-taste-components.png|https://coffeefanatics.jp/en/tds-ey-and-sensory-evaluation-in-coffee-brewing/"><source media="(max-width:480px)" srcset="/img/optimized/jUkCL8duYP-500.webp" type="image/webp">
+<source media="(max-width:480px)" srcset="/img/optimized/jUkCL8duYP-500.jpeg">
+<source media="(max-width:1920px)" srcset="/img/optimized/jUkCL8duYP-700.webp" type="image/webp"><source media="(max-width:1920px)" srcset="/img/optimized/jUkCL8duYP-700.jpeg"><img class="" src="/img/user/digital-garden/receitas/assets/transference-of-taste-components.png" alt="transference-of-taste-components.png|https://coffeefanatics.jp/en/tds-ey-and-sensory-evaluation-in-coffee-brewing/" width=""></picture></p>
+<p><strong>O impacto no sabor:</strong></p>
+<ul>
+<li><strong>Baixo EY (Subextração):</strong> Resulta em um perfil doce-ácido, dominado por compostos de alta solubilidade (Mestdagh et al., 2017).</li>
+<li><strong>Tempo excessivo:</strong> Pode levar à extração de compostos sensíveis à oxidação e degradação, prejudicando o perfil sensorial da xícara (Petracco, 2001).</li>
+</ul>
+<p>Vale lembrar que a extração dos compostos aromáticos vem por meio da energia entre a temperatura da água e a mecânica dela, que seriam os despejos. É importante levar isso em consideração isso pois o tempo de extração do material solúvel pode não ser exatamente 2 minutos por conta da variabilidade disso e o quanto está sendo liberado dióxido de carbono - precisamos ter um contraponto disso durante a pré-infusão e o quanto vamos prolongar. Vai variar de grão a grão, processo e tempo de torra - mas é importante termos noção desse intervalo. Por conta disso, nossa extração após a pré-infusão não varia tanto deste intervalo.</p>
+<h3 id="temperatura-e-dinamica-molecular" tabindex="-1">Temperatura e Dinâmica Molecular</h3>
+<p>A temperatura atua como a força motriz da extração. Em temperaturas mais elevadas, a energia cinética das moléculas de água é maior, aumentando sua mobilidade (Mestdagh et al., 2017). Esse estado amplifica as forças físicas capazes de &quot;lavar&quot; e lixiviar os compostos do leito de café, além de favorecer a solubilidade de diversas substâncias.</p>
+<blockquote>
+<p><strong>Nota Prática:</strong> Embora o calor facilite a extração, temperaturas excessivamente altas podem causar a liberação indesejada de compostos orgânicos voláteis (VOCs), alterando a percepção aromática. Para o perfil que busco, utilizo <strong>turbulência com despejos fortes</strong> e temperatura controlada entre <strong>88°C e 92°C</strong>.</p>
+</blockquote>
+<p>O Total de Sólidos Dissolvidos (TDS) é o indicador da força e do equilíbrio da bebida, utilizando via refratômetro. Não é um tópico abordado para o dia a dia devido ao custo do refratrometro, mas é importante pontuar: o intervalo entre 1,15% e 1,35% é considerado o ideal para o paladar padrão (Cotter et al., 2020). Estudos recentes (Guinard et al., 2023) apontam, inclusive, que a percepção de &quot;notas doces&quot; no aroma diminui proporcionalmente à queda do TDS, independentemente do nível de torra utilizado.</p>
+<p><picture src="/img/user/digital-garden/receitas/assets/brewing-control-chart.png" alt="brewing-control-chart.png|https://coffeefanatics.jp/en/tds-ey-and-sensory-evaluation-in-coffee-brewing/"><source media="(max-width:480px)" srcset="/img/optimized/x5JjgL4CUS-500.webp" type="image/webp">
+<source media="(max-width:480px)" srcset="/img/optimized/x5JjgL4CUS-500.jpeg">
+<source media="(max-width:1920px)" srcset="/img/optimized/x5JjgL4CUS-700.webp" type="image/webp"><source media="(max-width:1920px)" srcset="/img/optimized/x5JjgL4CUS-700.jpeg"><img class="" src="/img/user/digital-garden/receitas/assets/brewing-control-chart.png" alt="brewing-control-chart.png|https://coffeefanatics.jp/en/tds-ey-and-sensory-evaluation-in-coffee-brewing/" width=""></picture></p>
+<h1 id="perfil" tabindex="-1">Perfil</h1>
+<p>Focado em clareza, acidez, floral, corpo leve.</p>
+<h1 id="artigos" tabindex="-1">Artigos</h1>
+<p><a href="https://www.sciencedirect.com/science/article/abs/pii/S0924224419305692" target="_blank" class="external-link">Coffee extraction: A review of parameters and their influence on the physicochemical characteristics and flavour of coffee brews</a></p>
+<p><a href="http://scith.coffee/wp-content/uploads/2021/03/SCA-Protocols-_-Best-Practices.pdf%5D(https://www.scith.coffee/wp-content/uploads/2021/03/SCA-Protocols-_-Best-Practices.pdf)" target="_blank" class="external-link">Specialty Coffee Association - Protocols and Best Practices</a></p>
+<p><a href="https://www.researchgate.net/publication/330334396_CHAPTER_33_Coffee_Volatile_and_Aroma_Compounds_-_From_the_Green_Bean_to_the_Cup_Production_Quality_and_Chemistry" target="_blank" class="external-link">Coffee Volatile and Aroma Compounds – From the Green Bean to the Cup: Production, Quality and Chemistry </a></p>
+<p><a href="https://baristacourseadelaide.com.au/research-papers/science-of-ground-coffee/" target="_blank" class="external-link">The Science Of Ground Coffee - Understanding The Mechanics</a></p>
+<p><a href="https://www.sciencedirect.com/science/article/abs/pii/S0963996914001409" target="_blank" class="external-link">Complexity of coffee flavor: A compositional and sensory perspective</a></p>
+<p><a href="https://baristacourseadelaide.com.au/research-papers/coffee-extraction/" target="_blank" class="external-link">The variables of extracting flavour from ground coffee and their impact on different brewing methods</a></p>
+<h1 id="livros" tabindex="-1">Livros</h1>
+<p><a href="https://sca.coffee/store/p/coffee-sensory-cupping-handbook" target="_blank" class="external-link">Coffee Sensory &amp; Cupping Handbook — Specialty Coffee Association</a></p>
+<p><a href="https://www.amazon.com/How-Taste-Coffee-Develop-Sensory/dp/1572843292" target="_blank" class="external-link">How to Taste Coffee: Develop Your Sensory Skills and Get the Most Out of Every Cup</a></p>
+<p><a href="https://www.amazon.com/Physics-Filter-Coffee-Jonathan-Gagne/dp/0578246082" target="_blank" class="external-link">The Physics of Filter Coffee</a></p>
+<h2 id="observacoes" tabindex="-1">Observações</h2>
+<div class="callout" data-callout="note"><div class="callout-title"><div class="callout-title-inner"> 📝</div></div>
+<div class="callout-content">
+<p>
+</p><ol>
+<li><strong>Chaleira:</strong> manter uma distância intermediária, sem ficar muito perto nem muito longe.</li>
+<li><strong>WDT + Kubomi:</strong> faço WDT e Kubomi. Não é necessário fazer uma depressão com o Kubomi. O importante é o <a href="https://www.youtube.com/watch?v=dS9NwmLtDsA" target="_blank" class="external-link">formato final</a>, pois ajuda na pré-infusão e na liberação de CO2.</li>
+<li><strong>Ataques:</strong> iniciar no centro do método até as bordas, de dentro para fora, de forma circular. Manter **fluxo mediano **em toda a extração. Os ataques ocorrem direto após coagem da água do despejo anterior. Caso ache a pré-infusão desejada mas ainda amarga um pouco a 88 graus, tente sempre deixar o despejo assim que ver menos de 1 cm de água sob o leito. Isso vai manter uma pressão hidrostática e serve como camada de “amortecedor” sob o leito, reduzindo o impacto da turbulência.</li>
+<li>**Tempo: **o intervalo dos tempos não são exatos, eles servem mais para verificar como está a permeabilidade do leito do café. Se o delta entre eles não forem respeitados, é um indicativo que o tempo de pré-infusão não foi suficiente para liberar suficiente dióxido de carbono - o que pode não produzir o máximo do grão na xícara. Para isso, basta corrigir o tempod e pré-infusão para um tempo maior.</li>
+<li><strong>Filtração e clareza:</strong> fazer com que cada grão participe da extração e que a filtração seja eficiente. Evitar que os microfines se concentrem no fundo, pois isso reduz a clareza das notas. Para isso, é importante que os grãos não fiquem na superfície da água.</li>
+<li><strong>Quackers:</strong> ao pesar 15g, faça uma triagem rápida e remova <a href="https://www.youtube.com/watch?v=y8kb80dvxKs" target="_blank" class="external-link"><em>quackers</em></a><a href="https://www.youtube.com/watch?v=y8kb80dvxKs" target="_blank" class="external-link"> </a>(grãos subdesenvolvidos, muitas vezes mais claros ou esverdeados). Eles costumam ter <strong>baixa solubilidade</strong> e podem adicionar <strong>adstringência</strong>, <strong>amargor</strong> e notas de <strong>amendoim/papel/vegetal</strong>, além de “sujar” a clareza em métodos que buscam frutado. Como a dose é pequena, 1 ou 2 grãos já impactam perceptivelmente o resultado.</li>
+<li><strong>Melodrip:</strong> Ele altera o padrão de fluxo da extração e, em geral, reduz o TDS em comparação com a chaleira (por diminuir a turbulência e a erosão do leito). Também ajuda a redistribuir os microfines e tende a levantar o <em>chaff</em>. Por isso, gosto de usar nos três ataques: como ele naturalmente extrai menos, eu acelero o máximo possível (mantendo a mesma trajetória do centro para as bordas e fluxo forte) para aumentar a agitação do topo da cama e, ao mesmo tempo, aumentar a força de centrifugação. Em muitos casos, isso encurta a percolação e realça a acidez. A diferença é que, com o <a href="https://youtu.be/zVbWBsWcNz0?si=rgd1tpFg80X0cCBD" target="_blank" class="external-link">Melodrip</a>, <a href="https://www.youtube.com/watch?v=JiLN2phMey4" target="_blank" class="external-link">a água atua mais na camada superior do método, sem “empurrar” os grãos para baixo.</a></li>
+<li>**Descanso: **Assim que a extração finalizar, já insira a esfera e comece a aerar. É crucial fazer isso o quanto antes para preservar o máximo dos compostos aromáticos na xícara. A temperatura vai cair entre 70°C a 65°C graus, o que ajuda para as primeiras percepções sensoriais, seguindo o <a href="http://scith.coffee/wp-content/uploads/2021/03/SCA-Protocols-_-Best-Practices.pdf%5D(https://www.scith.coffee/wp-content/uploads/2021/03/SCA-Protocols-_-Best-Practices.pdf)" target="_blank" class="external-link">Specialty Coffee Association - Protocols and Best Practices</a>.</li>
+</ol>
+<p></p></div></div>
+<h3 id="a-href-https-youtu-be-2mr-li-e4il-xw-si-kgib-i-vmc5m-h-bm7-gn-target-blank-class-external-link-tabela-de-tempos-a" tabindex="-1"><a href="https://youtu.be/2mrLiE4ilXw?si=kgibIVmc5mHBm7GN" target="_blank" class="external-link">Tabela de Tempos</a></h3>
+<div class="table-wrapper"><table>
+<thead>
+<tr>
+<th>Pré-Infusão</th>
+<th>Primeiro Ataque</th>
+<th>Segundo Ataque</th>
+<th>Terceiro Ataque</th>
+<th>Descanso</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>~0:30’</td>
+<td>0:30’</td>
+<td>0:50’</td>
+<td>1:20’</td>
+<td>2:10’</td>
+</tr>
+<tr>
+<td>~1:00’</td>
+<td>1:00’</td>
+<td>1:20'</td>
+<td>1:50’</td>
+<td>2:50’</td>
+</tr>
+<tr>
+<td>~2:00’</td>
+<td>2:00’</td>
+<td>2:20’</td>
+<td>2:50’</td>
+<td>3:30’</td>
+</tr>
+</tbody>
+</table></div>
+<p>O tempo de extração deve variar conforme o grão, o tempo de torra e o tipo de processo de secagem.</p>
+<ul>
+<li><strong>Anaeróbico:</strong> Pré-infusões curtas. Cafés fermentados são extremamente solúveis. Se deixar a água em contato por muito tempo na pré-infusão, corre o risco de extrair notas alcoólicas ou acéticas (vinagre) indesejadas.</li>
+<li><strong>Natural &amp; Honey:</strong> Padrão ouro, iniciar com ~0:30’ e avaliar resultados.</li>
+<li><strong>Lavado:</strong> Pré-infusões mais longas. Cafés lavados tendem a ser mais densos e menos porosos; uma pré-infusão prolongada garante a hidratação total das partículas e a liberação adequada do dióxido de carbono.</li>
+</ul>
+<h3 id="pre-infusao" tabindex="-1">Pré-Infusão</h3>
+<ul>
+<li><strong>Quantidade:</strong> 40g a 60g</li>
+<li><strong>Temperatura:</strong> 88°C a 92°C</li>
+<li><strong>Técnica:</strong> Fluxo forte circular do centro para as bordas em todas as extrações</li>
+</ul>
+<h3 id="primeiro-ataque" tabindex="-1">Primeiro Ataque</h3>
+<ul>
+<li><strong>Quantidade:</strong> Completar 100g</li>
+</ul>
+<h3 id="segundo-ataque" tabindex="-1">Segundo Ataque</h3>
+<ul>
+<li><strong>Quantidade:</strong> +50g</li>
+</ul>
+<h3 id="terceiro-ataque" tabindex="-1">Terceiro Ataque</h3>
+<ul>
+<li><strong>Quantidade:</strong> +100g</li>
+</ul>
+<h3 id="finalizacao" tabindex="-1">Finalização</h3>
+<ul>
+<li><strong>Técnica:</strong> Utilizar uma esfera gelada no café &amp; aerar</li>
+</ul>
+</main>
+<script>window.location.hash&&document.getElementById(window.location.hash.slice(1)).classList.add("referred"),window.addEventListener("hashchange",(e=>{const t=e.oldURL.split("#");t[1]&&document.getElementById(t[1]).classList.remove("referred");const n=e.newURL.split("#");n[1]&&document.getElementById(n[1]).classList.add("referred")}),!1);const url_parts=window.location.href.split("#"),url=url_parts[0],referrence=url_parts[1];document.querySelectorAll(".cm-s-obsidian > *[id]").forEach((function(e){e.ondblclick=function(e){const t=url+"#"+e.target.id;navigator.clipboard.writeText(t)}}))</script>
+<script src="https://fastly.jsdelivr.net/npm/luxon@3.2.1/build/global/luxon.min.js"></script>
+<script defer="defer">TIMESTAMP_FORMAT="MMM dd, yyyy h:mm a",document.querySelectorAll(".human-date").forEach((function(e){date=e.getAttribute("data-date")||e.innerText,parsed_date=luxon.DateTime.fromISO(date),null!=parsed_date.invalid&&(parsed_date=luxon.DateTime.fromSQL(date)),null!=parsed_date.invalid&&(parsed_date=luxon.DateTime.fromHTML(date)),e.innerHTML=parsed_date.toFormat(TIMESTAMP_FORMAT)}))</script>
+<script>lucide.createIcons({attrs:{class:["svg-icon"]}})</script>
+</body>
+</html>
