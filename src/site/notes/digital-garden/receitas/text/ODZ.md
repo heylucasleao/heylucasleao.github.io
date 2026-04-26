@@ -19,9 +19,9 @@
 
 # Receita
 
-Esta é uma receita que venho trabalhando desde 2021. As decisões deste método foram baseadas em testes práticos pessoais, evidências sensoriais e trocas de experiências entre pessoas mais experientes. Em 2026, resolvi coletar embasamento cientifico e observei pesquisas que corroboram essas escolhas.
+Esta é uma receita que venho trabalhando desde 2021. As decisões deste método foram baseadas em testes práticos pessoais, evidências sensoriais e trocas de experiências entre pessoas mais experientes. Infelizmente, isso cai muito na minha percepção e subjetividade. Por conta disso, em 2026, quis sair um pouco disso. Procurei coletar um pouco de embasamento cientifico para ter alguma objetividade de como faço, e - felizmente ao menos - encontrei algumas pesquisas que corroboram algumas escolhas, e que facilitam a forma como vejo a percolação.
 
-Antes de seguir qualquer receita, sugiro fortemente a leitura dos artigos recomendados abaixo. Eles formam a base teórica necessária, principalmente o primeiro artigo; os livros citados são complementares e podem ser explorados conforme o interesse.
+Logo, antes de seguir qualquer receita, sugiro fortemente a leitura dos artigos recomendados abaixo. Eles formam a base teórica necessária, principalmente o primeiro artigo; os livros citados são complementares e podem ser explorados conforme o interesse.
 
 ## Perfil
 
@@ -79,7 +79,7 @@ O Total de Sólidos Dissolvidos (TDS) é o indicador da força e do equilíbrio 
 	
  2. **WDT + Kubomi:** importante fazer os dois. Não é necessário fazer especificamente a depressão do Kubomi. O importante é o [formato final](https://www.youtube.com/watch?v=dS9NwmLtDsA), pois ajuda na pré-infusão com a liberação do dióxido de carbono.
 	
- 3. **Ataques:** iniciar no centro do método até as bordas, de dentro para fora, de forma circular. Manter fluxo **mediano** em toda a extração. Os ataques ocorrem direto após coagem da água do despejo anterior. Caso ache a pré-infusão desejada mas ainda amarga um pouco a 88 graus, tente sempre deixar o despejo assim que ver menos de 1 cm de água sob o leito. Isso vai manter uma pressão hidrostática e serve como camada de “amortecedor” sob o leito, reduzindo o impacto da turbulência.
+ 3. **Ataques:** iniciar no centro do método até as bordas, de dentro para fora, de forma circular. Manter fluxo **mediano** em toda a extração. Os ataques ocorrem direto após coagem da água do despejo anterior. 
 	
  4. **Tempo:** os intervalos de tempo não são valores exatos, mas servem como indicadores para verificar a permeabilidade do leito de café. Quando o delta entre esses intervalos não é respeitado, isso sinaliza que o tempo de pré-infusão foi insuficiente para liberar adequadamente o dióxido de carbono, o que pode comprometer a extração máxima dos compostos do grão na xícara. Para corrigir essa situação, basta aumentar o tempo de pré-infusão.
 	
@@ -87,7 +87,7 @@ O Total de Sólidos Dissolvidos (TDS) é o indicador da força e do equilíbrio 
 	
  6. **Quackers:** ao pesar 15g, faça uma triagem rápida e remova [*quackers*](https://www.youtube.com/watch?v=y8kb80dvxKs) (grãos subdesenvolvidos, muitas vezes mais claros ou esverdeados). Eles costumam ter baixa solubilidade e podem adicionar adstringência, amargo e notas de vegetal, além de “sujar” a clareza em métodos que buscam frutado. Como a dose é pequena, 1 ou 2 grãos já impactam perceptivelmente o resultado. 
 	
-	![defeitos.jpg|279](/img/user/digital-garden/receitas/assets/defeitos.jpg)
+	![defeitos-1.jpg|279](/img/user/digital-garden/receitas/assets/defeitos-1.jpg)
 	
  7. **Melodrip:** Ele altera o padrão de fluxo da extração e, em geral, reduz o TDS em comparação com a chaleira (por diminuir a turbulência e a erosão do leito). Também ajuda a redistribuir os microfines e tende a levantar o *chaff*. Por isso, gosto de usar nos três ataques: como ele naturalmente extrai menos, eu acelero o máximo possível  (mantendo a mesma trajetória do centro para as bordas e fluxo forte) para aumentar a agitação do topo da cama e, ao mesmo tempo, aumentar a força de centrifugação. Em muitos casos, isso encurta a percolação e realça a acidez. A diferença é que, com o [Melodrip](https://youtu.be/zVbWBsWcNz0?si=rgd1tpFg80X0cCBD), [a água atua mais na camada superior do método, sem “empurrar” os grãos para baixo.](https://www.youtube.com/watch?v=JiLN2phMey4)
 	

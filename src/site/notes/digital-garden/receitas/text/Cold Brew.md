@@ -4,10 +4,16 @@
 
 ### Preparo Infusão
 
-| Método | Moedor | Moagem | Giro | Proporção | Grama - Grão | Miligrama - Água | Horas em Infusão |
-| --- | --- | --- | --- | --- | --- | --- | --- |
-| Imersão | ZP6 Special | *Grosso* | 60 | 1:8 | 75 | 600 | 18 |
-
+|**Parâmetro**|**Valor**|
+|---|---|
+|Método|Imersão|
+|Moedor|ZP6 Special|
+|Moagem|_Grosso_|
+|Giro|60|
+|Proporção|1:8|
+|Grama - Grão|75|
+|Miligrama - Água|600|
+|Horas em Infusão|18|
 ### Preparo Drink
 
 | Ingredientes | ml |
