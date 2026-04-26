@@ -4,9 +4,13 @@
 
 # Receita 
 
+![cheong-1.jpg|533](/img/user/digital-garden/receitas/assets/cheong-1.jpg)
+
 Nada mais que um xarope fermentado. Dependendo da fruta, pode ser necessário mudar sua proporção. Em tese, a maioria é 1:1.
 
 De 1 a 4 vezes por dia se puder abrir para homogenizar a distribuição dos grãos de açúcar, isso diminue o gosto fermentado. Pode utilizar um pilão, assim espreme um pouco mais do suco.
+
+![cheong-2.jpg|354](/img/user/digital-garden/receitas/assets/cheong-2.jpg)
 
 ### Limão
 
