@@ -3,10 +3,19 @@
 ---
 
 
-| Filtro          | Método            | Moedor | Moagem         | Giro | Proporção | Grama - Grão | Miligrama - Água | Celsius | Borrifadas (WDT) | Quantidade (WDT) |
-| --------------- | ----------------- | ------ | -------------- | ---- | --------- | ------------ | ---------------- | ------- | ---------------- | ---------------- |
-| Origami (Small) | ODZ<br>(Cerâmica) | ZP6-S  | *Médio Grosso* | 55   | 1:17      | 15           | 250              | 88 - 92 | 3                | 0,30g            |
-
+| **Parâmetro**    | **Valor**         |
+| ---------------- | ----------------- |
+| Filtro           | Origami (Small)   |
+| Método           | ODZ<br>(Cerâmica) |
+| Moedor           | ZP6-S             |
+| Moagem           | _Médio Grosso_    |
+| Giro             | 55                |
+| Proporção        | 1:17              |
+| Grama - Grão     | 15                |
+| Miligrama - Água | 250               |
+| Celsius          | 88 - 92           |
+| Borrifadas (WDT) | 3                 |
+| Quantidade (WDT) | 0,30g             |
 Esta é uma receita que venho trabalhando desde 2021. As decisões deste método foram baseadas em testes práticos pessoais, evidências sensoriais e trocas de experiências entre pessoas mais experientes. Em 2026, resolvi coletar embasamento cientifico e observei pesquisas que corroboram essas escolhas.
 
 Antes de seguir qualquer receita, sugiro fortemente a leitura dos artigos recomendados abaixo. Eles formam a base teórica necessária, principalmente o primeiro artigo; os livros citados são complementares e podem ser explorados conforme o interesse.
@@ -64,16 +73,21 @@ O Total de Sólidos Dissolvidos (TDS) é o indicador da força e do equilíbrio 
 
 ## Observações
 
-> [!note] 📝
-> 
-> 1. **Chaleira:** manter uma distância intermediária, sem ficar muito perto nem muito longe.
-> 2. **WDT + Kubomi:** faço WDT e Kubomi. Não é necessário fazer uma depressão com o Kubomi. O importante é o [formato final](https://www.youtube.com/watch?v=dS9NwmLtDsA), pois ajuda na pré-infusão e na liberação de CO2.
-> 3. **Ataques:** iniciar no centro do método até as bordas, de dentro para fora, de forma circular. Manter **fluxo mediano **em toda a extração. Os ataques ocorrem direto após coagem da água do despejo anterior. Caso ache a pré-infusão desejada mas ainda amarga um pouco a 88 graus, tente sempre deixar o despejo assim que ver menos de 1 cm de água sob o leito. Isso vai manter uma pressão hidrostática e serve como camada de “amortecedor” sob o leito, reduzindo o impacto da turbulência.
-> 4. **Tempo: **o intervalo dos tempos não são exatos, eles servem mais para verificar como está a permeabilidade do leito do café. Se o delta entre eles não forem respeitados, é um indicativo que o tempo de pré-infusão não foi suficiente para liberar suficiente dióxido de carbono - o que pode não produzir o máximo do grão na xícara. Para isso, basta corrigir o tempod e pré-infusão para um tempo maior.
-> 5. **Filtração e clareza:** fazer com que cada grão participe da extração e que a filtração seja eficiente. Evitar que os microfines se concentrem no fundo, pois isso reduz a clareza das notas. Para isso, é importante que os grãos não fiquem na superfície da água.
-> 6. **Quackers:** ao pesar 15g, faça uma triagem rápida e remova [*quackers*](https://www.youtube.com/watch?v=y8kb80dvxKs) (grãos subdesenvolvidos, muitas vezes mais claros ou esverdeados). Eles costumam ter **baixa solubilidade** e podem adicionar **adstringência**, **amargor** e notas de **amendoim/papel/vegetal**, além de “sujar” a clareza em métodos que buscam frutado. Como a dose é pequena, 1 ou 2 grãos já impactam perceptivelmente o resultado. 
-> 7. **Melodrip:** Ele altera o padrão de fluxo da extração e, em geral, reduz o TDS em comparação com a chaleira (por diminuir a turbulência e a erosão do leito). Também ajuda a redistribuir os microfines e tende a levantar o *chaff*. Por isso, gosto de usar nos três ataques: como ele naturalmente extrai menos, eu acelero o máximo possível  (mantendo a mesma trajetória do centro para as bordas e fluxo forte) para aumentar a agitação do topo da cama e, ao mesmo tempo, aumentar a força de centrifugação. Em muitos casos, isso encurta a percolação e realça a acidez. A diferença é que, com o [Melodrip](https://youtu.be/zVbWBsWcNz0?si=rgd1tpFg80X0cCBD), [a água atua mais na camada superior do método, sem “empurrar” os grãos para baixo.](https://www.youtube.com/watch?v=JiLN2phMey4)
-> 8. **Descanso: **Assim que a extração finalizar, já insira a esfera e comece a aerar. É crucial fazer isso o quanto antes para preservar o máximo dos compostos aromáticos na xícara. A temperatura vai cair entre 70°C a 65°C graus, o que ajuda para as primeiras percepções sensoriais, seguindo o [Specialty Coffee Association - Protocols and Best Practices](http://scith.coffee/wp-content/uploads/2021/03/SCA-Protocols-_-Best-Practices.pdf](https://www.scith.coffee/wp-content/uploads/2021/03/SCA-Protocols-_-Best-Practices.pdf)).
+ 1. **Chaleira:** manter uma distância intermediária, sem ficar muito perto nem muito longe.
+	
+ 2. **WDT + Kubomi:** importante fazer os dois. Não é necessário fazer especificamente a depressão do Kubomi. O importante é o [formato final](https://www.youtube.com/watch?v=dS9NwmLtDsA), pois ajuda na pré-infusão com a liberação do dióxido de carbono.
+	
+ 3. **Ataques:** iniciar no centro do método até as bordas, de dentro para fora, de forma circular. Manter fluxo **mediano** em toda a extração. Os ataques ocorrem direto após coagem da água do despejo anterior. Caso ache a pré-infusão desejada mas ainda amarga um pouco a 88 graus, tente sempre deixar o despejo assim que ver menos de 1 cm de água sob o leito. Isso vai manter uma pressão hidrostática e serve como camada de “amortecedor” sob o leito, reduzindo o impacto da turbulência.
+	
+ 4. **Tempo:** os intervalos de tempo não são valores exatos, mas servem como indicadores para verificar a permeabilidade do leito de café. Quando o delta entre esses intervalos não é respeitado, isso sinaliza que o tempo de pré-infusão foi insuficiente para liberar adequadamente o dióxido de carbono, o que pode comprometer a extração máxima dos compostos do grão na xícara. Para corrigir essa situação, basta aumentar o tempo de pré-infusão.
+	
+ 5. **Filtração e clareza:** fazer com que cada grão participe da extração e que a filtração seja eficiente. Evitar que os microfines se concentrem no fundo, pois isso reduz a clareza das notas. Para isso, é importante que os grãos não fiquem na superfície da água.
+	
+ 6. **Quackers:** ao pesar 15g, faça uma triagem rápida e remova [*quackers*](https://www.youtube.com/watch?v=y8kb80dvxKs) (grãos subdesenvolvidos, muitas vezes mais claros ou esverdeados). Eles costumam ter baixa solubilidade e podem adicionar adstringência, amargo e notas de vegetal, além de “sujar” a clareza em métodos que buscam frutado. Como a dose é pequena, 1 ou 2 grãos já impactam perceptivelmente o resultado. 
+	
+ 7. **Melodrip:** Ele altera o padrão de fluxo da extração e, em geral, reduz o TDS em comparação com a chaleira (por diminuir a turbulência e a erosão do leito). Também ajuda a redistribuir os microfines e tende a levantar o *chaff*. Por isso, gosto de usar nos três ataques: como ele naturalmente extrai menos, eu acelero o máximo possível  (mantendo a mesma trajetória do centro para as bordas e fluxo forte) para aumentar a agitação do topo da cama e, ao mesmo tempo, aumentar a força de centrifugação. Em muitos casos, isso encurta a percolação e realça a acidez. A diferença é que, com o [Melodrip](https://youtu.be/zVbWBsWcNz0?si=rgd1tpFg80X0cCBD), [a água atua mais na camada superior do método, sem “empurrar” os grãos para baixo.](https://www.youtube.com/watch?v=JiLN2phMey4)
+	
+ 8. **Descanso:** Assim que a extração finalizar, já insira a esfera e comece a aerar. É crucial fazer isso o quanto antes para preservar o máximo dos compostos aromáticos na xícara. A temperatura vai cair entre 70°C a 65°C graus, o que ajuda para as primeiras percepções sensoriais, seguindo o [Specialty Coffee Association - Protocols and Best Practices](http://scith.coffee/wp-content/uploads/2021/03/SCA-Protocols-_-Best-Practices.pdf](https://www.scith.coffee/wp-content/uploads/2021/03/SCA-Protocols-_-Best-Practices.pdf)).
 
 ## [Tabela de Tempos](https://youtu.be/2mrLiE4ilXw?si=kgibIVmc5mHBm7GN)
 
@@ -86,13 +100,17 @@ O Total de Sólidos Dissolvidos (TDS) é o indicador da força e do equilíbrio 
 O tempo de extração deve variar conforme o grão, o tempo de torra e o tipo de processo de secagem.
 
 - **Anaeróbico:** Pré-infusões curtas. Cafés fermentados são extremamente solúveis. Se deixar a água em contato por muito tempo na pré-infusão, corre o risco de extrair notas alcoólicas ou acéticas (vinagre) indesejadas. 
+	
 - **Natural & Honey:** Padrão ouro, iniciar com ~0:30’ e avaliar resultados.
+	
 - **Lavado:** Pré-infusões mais longas. Cafés lavados tendem a ser mais densos e menos porosos; uma pré-infusão prolongada garante a hidratação total das partículas e a liberação adequada do dióxido de carbono.
 
 ### Pré-Infusão
 
 - **Quantidade:** 40g a 60g
+	
 - **Temperatura:** 88°C a 92°C
+	
 - **Técnica:** Fluxo forte circular do centro para as bordas em todas as extrações
 
 ### Primeiro Ataque
