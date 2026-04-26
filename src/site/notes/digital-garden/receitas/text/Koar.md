@@ -13,7 +13,7 @@
 | Proporção        | 1:18               |
 | Grama - Grão     | 17                 |
 | Miligrama - Água | 300                |
-| Celsius          | 88 - 92            |
+| Celsius          | 84, 88, 92         |
 | Borrifadas (WDT) | 3                  |
 | Quantidade (WDT) | 0,30g              |
 # Receita

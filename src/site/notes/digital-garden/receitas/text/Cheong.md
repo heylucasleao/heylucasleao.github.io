@@ -17,7 +17,7 @@ De 1 a 4 vezes por dia se puder abrir para homogenizar a distribuição dos grã
 Remover as partes brancas e as sementes para não deixar tão forte.
 Sugiro também cortar em partes menores, assim pode utillizar os pedaços para enfeitar sem a necessidade de peneirar. 
 
-### Limão Siciliano
+# Limão Siciliano
 
 | Ingredientes | Medidas |
 | --- | --- |
@@ -25,7 +25,7 @@ Sugiro também cortar em partes menores, assim pode utillizar os pedaços para e
 | Açúcar Demerara | 350g |
 | L. Siciliano | 350g |
 
-### Limão Siciliano & Morango
+# Limão Siciliano & Morango
 
 | Ingredientes | Medidas |
 | --- | --- |
@@ -34,7 +34,7 @@ Sugiro também cortar em partes menores, assim pode utillizar os pedaços para e
 | L. Siciliano | 300g |
 | Morango | 150g |
 
-### Limão Cravo
+# Limão Cravo
 
 | Ingredientes | Medidas |
 | --- | --- |
@@ -42,7 +42,7 @@ Sugiro também cortar em partes menores, assim pode utillizar os pedaços para e
 | Açúcar Demerara | 350g |
 | L. Cravo | 350g |
 
-### Mirtilo
+# Mirtilo
 
 | Ingredientes | Medidas |
 | --- | --- |
@@ -50,7 +50,7 @@ Sugiro também cortar em partes menores, assim pode utillizar os pedaços para e
 | Açúcar Demerara | 350g |
 | Mirtilo | 350g |
 
-### Uva Vitória (Roxa)
+# Uva Vitória (Roxa)
 
 | Ingredientes | Medidas |
 | --- | --- |
@@ -58,7 +58,7 @@ Sugiro também cortar em partes menores, assim pode utillizar os pedaços para e
 | Açúcar Demerara | 300g |
 | U. Vitória | 300g |
 
-### Maracujá & Gengibre
+# Maracujá & Gengibre
 
 | Ingredientes | Medidas |
 | --- | --- |
@@ -67,7 +67,7 @@ Sugiro também cortar em partes menores, assim pode utillizar os pedaços para e
 | Maracujá | 300g |
 | Gengibre | 150g |
 
-### Banana Prata & Limão Siciliano
+# Banana Prata & Limão Siciliano
 
 | Ingredientes | Medidas |
 | --- | --- |
@@ -76,7 +76,7 @@ Sugiro também cortar em partes menores, assim pode utillizar os pedaços para e
 | B. Prata | 300g |
 | L. Siciliano | 300g |
 
-### Uva Vermelha (Crimson)
+# Uva Vermelha (Crimson)
 
 | Ingredientes | Medidas |
 | --- | --- |
@@ -85,7 +85,7 @@ Sugiro também cortar em partes menores, assim pode utillizar os pedaços para e
 | U. Vermelha | 250g |
 | Limão Taiti (Suco) | 1 |
 
-### Uva Verde (Thompson)
+# Uva Verde (Thompson)
 
 | Ingredientes | Medidas |
 | --- | --- |
@@ -94,7 +94,7 @@ Sugiro também cortar em partes menores, assim pode utillizar os pedaços para e
 | U. Verde | 500g |
 | Limão Siciliano (Suco) | 1 |
 
-### Laranja Baihana Vermelha
+# Laranja Baihana Vermelha
 
 | Ingredientes | Medidas |
 | --- | --- |

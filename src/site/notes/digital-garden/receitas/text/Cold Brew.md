@@ -2,7 +2,7 @@
 {"dg-publish":true,"permalink":"/digital-garden/receitas/text/cold-brew/"}
 ---
 
-### Preparo Infusão
+# Preparo Infusão
 
 |**Parâmetro**|**Valor**|
 |---|---|
@@ -14,7 +14,7 @@
 |Grama - Grão|75|
 |Miligrama - Água|600|
 |Horas em Infusão|18|
-### Preparo Drink
+# Preparo Drink
 
 | Ingredientes | ml |
 | --- | --- |

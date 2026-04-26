@@ -13,7 +13,7 @@
 | Proporção        | 1:17              |
 | Grama - Grão     | 15                |
 | Miligrama - Água | 250               |
-| Celsius          | 88 - 92           |
+| Celsius          | 84, 88, 92        |
 | Borrifadas (WDT) | 3                 |
 | Quantidade (WDT) | 0,30g             |
 
@@ -44,7 +44,7 @@ Vale lembrar que a extração dos compostos aromáticos ocorre por meio da energ
 
 A temperatura atua como a força motriz da extração. Em temperaturas mais elevadas, a energia cinética das moléculas de água é maior, aumentando sua mobilidade (Mestdagh et al., 2017). Esse estado amplifica as forças físicas capazes de "lavar" e lixiviar os compostos do leito de café, além de favorecer a solubilidade de diversas substâncias.
 
-> **Nota Prática:** Embora o calor facilite a extração, temperaturas excessivamente altas podem causar a liberação indesejada de compostos orgânicos voláteis (VOCs), alterando a percepção aromática. Para o perfil que busco, utilizo **turbulência com despejos fortes** e temperatura controlada entre **88°C e 92°C**.
+> **Nota Prática:** Embora o calor facilite a extração, temperaturas excessivamente altas podem causar a liberação indesejada de compostos orgânicos voláteis (VOCs), alterando a percepção aromática. Para o perfil que busco, utilizo **turbulência com despejos fortes** e temperatura controlada entre **84°C e 92°C**.
 
 O Total de Sólidos Dissolvidos (TDS) é o indicador da força e do equilíbrio da bebida, utilizando via refratômetro. Não é um tópico abordado para o dia a dia devido ao custo do refratrometro, mas é importante pontuar: o  intervalo entre 1,15% e 1,35% é considerado o ideal para o paladar padrão (Cotter et al., 2020). Estudos recentes (Guinard et al., 2023) apontam, inclusive, que a percepção de "notas doces" no aroma diminui proporcionalmente à queda do TDS, independentemente do nível de torra utilizado.
 
