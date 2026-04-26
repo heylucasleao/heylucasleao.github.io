@@ -2,7 +2,6 @@
 {"dg-publish":true,"permalink":"/digital-garden/receitas/text/cold-brew/"}
 ---
 
-
 ### Preparo Infusão
 
 | Método | Moedor | Moagem | Giro | Proporção | Grama - Grão | Miligrama - Água | Horas em Infusão |

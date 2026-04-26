@@ -3,7 +3,7 @@
 ---
 
 
-Nada mais é que um xarope fermentado à base do que for feito. Dependendo da fruta, pode ser necessário mudar sua proporção. Em tese, a maioria é 1:1.
+Nada mais que um xarope fermentado. Dependendo da fruta, pode ser necessário mudar sua proporção. Em tese, a maioria é 1:1.
 
 De 1 a 4 vezes por dia se puder abrir para homogenizar a distribuição dos grãos de açúcar, isso diminue o gosto fermentado. Pode utilizar um pilão, assim espreme um pouco mais do suco.
 
