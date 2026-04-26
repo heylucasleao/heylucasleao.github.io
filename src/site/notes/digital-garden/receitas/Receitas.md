@@ -11,3 +11,4 @@ Não apenas cientista de dados, mas também sou amante de cafés especiais desde
 - [[digital-garden/receitas/text/Cold Brew\|Cold Brew]]
 - [[digital-garden/receitas/text/Cheong\|Cheong]]
 - [[digital-garden/receitas/text/Tarê do Leão\|Tarê do Leão]]
+- [[digital-garden/receitas/text/Caramelo de Café\|Caramelo de Café]]
