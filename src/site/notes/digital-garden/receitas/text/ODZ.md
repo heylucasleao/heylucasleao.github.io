@@ -39,8 +39,7 @@ Em métodos filtrados, o pó libera material solúvel de forma acelerada nos pri
 - **Baixo EY (Subextração):** Resulta em um perfil doce-ácido, dominado por compostos de alta solubilidade (Mestdagh et al., 2017).
 - **Tempo excessivo:** Pode levar à extração de compostos sensíveis à oxidação e degradação, prejudicando o perfil sensorial da xícara (Petracco, 2001).
 
-Vale lembrar que a extração dos compostos aromáticos vem por meio da energia entre a temperatura da água e a mecânica dela, que seriam os despejos. É importante levar isso em consideração isso pois o tempo de extração do material solúvel pode não ser exatamente 2 minutos por conta da variabilidade disso e o quanto está sendo liberado dióxido de carbono - precisamos ter um contraponto disso durante a pré-infusão e o quanto vamos prolongar. Vai variar de grão a grão, processo e tempo de torra - mas é importante termos noção desse intervalo. Por conta disso, nossa extração após a pré-infusão não varia tanto deste intervalo.
-
+Vale lembrar que a extração dos compostos aromáticos ocorre por meio da energia cinética gerada pela temperatura da água e sua movimentação mecânica durante os despejos. É importante levar isso em consideração isso pois o tempo de extração do material solúvel pode não ser exatamente 2 minutos devido à variabilidade desses fatores e à quantidade de dióxido de carbono sendo liberada. Precisamos equilibrar essa dinâmica durante a pré-infusão e ajustar sua duração conforme necessário. Isso varia de grão pra grão, dependendo do processo e tempo de torra, mas é fundamental termos noção desse intervalo de tempo. Por essa razão, nossa extração após a pré-infusão tende a se aproximar desse intervalo.
 ## Temperatura e Dinâmica Molecular
 
 A temperatura atua como a força motriz da extração. Em temperaturas mais elevadas, a energia cinética das moléculas de água é maior, aumentando sua mobilidade (Mestdagh et al., 2017). Esse estado amplifica as forças físicas capazes de "lavar" e lixiviar os compostos do leito de café, além de favorecer a solubilidade de diversas substâncias.
@@ -56,7 +55,7 @@ O Total de Sólidos Dissolvidos (TDS) é o indicador da força e do equilíbrio 
 
 - [Coffee extraction: A review of parameters and their influence on the physicochemical characteristics and flavour of coffee brews](https://www.sciencedirect.com/science/article/abs/pii/S0924224419305692)
 	
-- [Specialty Coffee Association - Protocols and Best Practices](http://scith.coffee/wp-content/uploads/2021/03/SCA-Protocols-_-Best-Practices.pdf](https://www.scith.coffee/wp-content/uploads/2021/03/SCA-Protocols-_-Best-Practices.pdf))
+- [Specialty Coffee Association - Protocols and Best Practices](https://www.scith.coffee/wp-content/uploads/2021/03/SCA-Protocols-_-Best-Practices.pdf)
 	
 - [Coffee Volatile and Aroma Compounds – From the Green Bean to the Cup: Production, Quality and Chemistry ](https://www.researchgate.net/publication/330334396_CHAPTER_33_Coffee_Volatile_and_Aroma_Compounds_-_From_the_Green_Bean_to_the_Cup_Production_Quality_and_Chemistry)
 	
@@ -92,7 +91,7 @@ O Total de Sólidos Dissolvidos (TDS) é o indicador da força e do equilíbrio 
 	
  7. **Melodrip:** Ele altera o padrão de fluxo da extração e, em geral, reduz o TDS em comparação com a chaleira (por diminuir a turbulência e a erosão do leito). Também ajuda a redistribuir os microfines e tende a levantar o *chaff*. Por isso, gosto de usar nos três ataques: como ele naturalmente extrai menos, eu acelero o máximo possível  (mantendo a mesma trajetória do centro para as bordas e fluxo forte) para aumentar a agitação do topo da cama e, ao mesmo tempo, aumentar a força de centrifugação. Em muitos casos, isso encurta a percolação e realça a acidez. A diferença é que, com o [Melodrip](https://youtu.be/zVbWBsWcNz0?si=rgd1tpFg80X0cCBD), [a água atua mais na camada superior do método, sem “empurrar” os grãos para baixo.](https://www.youtube.com/watch?v=JiLN2phMey4)
 	
- 8. **Descanso:** Assim que a extração finalizar, já insira a esfera e comece a aerar. É crucial fazer isso o quanto antes para preservar o máximo dos compostos aromáticos na xícara. A temperatura vai cair entre 70°C a 65°C graus, o que ajuda para as primeiras percepções sensoriais, seguindo o [Specialty Coffee Association - Protocols and Best Practices](http://scith.coffee/wp-content/uploads/2021/03/SCA-Protocols-_-Best-Practices.pdf](https://www.scith.coffee/wp-content/uploads/2021/03/SCA-Protocols-_-Best-Practices.pdf)).
+ 8. **Descanso:** Assim que a extração finalizar, já insira a esfera e comece a aerar. É crucial fazer isso o quanto antes para preservar o máximo dos compostos aromáticos na xícara. A temperatura vai cair entre 70°C a 65°C, o que ajuda para as primeiras percepções sensoriais, seguindo o [Specialty Coffee Association - Protocols and Best Practices](http://scith.coffee/wp-content/uploads/2021/03/SCA-Protocols-_-Best-Practices.pdf](https://www.scith.coffee/wp-content/uploads/2021/03/SCA-Protocols-_-Best-Practices.pdf)).
 
 ## [Tabela de Tempos](https://youtu.be/2mrLiE4ilXw?si=kgibIVmc5mHBm7GN)
 
