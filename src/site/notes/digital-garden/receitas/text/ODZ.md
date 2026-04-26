@@ -16,6 +16,7 @@
 | Celsius          | 88 - 92           |
 | Borrifadas (WDT) | 3                 |
 | Quantidade (WDT) | 0,30g             |
+
 Esta é uma receita que venho trabalhando desde 2021. As decisões deste método foram baseadas em testes práticos pessoais, evidências sensoriais e trocas de experiências entre pessoas mais experientes. Em 2026, resolvi coletar embasamento cientifico e observei pesquisas que corroboram essas escolhas.
 
 Antes de seguir qualquer receita, sugiro fortemente a leitura dos artigos recomendados abaixo. Eles formam a base teórica necessária, principalmente o primeiro artigo; os livros citados são complementares e podem ser explorados conforme o interesse.
@@ -51,25 +52,25 @@ O Total de Sólidos Dissolvidos (TDS) é o indicador da força e do equilíbrio 
 
 ## Artigos
 
-[Coffee extraction: A review of parameters and their influence on the physicochemical characteristics and flavour of coffee brews](https://www.sciencedirect.com/science/article/abs/pii/S0924224419305692)
-
-[Specialty Coffee Association - Protocols and Best Practices](http://scith.coffee/wp-content/uploads/2021/03/SCA-Protocols-_-Best-Practices.pdf](https://www.scith.coffee/wp-content/uploads/2021/03/SCA-Protocols-_-Best-Practices.pdf))
-
-[Coffee Volatile and Aroma Compounds – From the Green Bean to the Cup: Production, Quality and Chemistry ](https://www.researchgate.net/publication/330334396_CHAPTER_33_Coffee_Volatile_and_Aroma_Compounds_-_From_the_Green_Bean_to_the_Cup_Production_Quality_and_Chemistry)
-
-[The Science Of Ground Coffee - Understanding The Mechanics](https://baristacourseadelaide.com.au/research-papers/science-of-ground-coffee/)
-
-[Complexity of coffee flavor: A compositional and sensory perspective](https://www.sciencedirect.com/science/article/abs/pii/S0963996914001409)
-
-[The variables of extracting flavour from ground coffee and their impact on different brewing methods](https://baristacourseadelaide.com.au/research-papers/coffee-extraction/)
+- [Coffee extraction: A review of parameters and their influence on the physicochemical characteristics and flavour of coffee brews](https://www.sciencedirect.com/science/article/abs/pii/S0924224419305692)
+	
+- [Specialty Coffee Association - Protocols and Best Practices](http://scith.coffee/wp-content/uploads/2021/03/SCA-Protocols-_-Best-Practices.pdf](https://www.scith.coffee/wp-content/uploads/2021/03/SCA-Protocols-_-Best-Practices.pdf))
+	
+- [Coffee Volatile and Aroma Compounds – From the Green Bean to the Cup: Production, Quality and Chemistry ](https://www.researchgate.net/publication/330334396_CHAPTER_33_Coffee_Volatile_and_Aroma_Compounds_-_From_the_Green_Bean_to_the_Cup_Production_Quality_and_Chemistry)
+	
+- [The Science Of Ground Coffee - Understanding The Mechanics](https://baristacourseadelaide.com.au/research-papers/science-of-ground-coffee/)
+	
+- [Complexity of coffee flavor: A compositional and sensory perspective](https://www.sciencedirect.com/science/article/abs/pii/S0963996914001409)
+	
+- [The variables of extracting flavour from ground coffee and their impact on different brewing methods](https://baristacourseadelaide.com.au/research-papers/coffee-extraction/)
 
 ## Livros
 
-[Coffee Sensory & Cupping Handbook — Specialty Coffee Association](https://sca.coffee/store/p/coffee-sensory-cupping-handbook)
-
-[How to Taste Coffee: Develop Your Sensory Skills and Get the Most Out of Every Cup](https://www.amazon.com/How-Taste-Coffee-Develop-Sensory/dp/1572843292)
-
-[The Physics of Filter Coffee](https://www.amazon.com/Physics-Filter-Coffee-Jonathan-Gagne/dp/0578246082)
+- [Coffee Sensory & Cupping Handbook — Specialty Coffee Association](https://sca.coffee/store/p/coffee-sensory-cupping-handbook)
+	
+- [How to Taste Coffee: Develop Your Sensory Skills and Get the Most Out of Every Cup](https://www.amazon.com/How-Taste-Coffee-Develop-Sensory/dp/1572843292)
+	
+- [The Physics of Filter Coffee](https://www.amazon.com/Physics-Filter-Coffee-Jonathan-Gagne/dp/0578246082)
 
 ## Observações
 
