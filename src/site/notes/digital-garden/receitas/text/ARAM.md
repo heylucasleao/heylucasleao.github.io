@@ -34,6 +34,4 @@
 - Após pré-infusão do ARAM, girar rapidamente até chegar em 2 bar.
 - A cada mês, fazer manutenção preventiva do ARAM.
 
-### Montagem & Desmontagem do ARAM
-
-![](https://youtu.be/f96biIs4vMA?si=Ow1i9eco-g9Lz8Wg)
+![Montagem & Desmontagem do ARAM](https://youtu.be/f96biIs4vMA?si=Ow1i9eco-g9Lz8Wg)

@@ -97,10 +97,10 @@ O Total de Sólidos Dissolvidos (TDS) é o indicador da força e do equilíbrio 
 ## [Tabela de Tempos](https://youtu.be/2mrLiE4ilXw?si=kgibIVmc5mHBm7GN)
 
 | Pré-Infusão | Primeiro Ataque | Segundo Ataque | Terceiro Ataque | Descanso |
-| --- | --- | --- | --- | --- |
-| ~0:30’ | 0:30’ | 0:50’ | 1:20’ | 2:10’ |
-| ~1:00’ | 1:00’ | 1:20' | 1:50’ | 2:50’ |
-| ~2:00’ | 2:00’ | 2:20’ | 2:50’ | 3:30’ |
+| ----------- | --------------- | -------------- | --------------- | -------- |
+| ~0:30’      | 0:30’           | 0:50’          | 1:20’           | 2:10’    |
+| ~1:00’      | 1:00’           | 1:20'          | 1:50’           | 2:50’    |
+| ~2:00’      | 2:00’           | 2:20’          | 2:50’           | 3:30’    |
 
 O tempo de extração deve variar conforme o grão, o tempo de torra e o tipo de processo de secagem.
 
