@@ -2,12 +2,20 @@
 {"dg-publish":true,"permalink":"/digital-garden/receitas/text/aram/"}
 ---
 
+# Receita
 
-| Método | Moedor  | Moagem | Giro          | Grama - Grão | Miligrama - Água | Celsius | Tempo de Extração (Segundos) |
-| ------ | ------- | ------ | ------------- | ------------ | ---------------- | ------- | ---------------------------- |
-| ARAM   | Bravito | Fino   | 1,04v ~ 1,07v | 22           | 60               | 100     | 30 ~ 35                      |
+|**Parâmetro**|**Valor**|
+|---|---|
+|Método|ARAM|
+|Moedor|Bravito|
+|Moagem|Fino|
+|Giro|1,04v ~ 1,07v|
+|Grama - Grão|22|
+|Miligrama - Água|60|
+|Celsius|100|
+|Tempo de Extração (Segundos)|30 ~ 35|
 
-Observações 
+## Observações 
 
 - Escaldar 3 vezes o ARAM, sendo o primeiro junto com naked e puck screen. Todos a 100 graus.
 - Utilizar WDT do fundo ao topo da cesta.

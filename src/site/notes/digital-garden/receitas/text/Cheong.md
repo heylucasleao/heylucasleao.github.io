@@ -2,6 +2,7 @@
 {"dg-publish":true,"permalink":"/digital-garden/receitas/text/cheong/"}
 ---
 
+# Receita 
 
 Nada mais que um xarope fermentado. Dependendo da fruta, pode ser necessário mudar sua proporção. Em tese, a maioria é 1:1.
 

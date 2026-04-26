@@ -2,10 +2,21 @@
 {"dg-publish":true,"permalink":"/digital-garden/receitas/text/april/"}
 ---
 
+# Receita
 
-| Método | Moedor | Moagem | Giro | Proporção | Grama - Grão | Miligrama - Água | Celsius | Fluxo de Água | Borrifadas (WDT) | Quantidade (WDT) |
-| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| April | Bravito | Médio Grosso | 2,02v | 1:17 | 16 | 240 | 88 ~ 92 | Fraco | 2 | 0,20 |
+|**Parâmetro**|**Valor**|
+|---|---|
+|Método|April|
+|Moedor|Bravito|
+|Moagem|Médio Grosso|
+|Giro|2,02v|
+|Proporção|1:17|
+|Grama - Grão|16|
+|Miligrama - Água|240|
+|Celsius|88 ~ 92|
+|Fluxo de Água|Fraco|
+|Borrifadas (WDT)|2|
+|Quantidade (WDT)|0,20|
 
 ### 0:00 - 0:20 ← 80g
 
