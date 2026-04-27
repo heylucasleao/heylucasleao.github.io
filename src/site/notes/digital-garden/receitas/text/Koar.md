@@ -64,8 +64,6 @@ O tempo de extração deve variar conforme o grão, o tempo de torra e o tipo de
 
 - **Quantidade:** 40g a 60g
 	
-- **Temperatura:** 88°C a 92°C
-	
 - **Técnica:** Fluxo delicado no centro para as bordas. Mexer com bastão de vidro.
 
 ### Primeiro Ataque
