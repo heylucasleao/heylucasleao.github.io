@@ -89,7 +89,7 @@ O Total de Sólidos Dissolvidos (TDS) é o indicador da força e do equilíbrio 
 	
 	![defeitos-1.jpg|279](/img/user/digital-garden/receitas/assets/defeitos-1.jpg)
 	
- 7. **Melodrip:** Ele altera o padrão de fluxo da extração e, em geral, reduz o TDS em comparação com a chaleira (por diminuir a turbulência e a erosão do leito). Também ajuda a redistribuir os microfines e tende a levantar o *chaff*. Por isso, gosto de usar nos três ataques: como ele naturalmente extrai menos, eu acelero o máximo possível  (mantendo a mesma trajetória do centro para as bordas e fluxo forte) para aumentar a agitação do topo da cama e, ao mesmo tempo, aumentar a força de centrifugação. Em muitos casos, isso encurta a percolação e realça a acidez. A diferença é que, com o [Melodrip](https://youtu.be/zVbWBsWcNz0?si=rgd1tpFg80X0cCBD), [a água atua mais na camada superior do método, sem “empurrar” os grãos para baixo.](https://www.youtube.com/watch?v=JiLN2phMey4)
+7. **Melodrip:** Ele altera o padrão de fluxo da extração e, em geral, reduz o TDS em comparação com a chaleira (por diminuir a turbulência e a erosão do leito). Também ajuda a redistribuir os microfines e tende a levantar o *chaff*. Por isso, gosto de usar no último ataque: os primeiros ataques focam em saturar as particulas usando a chaleira diretamente, enquanto o último uso o melodrip mantendo-o no centro o mais perto possível, faço um despejo médio circular nele até completar 250g, para fazer uma extração distribuída entre o leito já saturado. Isso encurta a percolação, realça a acidez e a clareza de notas. A diferença é que, com o [Melodrip](https://youtu.be/zVbWBsWcNz0?si=rgd1tpFg80X0cCBD), [a água atua mais na camada superior do método, sem “empurrar” os grãos para baixo.](https://www.youtube.com/watch?v=JiLN2phMey4)
 	
  8. **Descanso:** Assim que a extração finalizar, já insira a esfera e comece a aerar. É crucial fazer isso o quanto antes para preservar o máximo dos compostos aromáticos na xícara. A temperatura vai cair entre 70°C a 65°C, o que ajuda para as primeiras percepções sensoriais, seguindo o [Specialty Coffee Association - Protocols and Best Practices](https://www.scith.coffee/wp-content/uploads/2021/03/SCA-Protocols-_-Best-Practices.pdf).
 
@@ -115,7 +115,7 @@ O tempo de extração deve variar conforme o grão, o tempo de torra e o tipo de
 	
 - **Temperatura:** 88°C a 92°C
 	
-- **Técnica:** Fluxo forte circular do centro para as bordas em todas as extrações
+- **Técnica:** Fluxo médio circular do centro para as bordas em todas as extrações
 
 ### Primeiro Ataque
 
@@ -128,6 +128,8 @@ O tempo de extração deve variar conforme o grão, o tempo de torra e o tipo de
 ### Terceiro Ataque
 
 - **Quantidade:** +100g
+	
+- **Técnica:** Fluxo médio circular no centro com Melodrip
 
 ### Finalização
 
