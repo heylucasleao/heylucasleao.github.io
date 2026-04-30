@@ -35,22 +35,24 @@ Focado em corpo, doçura, textura.
 3. **Filtro:** A ideia originalmente funciona pois a porosidade do filtro do Koar é menor comparado aos filtros da CAFEC. A ideia aqui é utilizar isso em favor a extrair os insolúveis na medida certa entre a clareza, moendo mais fino que o normal e segurando os fines e microfines sem que eles entupam ou apareçam na xícara.
 	
 4. **Ataques:** iniciar no centro do método até as bordas, de dentro para fora, de forma circular. Manter fluxo **lento** em toda a extração. Os ataques ocorrem direto acima de uma camada de água, mais ou menos de 1 cm de água sob o leito. Isso vai manter uma pressão hidrostática e serve como camada de “amortecedor” sob o leito, reduzindo o impacto da turbulência. 
-	
- 5. **Tempo:** o intervalo dos tempos não são exatos, eles servem mais para verificar como está a permeabilidade do leito do café. Se o delta entre eles não forem respeitados, é um indicativo que o tempo de pré-infusão não foi suficiente para liberar suficiente dióxido de carbono - o que pode não produzir o máximo do grão na xícara. Para isso, basta corrigir o tempo e pré-infusão para um tempo maior.
+
+5. **Segunda Pré-infusão:** Esta é uma receita usando a técnica de Double Bloom. Nela, consiste em termos duas etapas de pré-infusão. Já que estamos com uma extração de fluxo de água lento por conta de um filtro mais espesso e uma moagem média-fina, precisamos o máximo possível de hidratação e liberação de dióxido de carbono. Por conta disso, utilizo o bastão de vidro para mexer os grãos após a primeira pré-infusão, e faço uma segunda em seguida. 
+
+ 6. **Tempo:** o intervalo dos tempos não são exatos, eles servem mais para verificar como está a permeabilidade do leito do café. Se o delta entre eles não forem respeitados, é um indicativo que o tempo de pré-infusão não foi suficiente para liberar suficiente dióxido de carbono - o que pode não produzir o máximo do grão na xícara. Para isso, basta corrigir o tempo e pré-infusão para um tempo maior.
 	 
-6. **Filtração e clareza:** fazer com que cada grão participe da extração e que a filtração seja eficiente. Evitar que os microfines se concentrem no fundo, pois isso reduz a clareza das notas. Para isso, é importante que os grãos não fiquem na superfície da água.
+7. **Filtração e clareza:** fazer com que cada grão participe da extração e que a filtração seja eficiente. Evitar que os microfines se concentrem no fundo, pois isso reduz a clareza das notas. Para isso, é importante que os grãos não fiquem na superfície da água.
 	
-7. **Quackers:** ao pesar 17g, faça uma triagem rápida e remova [*quackers*](https://www.youtube.com/watch?v=y8kb80dvxKs) (grãos subdesenvolvidos, muitas vezes mais claros ou esverdeados). Eles costumam ter **baixa solubilidade** e podem adicionar **adstringência**, **amargor** e notas de **amendoim/papel/vegetal**, além de “sujar” a clareza em métodos que buscam frutado. Como a dose é pequena, 1 ou 2 grãos já impactam perceptivelmente o resultado. 
+8. **Quackers:** ao pesar 17g, faça uma triagem rápida e remova [*quackers*](https://www.youtube.com/watch?v=y8kb80dvxKs) (grãos subdesenvolvidos, muitas vezes mais claros ou esverdeados). Eles costumam ter **baixa solubilidade** e podem adicionar **adstringência**, **amargor** e notas de **amendoim/papel/vegetal**, além de “sujar” a clareza em métodos que buscam frutado. Como a dose é pequena, 1 ou 2 grãos já impactam perceptivelmente o resultado. 
 	
-8. **Melodrip:** Ele altera o padrão de fluxo da extração e, em geral, reduz o TDS em comparação com a chaleira (por diminuir a turbulência e a erosão do leito). Também ajuda a redistribuir os microfines e tende a levantar o *chaff*. Por isso, gosto de usar nos três ataques: como ele naturalmente extrai menos, neste caso faço o mais lento possível  (mantendo a mesma trajetória do centro para as bordas e fluxo forte) para aumentar o tempo de contato do café com a água, já que a moagem é média-fina, dando uma permeabilidade baixa, facilitando a extração dos insolúveis. 
+9. **Melodrip:** Ele altera o padrão de fluxo da extração e, em geral, reduz o TDS em comparação com a chaleira (por diminuir a turbulência e a erosão do leito). Também ajuda a redistribuir os microfines e tende a levantar o *chaff*. Por isso, gosto de usar nos três ataques: como ele naturalmente extrai menos, neste caso faço o mais lento possível  (mantendo a mesma trajetória do centro para as bordas e fluxo forte) para aumentar o tempo de contato do café com a água, já que a moagem é média-fina, dando uma permeabilidade baixa, facilitando a extração dos insolúveis. 
 
 ## [Tabela de Tempos](https://youtu.be/2mrLiE4ilXw?si=kgibIVmc5mHBm7GN)
 
-| Pré-Infusão | Primeiro Ataque | Segundo Ataque | Terceiro Ataque | Descanso |
-| --- | --- | --- | --- | --- |
-| ~0:30’ | 0:30’ | 0:50’ | 3:00’ | 4:00’ |
-| ~1:00’ | 1:00’ | 1:20’ | 3:30’ | 4:00’ |
-| ~2:00’ | 2:00’ | 2:20’ | 4:30’ | 5:00’ |
+| Pré-Infusão | Segunda Pré-Infusão | Primeiro Ataque | Segundo Ataque | Descanso |
+| ----------- | ------------------- | --------------- | -------------- | -------- |
+| ~0:30’      | 0:30’               | 0:50’           | 3:00’          | 4:00’    |
+| ~1:00’      | 1:00’               | 1:20’           | 3:30’          | 4:00’    |
+| ~2:00’      | 2:00’               | 2:20’           | 4:30’          | 5:00’    |
 
 O tempo de extração deve variar conforme o grão, o tempo de torra e o tipo de processo de secagem.
 
@@ -66,16 +68,17 @@ O tempo de extração deve variar conforme o grão, o tempo de torra e o tipo de
 	
 - **Técnica:** Fluxo delicado no centro para as bordas. Mexer com bastão de vidro.
 
-### Primeiro Ataque
+### Segunda Pré-infusão
 
 - **Quantidade:** Completar 100g
+- **Técnica:** Fluxo médio usando Melodrip do centro até as bordas
+
+### Primeiro Ataque
+
+- **Quantidade:** +150g
 - **Técnica:** Fluxo delicado no centro usando Melodrip em todos os ataques
 
 ### Segundo Ataque
-
-- **Quantidade:** +150g
-
-### Terceiro Ataque
 
 - **Quantidade:** +50g
 
