@@ -65,6 +65,8 @@ O Total de Sólidos Dissolvidos (TDS) é o indicador da força e do equilíbrio 
 	
 - [The variables of extracting flavour from ground coffee and their impact on different brewing methods](https://baristacourseadelaide.com.au/research-papers/coffee-extraction/)
 
+- [Cup colour influences consumers’ expectations and experience on tasting specialty coffee](https://www.sciencedirect.com/science/article/abs/pii/S0950329318310012)
+- [The shape of the cup influences aroma, taste, and hedonic judgements of specialty coffee](https://www.sciencedirect.com/science/article/abs/pii/S0950329318300855)
 ## Livros
 
 - [Coffee Sensory & Cupping Handbook — Specialty Coffee Association](https://sca.coffee/store/p/coffee-sensory-cupping-handbook)
