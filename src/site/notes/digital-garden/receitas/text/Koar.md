@@ -9,7 +9,7 @@
 | Método           | Koar<br>(Cerâmica) |
 | Moedor           | Bravito            |
 | Moagem           | Médio-Fino         |
-| Giro             | 1,30v              |
+| Giro             | 1,35v              |
 | Proporção        | 1:18               |
 | Grama - Grão     | 17                 |
 | Miligrama - Água | 300                |
@@ -66,17 +66,16 @@ O tempo de extração deve variar conforme o grão, o tempo de torra e o tipo de
 
 - **Quantidade:** 40g a 60g
 	
-- **Técnica:** Fluxo delicado no centro para as bordas. Mexer com bastão de vidro.
+- **Técnica:** Fluxo médio no centro para as bordas. Mexer com bastão de vidro.
 
 ### Segunda Pré-infusão
 
 - **Quantidade:** Completar 100g
-- **Técnica:** Fluxo médio usando Melodrip do centro até as bordas
+- **Técnica:** Fluxo delicado usando Melodrip do centro até as bordas em todos os ataques
 
 ### Primeiro Ataque
 
 - **Quantidade:** +150g
-- **Técnica:** Fluxo delicado no centro usando Melodrip em todos os ataques
 
 ### Segundo Ataque
 
