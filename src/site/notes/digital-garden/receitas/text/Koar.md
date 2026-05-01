@@ -8,7 +8,7 @@
 | Filtro           | Koar               |
 | Método           | Koar<br>(Cerâmica) |
 | Moedor           | Bravito            |
-| Moagem           | Médio-Fino         |
+| Moagem           | Média              |
 | Giro             | 1,35v              |
 | Proporção        | 1:18               |
 | Grama - Grão     | 17                 |
@@ -32,27 +32,25 @@ Focado em corpo, doçura, textura.
 	
  2.  **WDT + Kubomi:** importante fazer os dois. Não é necessário fazer especificamente a depressão do Kubomi. O importante é o [formato final](https://www.youtube.com/watch?v=dS9NwmLtDsA), pois ajuda na pré-infusão com a liberação do dióxido de carbono.
 	 
-3. **Filtro:** A ideia originalmente funciona pois a porosidade do filtro do Koar é menor comparado aos filtros da CAFEC. A ideia aqui é utilizar isso em favor a extrair os insolúveis na medida certa entre a clareza, moendo mais fino que o normal e segurando os fines e microfines sem que eles entupam ou apareçam na xícara.
+3. **Filtro:** A ideia originalmente funciona pois a porosidade do filtro do Koar é menor comparado aos filtros da CAFEC. A ideia aqui é utilizar isso em favor a extrair os óleos na medida certa entre a clareza, utilizando também um moedor que gera mais fine na sua distribuição. Com isso, ambos auxiliam para que a água fique mais tempo em contato com o café, facilitando a extração de insolúveis na medida certa, sem que traga adstringência ou um peso excessivo na xícara.
 	
 4. **Ataques:** iniciar no centro do método até as bordas, de dentro para fora, de forma circular. Manter fluxo **lento** em toda a extração. Os ataques ocorrem direto acima de uma camada de água, mais ou menos de 1 cm de água sob o leito. Isso vai manter uma pressão hidrostática e serve como camada de “amortecedor” sob o leito, reduzindo o impacto da turbulência. 
-
-5. **Segunda Pré-infusão:** Esta é uma receita usando a técnica de Double Bloom. Nela, consiste em termos duas etapas de pré-infusão. Já que estamos com uma extração de fluxo de água lento por conta de um filtro mais espesso e uma moagem média-fina, precisamos o máximo possível de hidratação e liberação de dióxido de carbono. Por conta disso, utilizo o bastão de vidro para mexer os grãos após a primeira pré-infusão, e faço uma segunda em seguida. 
-
- 6. **Tempo:** o intervalo dos tempos não são exatos, eles servem mais para verificar como está a permeabilidade do leito do café. Se o delta entre eles não forem respeitados, é um indicativo que o tempo de pré-infusão não foi suficiente para liberar suficiente dióxido de carbono - o que pode não produzir o máximo do grão na xícara. Para isso, basta corrigir o tempo e pré-infusão para um tempo maior.
+	
+5. **Segunda Pré-infusão:** Esta é uma receita usando a técnica de Double Bloom. Nela, consiste em termos duas etapas de pré-infusão. Já que estamos com uma extração de fluxo de água lento, precisamos o máximo possível de hidratação e liberação de dióxido de carbono. Por conta disso, utilizo o bastão de vidro para mexer os grãos após a primeira pré-infusão, e faço um segundo ataque em seguida com a água já escoada. 
+	
+ 6. **Tempo:** o intervalo dos tempos não são exatos, eles servem mais para verificar como está a permeabilidade do leito do café. Se o delta entre eles não forem respeitados nesta receita, verifique o resultado na xícara se é necessário ajustar a moagem.
 	 
 7. **Filtração e clareza:** fazer com que cada grão participe da extração e que a filtração seja eficiente. Evitar que os microfines se concentrem no fundo, pois isso reduz a clareza das notas. Para isso, é importante que os grãos não fiquem na superfície da água.
 	
 8. **Quackers:** ao pesar 17g, faça uma triagem rápida e remova [*quackers*](https://www.youtube.com/watch?v=y8kb80dvxKs) (grãos subdesenvolvidos, muitas vezes mais claros ou esverdeados). Eles costumam ter **baixa solubilidade** e podem adicionar **adstringência**, **amargor** e notas de **amendoim/papel/vegetal**, além de “sujar” a clareza em métodos que buscam frutado. Como a dose é pequena, 1 ou 2 grãos já impactam perceptivelmente o resultado. 
 	
-9. **Melodrip:** Ele altera o padrão de fluxo da extração e, em geral, reduz o TDS em comparação com a chaleira (por diminuir a turbulência e a erosão do leito). Também ajuda a redistribuir os microfines e tende a levantar o *chaff*. Por isso, gosto de usar nos três ataques: como ele naturalmente extrai menos, neste caso faço o mais lento possível  (mantendo a mesma trajetória do centro para as bordas e fluxo forte) para aumentar o tempo de contato do café com a água, já que a moagem é média-fina, dando uma permeabilidade baixa, facilitando a extração dos insolúveis. 
+9. **Melodrip:** Ele altera o padrão de fluxo da extração e, em geral, reduz o TDS em comparação com a chaleira (por diminuir a turbulência e a erosão do leito). Também ajuda a redistribuir os microfines e tende a levantar o *chaff*. Por isso, gosto de usar nos três ataques: como ele naturalmente extrai menos, neste caso faço o mais lento possível  (mantendo a mesma trajetória do centro para as bordas e fluxo lento, mas rápido) para aumentar o tempo de contato do café com a água, já que a moagem mais fina em comparação ao ODZ, isso dá uma permeabilidade menor, facilitando a extração dos insolúveis. 
 
 ## [Tabela de Tempos](https://youtu.be/2mrLiE4ilXw?si=kgibIVmc5mHBm7GN)
 
 | Pré-Infusão | Segunda Pré-Infusão | Primeiro Ataque | Segundo Ataque | Descanso |
 | ----------- | ------------------- | --------------- | -------------- | -------- |
-| ~0:30’      | 0:30’               | 0:50’           | 3:00’          | 4:00’    |
-| ~1:00’      | 1:00’               | 1:20’           | 3:30’          | 4:00’    |
-| ~2:00’      | 2:00’               | 2:20’           | 4:30’          | 5:00’    |
+| ~1:00’      | 1:00’               | 2:00’           | 3:30’          | 4:00’    |
 
 O tempo de extração deve variar conforme o grão, o tempo de torra e o tipo de processo de secagem.
 
@@ -61,6 +59,8 @@ O tempo de extração deve variar conforme o grão, o tempo de torra e o tipo de
 - **Natural & Honey:** Padrão ouro, iniciar com ~0:30’ e avaliar resultados.
 	
 - **Lavado:** Pré-infusões mais longas. Cafés lavados tendem a ser mais densos e menos porosos; uma pré-infusão prolongada garante a hidratação total das partículas e a liberação adequada do dióxido de carbono.
+
+Nesta receita, como mexo bastante com o grão - duas pré-infusões, e mexo com o pó com o bastão de vidro - para liberar dióxido de carbono e compostos orgânicos, acabo por não mexer no tempo de pré-infusão conforme o ODZ.
 
 ### Pré-Infusão
 
@@ -71,6 +71,7 @@ O tempo de extração deve variar conforme o grão, o tempo de torra e o tipo de
 ### Segunda Pré-infusão
 
 - **Quantidade:** Completar 100g
+	
 - **Técnica:** Fluxo delicado usando Melodrip do centro até as bordas em todos os ataques
 
 ### Primeiro Ataque
