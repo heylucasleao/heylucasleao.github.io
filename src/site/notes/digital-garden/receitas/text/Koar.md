@@ -50,7 +50,7 @@ Focado em corpo, doçura, textura.
 
 | Pré-Infusão | Segunda Pré-Infusão | Primeiro Ataque | Segundo Ataque | Descanso |
 | ----------- | ------------------- | --------------- | -------------- | -------- |
-| ~1:00’      | 1:00’               | 2:10’           | 3:20’          | 4:30’    |
+| ~1:00’      | 1:00’               | 2:10’           | 3:20’          | 5:30’    |
 
 O tempo de extração deve variar conforme o grão, o tempo de torra e o tipo de processo de secagem.
 
