@@ -8,8 +8,8 @@
 | Filtro           | Koar               |
 | Método           | Koar<br>(Cerâmica) |
 | Moedor           | Bravito            |
-| Moagem           | Média              |
-| Giro             | 1,35v              |
+| Moagem           | Médio-fino         |
+| Giro             | 1,30v              |
 | Proporção        | 1:18               |
 | Grama - Grão     | 17                 |
 | Miligrama - Água | 300                |
@@ -50,7 +50,7 @@ Focado em corpo, doçura, textura.
 
 | Pré-Infusão | Segunda Pré-Infusão | Primeiro Ataque | Segundo Ataque | Descanso |
 | ----------- | ------------------- | --------------- | -------------- | -------- |
-| ~1:00’      | 1:00’               | 2:00’           | 3:30’          | 4:00’    |
+| ~1:00’      | 1:00’               | 2:10’           | 3:20’          | 4:30’    |
 
 O tempo de extração deve variar conforme o grão, o tempo de torra e o tipo de processo de secagem.
 
