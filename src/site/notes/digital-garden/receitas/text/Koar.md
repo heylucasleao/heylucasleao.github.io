@@ -9,7 +9,7 @@
 | Método           | Koar<br>(Cerâmica) |
 | Moedor           | Bravito            |
 | Moagem           | Médio-fino         |
-| Giro             | 1,30v              |
+| Giro             | 1,35v              |
 | Proporção        | 1:18               |
 | Grama - Grão     | 17                 |
 | Miligrama - Água | 300                |
