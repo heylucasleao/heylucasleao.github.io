@@ -34,9 +34,9 @@ Focado em corpo, doçura, textura.
 	 
 3. **Filtro:** A ideia originalmente funciona pois a porosidade do filtro do Koar é menor comparado aos filtros da CAFEC. A ideia aqui é utilizar isso em favor a extrair os óleos na medida certa entre a clareza, utilizando também um moedor que gera mais fine na sua distribuição. Com isso, ambos auxiliam para que a água fique mais tempo em contato com o café, facilitando a extração de insolúveis na medida certa, sem que traga adstringência ou um peso excessivo na xícara.
 	
-4. **Ataques:** iniciar no centro do método até as bordas, de dentro para fora, de forma circular. Manter fluxo **lento** em toda a extração. Os ataques ocorrem direto acima de uma camada de água, mais ou menos de 1 cm de água sob o leito. Isso vai manter uma pressão hidrostática e serve como camada de “amortecedor” sob o leito, reduzindo o impacto da turbulência. 
+4. **Ataques:** iniciar no centro do método até as bordas, de dentro para fora, de forma circular. Manter fluxo **lento** em toda a extração. Os ataques ocorrem direto acima de uma camada de água, mais ou menos de 1 cm de água sob o leito. Isso serve como camada de “amortecedor” sob o leito, reduzindo o impacto da turbulência. 
 	
-5. **Segunda Pré-infusão:** Esta é uma receita usando a técnica de Double Bloom. Nela, consiste em termos duas etapas de pré-infusão. Já que estamos com uma extração de fluxo de água lento, precisamos o máximo possível de hidratação e liberação de dióxido de carbono. Por conta disso, utilizo o bastão de vidro para mexer os grãos após a primeira pré-infusão, e faço um segundo ataque em seguida com a água já escoada. 
+5. **Segunda Pré-infusão:** Esta é uma receita usando a técnica de Double Bloom. Nela, consiste em termos duas etapas de pré-infusão. Já que estamos com uma extração de fluxo de água lento e menor agitação, precisamos o máximo possível de hidratação e liberação de dióxido de carbono. Por conta disso, utilizo o bastão de vidro para mexer os grãos após a primeira pré-infusão, e faço um segundo ataque em seguida com a água já escoada. 
 	
  6. **Tempo:** o intervalo dos tempos não são exatos, eles servem mais para verificar como está a permeabilidade do leito do café. Se o delta entre eles não forem respeitados nesta receita, verifique o resultado na xícara se é necessário ajustar a moagem.
 	 
