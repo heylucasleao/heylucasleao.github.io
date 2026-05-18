@@ -39,12 +39,16 @@ Focado em corpo, doçura, textura.
 5. **Segunda Pré-infusão:** Esta é uma receita usando a técnica de Double Bloom. Nela, consiste em termos duas etapas de pré-infusão. Já que estamos com uma extração de fluxo de água lento e menor agitação, precisamos o máximo possível de hidratação e liberação de dióxido de carbono. Por conta disso, utilizo o bastão de vidro para mexer os grãos após a primeira pré-infusão, e faço um segundo ataque em seguida com a água já escoada. 
 	
  6. **Tempo:** o intervalo dos tempos não são exatos, eles servem mais para verificar como está a permeabilidade do leito do café. Se o delta entre eles não forem respeitados nesta receita, verifique o resultado na xícara se é necessário ajustar a moagem.
-	 
+	
 7. **Filtração e clareza:** fazer com que cada grão participe da extração e que a filtração seja eficiente. Evitar que os microfines se concentrem no fundo, pois isso reduz a clareza das notas. Para isso, é importante que os grãos não fiquem na superfície da água.
 	
-8. **Quackers:** ao pesar 17g, faça uma triagem rápida e remova [*quackers*](https://www.youtube.com/watch?v=y8kb80dvxKs) (grãos subdesenvolvidos, muitas vezes mais claros ou esverdeados). Eles costumam ter **baixa solubilidade** e podem adicionar **adstringência**, **amargor** e notas de **amendoim/papel/vegetal**, além de “sujar” a clareza em métodos que buscam frutado. Como a dose é pequena, 1 ou 2 grãos já impactam perceptivelmente o resultado. 
+8. **Bastão de vidro:** Para auxiliar na volatilização dos compostos aromáticos, faço uma mistura mecânica durante a pré-infusão. Isso é, utilizo um [bastão de vidro](https://www.rbrvidros.com.br/bastao-de-vidro-8x150mm/prod-10560784/) para homogeneizar o contato da água. A ideia é quebrar os caminhos de menor resistência no leito do café e as bolsas de ar que surgem naturalmente no leito. Sem essa intervenção, a água tende a criar canais para canalização. O bastão desfaz as "pontes de gás" e bolsas de ar que expulsam a água e impedem o contato da água com o café, permitindo que nas etapas seguintes da extração a água extraia melhor os aromas.
 	
-9. **Melodrip:** Ele altera o padrão de fluxo da extração e, em geral, reduz o TDS em comparação com a chaleira (por diminuir a turbulência e a erosão do leito). Também ajuda a redistribuir os microfines e tende a levantar o *chaff*. Por isso, gosto de usar nos três ataques: como ele naturalmente extrai menos, neste caso faço o mais lento possível  (mantendo a mesma trajetória do centro para as bordas e fluxo lento, mas rápido) para aumentar o tempo de contato do café com a água, já que a moagem mais fina em comparação ao ODZ, isso dá uma permeabilidade menor, facilitando a extração dos insolúveis. 
+9. **Quackers:** ao pesar 17g, faça uma triagem rápida e remova [*quackers*](https://www.youtube.com/watch?v=y8kb80dvxKs) (grãos subdesenvolvidos, muitas vezes mais claros ou esverdeados). Eles costumam ter **baixa solubilidade** e podem adicionar **adstringência**, **amargor** e notas de **amendoim/papel/vegetal**, além de “sujar” a clareza em métodos que buscam frutado. Como a dose é pequena, 1 ou 2 grãos já impactam perceptivelmente o resultado. 
+	
+10. **Melodrip:** Ele altera o padrão de fluxo da extração e, em geral, reduz o TDS em comparação com a chaleira (por diminuir a turbulência e a erosão do leito). Também ajuda a redistribuir os microfines e tende a levantar o *chaff*. Por isso, gosto de usar nos três ataques: como ele naturalmente extrai menos, neste caso faço o mais lento possível  (mantendo a mesma trajetória do centro para as bordas e fluxo lento, mas rápido) para aumentar o tempo de contato do café com a água, já que a moagem mais fina em comparação ao ODZ, isso dá uma permeabilidade menor, facilitando a extração dos insolúveis. 
+	
+11. **Altura:** Nesta receita, por ser mais "delicada" devido aos fines, eu prefiro fazer mais perto do café.
 
 ## [Tabela de Tempos](https://youtu.be/2mrLiE4ilXw?si=kgibIVmc5mHBm7GN)
 
@@ -66,13 +70,13 @@ Nesta receita, como mexo bastante com o grão - duas pré-infusões, e mexo com 
 
 - **Quantidade:** 40g a 60g
 	
-- **Técnica:** Fluxo médio no centro para as bordas. Mexer com bastão de vidro.
+- **Técnica:** Fluxo médio no centro para as bordas. Mexer com bastão de vidro de fora para dentro.
 
 ### Segunda Pré-infusão
 
 - **Quantidade:** Completar 100g
 	
-- **Técnica:** Fluxo delicado usando Melodrip do centro até as bordas em todos os ataques
+- **Técnica:** Fluxo mais leve usando Melodrip do centro até as bordas em todos os ataques, de forma rápida. A velocidade vai ajudar para um fluxo um pouco mais forte.
 
 ### Primeiro Ataque
 

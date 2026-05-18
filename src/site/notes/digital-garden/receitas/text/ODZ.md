@@ -98,7 +98,9 @@ O Total de Sólidos Dissolvidos (TDS) é o indicador da força e do equilíbrio 
 	
 8. **Melodrip:** Ele altera o padrão de fluxo da extração e, em geral, reduz o TDS em comparação com a chaleira (por diminuir a turbulência e a erosão do leito). Também ajuda a redistribuir os microfines e tende a levantar o *chaff*. Por isso, gosto de usar nos três ataques: como ele naturalmente extrai menos, eu acelero o máximo possível  (mantendo a mesma trajetória do centro para as bordas e fluxo forte) para aumentar a agitação do leito e, ao mesmo tempo, aumentar a força de centrifugação. Em muitos casos, isso encurta a percolação e realça a acidez. A diferença é que, com o [Melodrip](https://youtu.be/zVbWBsWcNz0?si=rgd1tpFg80X0cCBD), [a água atua mais na camada superior do método, sem “empurrar” os grãos para baixo.](https://www.youtube.com/watch?v=JiLN2phMey4)
 	
- 9. **Descanso:** Assim que a extração finalizar, já insira a esfera e comece a aerar. É crucial fazer isso o quanto antes para preservar o máximo dos compostos aromáticos na xícara. A temperatura vai cair entre 70°C a 65°C, o que ajuda para as primeiras percepções sensoriais, seguindo o [Specialty Coffee Association - Protocols and Best Practices](https://www.scith.coffee/wp-content/uploads/2021/03/SCA-Protocols-_-Best-Practices.pdf).
+9. **Altura:** Importante também notar a altura do melodrip. Alguns gostam de fazer bem próximo da cama. Eu prefiro ter uma altura meio termo, para ajudar com a extração. Interessante pensar nisso.
+	
+10. **Descanso:** Assim que a extração finalizar, já insira a esfera e comece a aerar. É crucial fazer isso o quanto antes para preservar o máximo dos compostos aromáticos na xícara. A temperatura vai cair entre 70°C a 65°C, o que ajuda para as primeiras percepções sensoriais, seguindo o [Specialty Coffee Association - Protocols and Best Practices](https://www.scith.coffee/wp-content/uploads/2021/03/SCA-Protocols-_-Best-Practices.pdf).
 
 ## [Tabela de Tempos](https://youtu.be/2mrLiE4ilXw?si=kgibIVmc5mHBm7GN)
 
@@ -120,13 +122,13 @@ O tempo de extração deve variar conforme o grão, o tempo de torra e o tipo de
 
 - **Quantidade:** 40g a 60g
 	
-- **Técnica:** Fluxo médio no centro para as bordas. Mexer com bastão de vidro.
+- **Técnica:** Fluxo médio no centro para as bordas. Mexer com bastão de vidro de fora para dentro.
 
 ### Primeiro Ataque
 
 - **Quantidade:** Completar 100g
 	
-- **Técnica:** Fluxo médio circular no centro para as bordas com Melodrip em todos os ataques
+- **Técnica:** Fluxo mais leve usando Melodrip do centro até as bordas em todos os ataques, de forma rápida. A velocidade vai ajudar para um fluxo um pouco mais forte.
 
 ### Segundo Ataque
 
