@@ -26,30 +26,27 @@ Logo, antes de seguir qualquer receita, sugiro fortemente a leitura dos artigos 
 ## Perfil
 
 Focado em clareza, acidez, floral, corpo leve. 
-
-## Temperatura e Dinâmica Molecular
-
-A temperatura atua como a força da extração. Em temperaturas mais elevadas, a energia cinética das moléculas de água é maior, aumentando sua mobilidade (Mestdagh et al., 2017). Esse estado amplifica as forças físicas capazes de solver mais os compostos do leito de café, que pode mudar de algo desejável, para indesejável, ofuscando outros sabores do grão.
-
-> **Nota:** Para o perfil que busco, utilizo **turbulência com despejos fortes** e temperatura controlada entre **84°C e 92°C**.
-
 ## Controle de Extração
 
 Um método para calcularmos a extração, seria por meio do Total de Sólidos Dissolvidos (TDS) – que podemos chamar também de concentração – associado ao rendimento de extração (Extraction Yield).
 
 O TDS representa a porcentagem de massa sólida seca do café que se dissolveu para xícara. Ele seria o indicador da força e do equilíbrio da bebida, calculado via refratômetro. Não é um tópico em si para o dia a dia devido ao custo do [refratômetro](https://loja.atago.com.br/refratometros/digitais/refratometro-digital-portatil-pal-coffee-bxtds?parceiro=1&gad_source=1&gad_campaignid=22426549598&gbraid=0AAAAABnKfgwZDKmpO7wLIBlE5mFwF0F94&gclid=CjwKCAjw3ejRBhAdEiwADkqPn4-5GyXtnmiQENK79nooSYHyCBPvSr4BYp_H9hJ8LxgHSiZU3LqR_BoC5l8QAvD_BwE), mas é importante pontuar: o  intervalo entre 1,15% e 1,35% é considerado o ideal para o paladar padrão (Cotter et al., 2020). Estudos recentes (Guinard et al., 2023) apontam, inclusive, que a percepção de "notas doces" no aroma diminui proporcionalmente à queda do TDS, independentemente do nível de torra utilizado.
 
-Por outro lado, o EY representaria a porcentagem do bolo de café seco que foi extraída pela água. Aos métodos convencionais, temos no máximo uma extração equivalente de 30 a 32% do total em gramas, tendo representação de 26% no gráfico abaixo. Enquanto o TDS mediria a força, o rendimento indica o equilíbrio e o perfil de sabor. Ele poderia indicar o perfil do café, mas isto não é necessariamente uma regra. Ter um balanço sobre o quanto foi solúvel e dissolvido em água, é mais importante. Não focarei muito nesse gráfico pois foge um pouco do meu proposito como amante de café, mas é importante entendermos em que há tipos de receitas e extrações, como por exemplo, algumas extrações com menor EY podem apresentar em um perfil mais leve, ressaltando doçura e acidez, dominado por compostos de alta solubilidade (Mestdagh et al., 2017).
+Por outro lado, o EY representaria a porcentagem do bolo de café seco que foi extraída pela água. Aos métodos convencionais, temos no máximo uma extração equivalente de 30 a 32% do total em gramas, tendo representação de 26% no gráfico abaixo. Enquanto o TDS mediria a força das notas, o rendimento indicaria o perfil de sabor. Não focarei muito nesse gráfico pois foge um pouco do meu proposito como amante de café, mas é importante entendermos em que há tipos de receitas e extrações, como por exemplo, algumas extrações com menor EY podem apresentar em um perfil mais leve, ressaltando doçura e acidez, dominado por compostos de alta solubilidade (Mestdagh et al., 2017). Maiores rendimentos podem ser adquiridos por tempos maiores de contato da água com o café, extraindo partes com maior dificuldade de extração – como por exemplo os óleos.
 
 ![brewing-control-chart.png](/img/user/digital-garden/receitas/assets/brewing-control-chart.png)
 [TDS EY and Sensory Evaluation in Coffee](https://coffeefanatics.jp/en/tds-ey-and-sensory-evaluation-in-coffee-brewing/)
 
 Toda essa extração ocorre por meio de um processo físico-químico. Nele, combinamos a energia térmica (a temperatura da água acelerando a extração) e a energia mecânica (a agitação gerada pelos despejos e pelo fluxo). Os dois precisam ser regulados para chegar no perfil que você quer. Não há certo e errado, o importante, é saber trabalhar com eles. 
 
+A temperatura atua como um catalisador da extração. Em temperaturas mais elevadas, a energia cinética das moléculas de água é maior, aumentando sua mobilidade (Mestdagh et al., 2017). Esse estado amplifica as forças físicas capazes de solver mais os compostos do leito de café, que pode mudar de algo desejável, para indesejável, ofuscando outros sabores do grão. Encontrar a temperatura correta, combinada à força do despejo, é uma arte que varia de pessoa para pessoa, de chaleira para chaleira, de paladar a paladar.
+
+> **Nota:** Para o perfil que busco, utilizo **turbulência com despejos médios** e temperatura controlada entre **84°C e 92°C**. Sei que é subjetivo o que é definido como fraco, médio ou forte. Isto infelizmente – ou felizmente, caso goste da exploração de ideias – deve ser aprendido no erro e acerto.
+
 Café, é um alimento vivo – quanto mais tempo passa, mais dióxido de carbono é liberado, e isto faz com que o café que você fez ontem é diferente do que você tomou hoje. Entender estes componentes e aprender fazer ajustes, é crucial.
 
 >[!tip] Nota
-> Há mais fatores lógico, como o processo de fermentação do grão, a idade dele, o tipo de torra, como a distribuição de partículas – um bom moedor faz bastante diferença. Tudo isso impacta na sua extração, mas não vou adentrar muito tecnicamente. Vale a leitura dos artigos ao qual deixo a seguir.
+> Há mais fatores envolvidos, logicamente, como o processo de pós-colheita/fermentação do grão, o tempo de torra, o perfil de torra e a distribuição do tamanho das partículas – onde um bom moedor faz toda a diferença. Tudo isso impacta na extração, mas não entrarei em detalhes aqui. Para quem quiser se aprofundar, vale a leitura dos artigos que listo a seguir.
 
 ## Artigos
 
@@ -94,11 +91,11 @@ Café, é um alimento vivo – quanto mais tempo passa, mais dióxido de carbono
 	
 	![defeitos-1.jpg|279](/img/user/digital-garden/receitas/assets/defeitos-1.jpg)
 	
-7. **Melodrip:** Ele altera o padrão de fluxo da extração e, em geral, reduz o TDS em comparação com a chaleira (por diminuir a turbulência e a erosão do leito). Também ajuda a redistribuir os microfines e tende a levantar o *chaff*. Por isso, gosto de usar nos três ataques: como ele naturalmente extrai menos, eu acelero o máximo possível  (mantendo a mesma trajetória do centro para as bordas e fluxo forte) para aumentar a agitação do leito e, ao mesmo tempo, aumentar a força de centrifugação. Em muitos casos, isso encurta a percolação e realça a acidez. A diferença é que, com o [Melodrip](https://youtu.be/zVbWBsWcNz0?si=rgd1tpFg80X0cCBD), [a água atua mais na camada superior do método, sem “empurrar” os grãos para baixo.](https://www.youtube.com/watch?v=JiLN2phMey4)
+1. **Melodrip:** Ele altera o padrão de fluxo da extração e, em geral, reduz o TDS em comparação com a chaleira (por diminuir a turbulência e a erosão do leito). Também ajuda a redistribuir os microfines e tende a levantar o *chaff*. Por isso, gosto de usar nos três ataques: como ele naturalmente extrai menos, eu acelero o máximo possível  (mantendo a mesma trajetória do centro para as bordas e fluxo forte) para aumentar a agitação do leito e, ao mesmo tempo, aumentar a força de centrifugação. Em muitos casos, isso encurta a percolação e realça a acidez. A diferença é que, com o [Melodrip](https://youtu.be/zVbWBsWcNz0?si=rgd1tpFg80X0cCBD), [a água atua mais na camada superior do método, sem “empurrar” os fines para baixo.](https://www.youtube.com/watch?v=JiLN2phMey4)
 	
-8. **Altura:** Importante também notar a altura do melodrip. Alguns gostam de fazer bem próximo da cama. Eu prefiro ter uma altura meio termo, para ajudar com a extração. Interessante pensar nisso.
+2. **Altura:** Importante também notar a altura do melodrip. Alguns gostam de fazer bem próximo do café. Eu prefiro ter uma altura maior, para ajudar com a extração. Interessante pensar nisso, pois vai impactar para um menor TDS. Há como conseguir chegar num corpo de chá – mas ainda permanecendo os sabores, assim, somente atacando sempre que houver uma camada de um dedo de água acima do leito. Isso vai atuar como um amortecedor. Não é meu paladar, mas sei que há pessoas que gostam, talvez vão se surpreender.
 	
-9. **Descanso:** Assim que a extração finalizar, já insira a esfera e comece a aerar. É crucial fazer isso o quanto antes para preservar o máximo dos compostos aromáticos na xícara. A temperatura vai cair entre 70°C a 65°C, o que ajuda para as primeiras percepções sensoriais, seguindo o [Specialty Coffee Association - Protocols and Best Practices](https://www.scith.coffee/wp-content/uploads/2021/03/SCA-Protocols-_-Best-Practices.pdf).
+3. **Descanso:** Assim que a extração finalizar, já insira a esfera e comece a aerar. É crucial fazer isso o quanto antes para preservar o máximo dos compostos aromáticos na xícara. A temperatura vai cair entre 75°C a 65°C, o que ajuda para as primeiras percepções sensoriais, seguindo o [Specialty Coffee Association - Protocols and Best Practices](https://www.scith.coffee/wp-content/uploads/2021/03/SCA-Protocols-_-Best-Practices.pdf). Caso esteja no inverno e a temperatura ambiente estiver abaixo dos 15°C, não recomendo.
 
 ## [Tabela de Tempos](https://youtu.be/2mrLiE4ilXw?si=kgibIVmc5mHBm7GN)
 
