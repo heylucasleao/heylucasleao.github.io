@@ -111,7 +111,7 @@ O tempo de extração deve variar conforme o grão, o tempo de torra e o tipo de
 	
 - **Lavado:** Pode pedir pré-infusões mais longas. Cafés lavados tendem a ser mais densos e menos porosos; uma pré-infusão prolongada garante a hidratação total das partículas e a liberação adequada do dióxido de carbono.
 
-O importante é provar e ajustar conforme a necessidade. 30 segundos para pré-infusões mais curtas, dois minutos mais longas caso necessário.
+O importante é provar e ajustar conforme a necessidade. Trinta segundos para pré-infusões mais curtas, dois minutos mais longas caso necessário.
 
 ### Pré-Infusão
 
