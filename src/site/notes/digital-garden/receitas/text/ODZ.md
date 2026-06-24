@@ -48,6 +48,20 @@ Café, é um alimento vivo – quanto mais tempo passa, mais dióxido de carbono
 >[!tip] Nota
 > Há mais fatores envolvidos, logicamente, como o processo de pós-colheita/fermentação do grão, o tempo de torra, o perfil de torra e a distribuição do tamanho das partículas – onde um bom moedor faz toda a diferença. Tudo isso impacta na extração, mas não entrarei em detalhes aqui. Para quem quiser se aprofundar, vale a leitura dos artigos que listo a seguir.
 
+## Percolação: Difusão e Advecção
+
+O processo de extração do café ocorre por meio de dois fenômenos: a **difusão** e a **advecção**. Nesse sistema, o café é o nosso **soluto** e a água é o nosso **solvente**.
+
+O pó de café é composto por células intactas, envoltas por uma camada de células parcialmente quebradas na superfície, resultado da moagem. No interior dessas células, existem diversos poros e pequenos espaços que conectam uma célula à outra, criando caminhos para a passagem da água. Nisto, a extração acontece por três passos:
+
+1. **Advecção Inicial (Rápida):** Quando a água entra em contato com a superfície do pó, ela dissolve rapidamente os compostos químicos das células que foram quebradas na moagem. Esse solvente carregado de sabor é transportado pelo fluxo da água, que é o processo de _advecção_.
+    
+2. **Difusão (Lenta):** Paralelamente, a água penetra nos poros em direção ao interior das células intactas, dissolvendo os compostos ali dentro. Como a lavagem da superfície diminui a concentração de soluto naquela região externa, cria-se um gradiente: os compostos migram naturalmente da área de maior concentração (o interior do grão) para a de menor concentração (a superfície). Esse transporte lento é a _difusão._
+    
+3. **Advecção Final:** Assim que esses compostos internos chegam à superfície pela difusão, eles encontram o fluxo contínuo de água e são imediatamente carregados para a xícara novamente por _advecção._
+    
+
+Em resumo, a extração acontece em um ciclo de duas etapas: um processo **lento de difusão**, que traz os compostos do centro até a superfície da partícula, e um processo **rápido de advecção**, que arrasta esses compostos da superfície para a bebida através do fluxo da água.
 ## Artigos
 
 - [Coffee extraction: A review of parameters and their influence on the physicochemical characteristics and flavour of coffee brews](https://www.sciencedirect.com/science/article/abs/pii/S0924224419305692)
