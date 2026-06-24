@@ -49,7 +49,7 @@ Toda essa extração ocorre por meio de um processo físico-químico. Nele, comb
 Café, é um alimento vivo – quanto mais tempo passa, mais dióxido de carbono é liberado, e isto faz com que o café que você fez ontem é diferente do que você tomou hoje. Entender estes componentes e aprender fazer ajustes, é crucial.
 
 >[!tip] Nota
-> Há mais fatores lógico, como o processo de fermentação do grão, a idade dele, o tipo de torra, como a distribuição de partículas – um bom moedor faz bastante diferença. Tudo isso impacta na sua extração, mas não vou adentrar muito tecnicamente. Vale a leitura dos artigos ao qual deixarei no final.
+> Há mais fatores lógico, como o processo de fermentação do grão, a idade dele, o tipo de torra, como a distribuição de partículas – um bom moedor faz bastante diferença. Tudo isso impacta na sua extração, mas não vou adentrar muito tecnicamente. Vale a leitura dos artigos ao qual deixo a seguir.
 
 ## Artigos
 
