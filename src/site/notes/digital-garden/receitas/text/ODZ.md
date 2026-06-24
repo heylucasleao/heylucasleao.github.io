@@ -61,20 +61,30 @@ O pó de café é composto por células intactas, envoltas por uma camada de cé
 3. Advecção Final: Assim que esses compostos internos chegam à superfície pela difusão, eles encontram o fluxo contínuo de água e são imediatamente carregados para a xícara novamente por _advecção._
     
 
-Em resumo, a extração acontece em um ciclo de duas etapas: um processo lento de difusão, que traz os compostos do centro até a superfície da partícula, e um processo rápido de advecção* que arrasta esses compostos da superfície para a bebida através do fluxo da água.
+Em resumo, a extração acontece em um ciclo de duas etapas: um processo lento de difusão, que traz os compostos do centro até a superfície da partícula, e um processo rápido de advecção que arrasta esses compostos da superfície para a bebida através do fluxo da água.
 
 É importante pontuar que nem todos os compostos químicos são extraídos na mesma velocidade durante a difusão. Compostos voláteis, responsáveis pelas notas florais e frutadas (acidez), são extraídos muito mais rápido do que os óleos e compostos pesados, que dão corpo e amargor ao café.
 
 Para entendermos a relação disso como a moagem do grão pode afertar isso, podemos dividir as partículas do café em três grupos:
 
-- **_Fines_:** Partículas muito pequenas, com quase todas as células expostas. A extração é quase instantânea.
+- _Fines_: Partículas muito pequenas, com quase todas as células expostas. A extração é quase instantânea.
     
-- **_Regulars_:** O equilíbrio onde a água consegue penetrar e fazer a difusão em um tempo controlado.
+- _Regulars_: O equilíbrio onde a água consegue penetrar e fazer a difusão em um tempo controlado.
     
-- **_Boulders_:** Partículas maiores que retêm os compostos mais pesados e óleos em seu interior.
+- _Boulders_: Partículas maiores que retêm os compostos mais pesados e óleos em seu interior.
     
 
-Como os óleos e notas mais pesadas dependem de uma difusão mais profunda dentro dos _boulders_, extrações muito rápidas não dão tempo para a água penetrar nessas partículas maiores. O resultado é uma extração onde a advecção carrega notas menos densas em sua maioria, diferentemente por exemplo de uma prensa francesa, que há mais contato do grão durante _imersão_. Por isso, o perfil do grão, o método de preparo e o tamanho da moagem precisam estar alinhados à proposta de sabor e corpo que você deseja apresentar na xícara.
+Além do tamanho das partículas, as propriedades físicas da água e a dinâmica do fluxo controlam a velocidade do processo:
+
+- Temperatura da Água: Funciona como um acelerador térmico. Quanto mais alta a temperatura, maior é a energia cinética das moléculas, o que acelera a **difusão** interna dos compostos e dissolve gorduras e óleos com mais facilidade.
+    
+- Força do Despejo: Afeta diretamente a **advecção**. Um despejo mais agressivo gera turbulência física no leito de café, quebrando barreiras hidráulicas ao redor das partículas e lavando a superfície delas mais rápido. Isso força uma renovação constante do gradiente de concentração, puxando a difusão interna com mais intensidade.
+
+
+Como os óleos e notas mais pesadas dependem de uma difusão mais profunda dentro dos _boulders_, extrações muito rápidas (ou com água menos quente e despejo fraco) não dão tempo para a água penetrar nessas partículas maiores. O resultado é uma extração onde a advecção carrega apenas as notas menos densas e mais solúveis da superfície.
+
+Isso explica a diferença entre uma Prensa Francesa, por exemplo, que utiliza o tempo longo de imersão e alta temperatura constante para garantir que a difusão aconteça até o centro dos _boulders_, extraindo óleos e corpo. Já métodos de percolação rápida exigem um controle preciso da temperatura e da força do despejo para não subextrair o café. Portanto, o perfil do grão, o método de preparo, a moagem, a temperatura da água e a dinâmica do despejo precisam estar em sinergia para entregar a proposta exata de sabor e corpo que quer para a xícara.
+
 ## Artigos
 
 - [Coffee extraction: A review of parameters and their influence on the physicochemical characteristics and flavour of coffee brews](https://www.sciencedirect.com/science/article/abs/pii/S0924224419305692)
