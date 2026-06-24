@@ -54,17 +54,17 @@ Focado em corpo, doçura, textura.
 
 | Pré-Infusão | Segunda Pré-Infusão | Primeiro Ataque | Segundo Ataque | Descanso |
 | ----------- | ------------------- | --------------- | -------------- | -------- |
-| ~1:00’      | 1:00’               | 2:10’           | 3:20’          | 5:30’    |
+| ~1:00’      | –                   | –               | –              | –        |
 
-O tempo de extração deve variar conforme o grão, o tempo de torra e o tipo de processo de secagem.
+O tempo de extração deve variar conforme o grão, o tempo de torra e o tipo de processo de secagem. Devido ao auxilio na volatilização durante pré-infusão com o bastão de vidro, acabo por não me importar muito esses intervalos entre os ataques. O importante, ainda sim, é respeitar o tempo durante a pré-infusão. Um minuto costuma ser o melhor tempo, mas pode variar devido as estruturas de grãos por tipos de processo de fermentação:
 
-- **Anaeróbico:** Pré-infusões curtas. Cafés fermentados são extremamente solúveis. Se deixar a água em contato por muito tempo na pré-infusão, corre o risco de extrair notas alcoólicas ou acéticas (vinagre) indesejadas. 
+- **Anaeróbico:** Pode preferir pré-infusões mais curtas. Cafés fermentados são extremamente solúveis. Se deixar a água em contato por muito tempo na pré-infusão, corre o risco de extrair notas alcoólicas ou acéticas (vinagre) indesejadas. 
 	
-- **Natural & Honey:** Padrão ouro, iniciar com ~0:30’ e avaliar resultados.
+- **Natural & Honey:** Costuma apresentar perfil ótimo entre um minuto, mas toda cereja descascada (Honey) pode ter um tempo maior de descanso devido ao acúmulo de silvers no bolo de café.
 	
-- **Lavado:** Pré-infusões mais longas. Cafés lavados tendem a ser mais densos e menos porosos; uma pré-infusão prolongada garante a hidratação total das partículas e a liberação adequada do dióxido de carbono.
+- **Lavado:** Pode pedir pré-infusões mais longas. Cafés lavados tendem a ser mais densos e menos porosos; uma pré-infusão prolongada garante a hidratação total das partículas e a liberação adequada do dióxido de carbono.
 
-Nesta receita, como mexo bastante com o grão - duas pré-infusões, e mexo com o pó com o bastão de vidro - para liberar dióxido de carbono e compostos orgânicos, acabo por não mexer no tempo de pré-infusão conforme o ODZ.
+O importante é provar e ajustar conforme a necessidade. Trinta segundos para pré-infusões mais curtas, dois minutos mais longas caso necessário.
 
 ### Pré-Infusão
 
@@ -76,15 +76,17 @@ Nesta receita, como mexo bastante com o grão - duas pré-infusões, e mexo com 
 
 - **Quantidade:** Completar 100g
 	
-- **Técnica:** Fluxo mais leve usando Melodrip do centro até as bordas em todos os ataques, de forma rápida. A velocidade vai ajudar para um fluxo um pouco mais forte.
+- **Técnica:** Ataque após coar toda água.
 
 ### Primeiro Ataque
 
 - **Quantidade:** +150g
+- **Técnica:** Ataque assim que estiver 1 centimétrico de água acima do café.
 
 ### Segundo Ataque
 
 - **Quantidade:** +50g
+- **Técnica:** Ataque assim que estiver 1 centimétrico de água acima do café.
 
 ### Finalização
 
