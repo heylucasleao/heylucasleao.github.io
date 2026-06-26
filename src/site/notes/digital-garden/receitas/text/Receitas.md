@@ -14,9 +14,9 @@ Por isso aqui o método socrático é tão importante. Eu não tenho certeza dos
 
 Há muita pseudociência quando se fala de café – e boto minha meia-culpa nisso. Ainda assim, tento ao máximo botar o pé no chão e referenciar pessoas na área acadêmica para falar um pouco disso. Não leve minha palavra como um ultimato, tampouco como a pura verdade. A ciência evolui com o tempo, artigos ficam obsoletos, e eu, que sou apenas um condutor e não um pesquisador, preciso ter seriedade com a minha palavra.
 
-Caso ainda tenha ficado interessado após meu monólogo sobre um tema não tão relevante para você, leitor, mas fortemente um assunto sobre o qual posso falar por horas, deixo aqui algumas receitas. Todas elas, mesmo não sendo sobre café, vieram de alguma forma por causa deles. O cheong veio pois aprendi alguns drinks com espresso. O caramelo de café, pois aprendi alguns doces que combinam demais com isso. Se quiser fazer, não tenha medo de tentar – mas entenda: você vai errar. E não digo para desmotivar, mas você **precisa** errar. Faz parte do processo. Eu erro desde 2020 e já fiz xícaras que me lembraram desde fruta cristalizada – a qual odeio fortemente! – a frutas tão doces que nem sabia que poderiam aparecer em uma bebida. O segredo é estar aberto a experiências e conversas.
+Caso ainda tenha ficado interessado após meu monólogo sobre um tema não tão relevante para você, leitor, mas fortemente um assunto sobre o qual posso falar por horas, deixo aqui algumas receitas. Todas elas, mesmo não sendo sobre café, vieram de alguma forma por causa deles. O cheong veio pois aprendi alguns drinks com espresso. O caramelo de café, pois aprendi alguns doces que combinam demais com isso. Se quiser fazer, não tenha medo de tentar – mas entenda: você vai errar. E não digo para desmotivar, mas você **precisa** errar. Faz parte do processo. Eu erro desde 2020 e já fiz xícaras que me lembraram desde frutas cristalizadas – a qual odeio fortemente! – a frutas tão doces que nem sabia que poderiam aparecer em uma bebida. O segredo é estar aberto a experiências e conversas.
 
-Dito tudo isso, boas experiências.
+Dito tudo isso, bons experimentos.
 
 - [[digital-garden/receitas/text/ODZ\|ODZ]]
 	
