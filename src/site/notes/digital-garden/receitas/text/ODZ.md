@@ -78,7 +78,7 @@ Além do tamanho das partículas, as propriedades físicas da água e a dinâmic
 
 - Temperatura da Água: Funciona como um acelerador térmico. Quanto mais alta a temperatura, maior é a energia cinética das moléculas, o que acelera a **difusão** interna dos compostos e dissolve gorduras e óleos com mais facilidade.
     
-- Força do Despejo: Afeta diretamente a advecção. Um despejo mais agressivo gera turbulência física no leito de café, quebrando barreiras hidráulicas ao redor das partículas e lavando a superfície delas mais rápido. Isso força uma renovação constante do gradiente de concentração, puxando a difusão interna com mais intensidade.
+- Força do Despejo: Afeta diretamente a **advecção**. Um despejo mais agressivo gera turbulência física no leito de café, quebrando barreiras hidráulicas ao redor das partículas e lavando a superfície delas mais rápido. Isso força uma renovação constante do gradiente de concentração, puxando a difusão interna com mais intensidade.
 
 
 Como os óleos e notas mais pesadas dependem de uma difusão mais profunda dentro dos _boulders_, extrações muito rápidas (ou com água menos quente e despejo fraco) não dão tempo para a água penetrar nessas partículas maiores. O resultado é uma extração onde a advecção carrega apenas as notas menos densas e mais solúveis da superfície.
