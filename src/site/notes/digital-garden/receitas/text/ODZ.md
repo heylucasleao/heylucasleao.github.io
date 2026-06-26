@@ -78,12 +78,12 @@ Além do tamanho das partículas, as propriedades físicas da água e a dinâmic
 
 - Temperatura da Água: Funciona como um acelerador térmico. Quanto mais alta a temperatura, maior é a energia cinética das moléculas, o que acelera a **difusão** interna dos compostos e dissolve gorduras e óleos com mais facilidade.
     
-- Força do Despejo: Afeta diretamente a **advecção**. Um despejo mais agressivo gera turbulência física no leito de café, quebrando barreiras hidráulicas ao redor das partículas e lavando a superfície delas mais rápido. Isso força uma renovação constante do gradiente de concentração, puxando a difusão interna com mais intensidade.
+- Força do Despejo: Afeta diretamente a advecção. Um despejo mais agressivo gera turbulência física no leito de café, quebrando barreiras hidráulicas ao redor das partículas e lavando a superfície delas mais rápido. Isso força uma renovação constante do gradiente de concentração, puxando a difusão interna com mais intensidade.
 
 
 Como os óleos e notas mais pesadas dependem de uma difusão mais profunda dentro dos _boulders_, extrações muito rápidas (ou com água menos quente e despejo fraco) não dão tempo para a água penetrar nessas partículas maiores. O resultado é uma extração onde a advecção carrega apenas as notas menos densas e mais solúveis da superfície.
 
-Isso explica a diferença entre uma Prensa Francesa, por exemplo, que utiliza o tempo longo de imersão e alta temperatura constante para garantir que a difusão aconteça até o centro dos _boulders_, extraindo óleos e corpo. Já métodos de percolação rápida exigem um controle preciso da temperatura e da força do despejo para não subextrair o café. Portanto, o perfil do grão, o método de preparo, a moagem, a temperatura da água e a dinâmica do despejo precisam estar em sinergia para entregar a proposta exata de sabor e corpo que quer para a xícara.
+Isso explica a diferença entre uma Prensa Francesa, por exemplo, que utiliza o tempo longo de imersão e alta temperatura constante para garantir que a difusão – só teremos ela neste método – aconteça até o centro dos _boulders_, extraindo os insóluveis, o que resulta em uma xícara com maior corpo. Já métodos de percolação exigem um controle da temperatura e da força do despejo; por isso, entregam uma xícara com maior clareza de notas, já que há menor extração de insolúveis e um menor número de micropartículas de café suspensas na qual não foram dissolvidas, para a xícara. Portanto, o perfil do grão, o método de preparo, a moagem, a temperatura da água e a dinâmica do despejo precisam estar em sinergia para entregar a proposta exata de sabor.
 
 ## Artigos
 
