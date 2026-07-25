@@ -26,6 +26,9 @@ Essa viscosidade, ou a espessura em relação à água, é uma função da quant
 
 Focado em corpo, doçura, textura. 
 
+>[!tip] Introdutório
+> Para não deixar essa página muito densa, documentei informações relevantes, porém mais técnicas, [[digital-garden/receitas/text/Tópicos Relevantes para o Café\|Tópicos Relevantes para o Café]], como forma de introdutório a temas que possam ser importantes. 
+
 ## Observações
 
 1. **Chaleira:** manter bem próximo do método, com Melodrip no centro.

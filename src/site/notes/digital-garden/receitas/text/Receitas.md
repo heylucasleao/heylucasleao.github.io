@@ -18,6 +18,11 @@ Caso ainda tenha ficado interessado após meu monólogo sobre um tema não tão 
 
 Dito tudo isso, bons experimentos.
 
+>[!tip] Apresentação
+> Tenho tenho uma mini apresentação sobre o tema. Caso interesse, [aqui está o link](https://docs.google.com/presentation/d/1Yn3M1YgUzXmtEoegj_EgP8scOqjQvshpezrr1qJzVGg/edit?usp=sharing).
+
+- [[digital-garden/receitas/text/Tópicos Relevantes para o Café\|Tópicos Relevantes para o Café]]
+	
 - [[digital-garden/receitas/text/ODZ\|ODZ]]
 	
 - [[digital-garden/receitas/text/Koar\|Koar]]
@@ -33,3 +38,4 @@ Dito tudo isso, bons experimentos.
 - [[digital-garden/receitas/text/Tarê do Leão\|Tarê do Leão]]
 	
 - [[digital-garden/receitas/text/Caramelo de Café\|Caramelo de Café]]
+
