@@ -2,6 +2,8 @@
 {"dg-publish":true,"permalink":"/digital-garden/receitas/text/controle-de-extracao/"}
 ---
 
+# Controle de Extração
+
 Um método para calcularmos a extração, seria por meio do Total de Sólidos Dissolvidos (TDS) – que podemos chamar também de concentração – associado ao rendimento de extração (Extraction Yield).
 
 O TDS representa a porcentagem de massa sólida seca do café que se dissolveu para xícara. Ele seria o indicador da força e do equilíbrio da bebida, calculado via refratômetro. Não é um tópico em si para o dia a dia devido ao custo do [refratômetro](https://loja.atago.com.br/refratometros/digitais/refratometro-digital-portatil-pal-coffee-bxtds?parceiro=1&gad_source=1&gad_campaignid=22426549598&gbraid=0AAAAABnKfgwZDKmpO7wLIBlE5mFwF0F94&gclid=CjwKCAjw3ejRBhAdEiwADkqPn4-5GyXtnmiQENK79nooSYHyCBPvSr4BYp_H9hJ8LxgHSiZU3LqR_BoC5l8QAvD_BwE), mas é importante pontuar: o  intervalo entre 1,15% e 1,35% é considerado o ideal para o paladar padrão (Cotter et al., 2020). Estudos recentes (Guinard et al., 2023) apontam, inclusive, que a percepção de "notas doces" no aroma diminui proporcionalmente à queda do TDS, independentemente do nível de torra utilizado.

@@ -2,6 +2,8 @@
 {"dg-publish":true,"permalink":"/digital-garden/receitas/text/difusao-e-adveccao/"}
 ---
 
+# Difusão e Advecção
+
 O processo de extração do café ocorre por meio de dois fenômenos: a **difusão** e a **advecção**. Nesse sistema, o café é o nosso **soluto** e a água é o nosso **solvente**.
 
 O pó de café é composto por células intactas, envoltas por uma camada de células parcialmente quebradas na superfície, resultado da moagem. No interior dessas células, existem diversos poros e pequenos espaços que conectam uma célula à outra, criando caminhos para a passagem da água. Nisto, a extração acontece por três passos:

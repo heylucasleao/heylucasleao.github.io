@@ -2,6 +2,7 @@
 {"dg-publish":true,"permalink":"/digital-garden/receitas/text/etapas-para-identificar-notas-sensoriais/"}
 ---
 
+# Etapas para identificar notas sensoriais
 
 Existem momentos durante o consumo do café que torna mais fácil identificarmos certas notas. Não há garantia claro de que isso ocorra e todos tenham a mesma experiência, pois há fatores como:
 	
