@@ -19,7 +19,7 @@ Caso ainda tenha ficado interessado após meu monólogo sobre um tema não tão 
 Dito tudo isso, bons experimentos.
 
 >[!tip] Apresentação
-> Tenho tenho uma mini apresentação sobre o tema. Caso interesse, [aqui está o link](https://docs.google.com/presentation/d/1Yn3M1YgUzXmtEoegj_EgP8scOqjQvshpezrr1qJzVGg/edit?usp=sharing).
+> Também tenho uma mini apresentação sobre o tema. Caso interesse, [aqui está o link](https://docs.google.com/presentation/d/1Yn3M1YgUzXmtEoegj_EgP8scOqjQvshpezrr1qJzVGg/edit?usp=sharing).
 
 - [[digital-garden/receitas/text/Tópicos Relevantes para o Café\|Tópicos Relevantes para o Café]]
 	
