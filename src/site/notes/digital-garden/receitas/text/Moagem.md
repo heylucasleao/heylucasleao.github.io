@@ -3,6 +3,8 @@
 ---
 
 
+# Moagem
+
 Ao moer o grão, não obtemos um pó homogêneo, mas uma distribuição granulométrica heterogênea, na qual cada partícula possui seu próprio tamanho. Se a dividirmos em grupos, teremos partículas menores (_fines_) e maiores (_boulders_). Cada grupo atua de forma diferente na extração: a permeabilidade hidráulica — isto é, a facilidade com que a água flui pela cama de café — determina se a xícara será equilibrada, subextraída ou superextraída.
 
 Em teoria, os _fines_ facilitam a extração rápida de compostos solúveis e aromáticos. Contudo, uma alta concentração de _fines_ no filtro reduz a vazão da água, aumentando o tempo de contato, o que pode causar superextração ou até mesmo o entupimento da cama de café.
