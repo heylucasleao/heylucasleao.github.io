@@ -23,3 +23,21 @@ Café, é um alimento vivo – quanto mais tempo passa, mais dióxido de carbono
 
 >[!tip] Nota
 > Há mais fatores envolvidos, logicamente, como o processo de pós-colheita/fermentação do grão, o tempo de torra, o perfil de torra e a distribuição do tamanho das partículas – onde um bom moedor faz toda a diferença. Tudo isso impacta na extração, mas não entrarei em detalhes aqui. Para quem quiser se aprofundar, vale a leitura dos artigos que listo a seguir.
+
+# Pré-Infusão
+
+Para métodos que não são somente imersão, como prensa francesa, ela se torna um atuante importante e necessário para o processo. No momento em que a água entra em contato com as celulas do café, dioxído de carbono armazenado durante a etapa de torra são volatilizados, isto é, para fora dos poros do café. Esse processo de volatilização auxilia para que se consiga extrair melhor os compostos aromáticos, que estão "presos" junto a eles. Por isso, que nesta primeira etapa, que é um processo de degasificação, observmos bolhas sendo formadas junto as particulas secas do café.
+
+> **Nota:** Importante notar que, caso seja percebido ainda bolhas durante outros processos ou despejos no café, isso quer dizer que ainda há degasificação que pode ser feita, isto é, podemos prolongar o tempo de pré-infusão para atingirmos o máximo de número de compostos aromáticos durante a extração. Isto é um indicativo que ainda temos camadas de café que ainda estão secos, como auxiliará para termos canalizações em lugares com menores resistências hidraulicas
+
+É importante notar também que aguás mais alcalinas produzem mais boelhas, devido ao bicarbonado reagir com os compostos do café. Isto, em contrapartida, pode resultar em um efeito negativo – a dificuldade de termos mais extrações de compostos aromáticos. Por isso, a mineiração da água é importante: águas com muito minerio, resultam em xicaras de menor qualidade, por isso, águas menos alcalinas e com menos minérios auxiliam em sabores melhores. Em média, no Brasil temos possibilidade de água mineral boa, mas isso pode não ser uma regra. Por isso, há um movimento sob remineiração da própria água para o café, da mesma forma que cervejeiros têm cuidado para a própria produção.
+
+## Pré-Infusão
+
+Para métodos específicos de percolação, a pré-infusão é fundamental. No momento em que a água entra em contato com o café, o dióxido de carbono ($CO_2$) dentro nas células do grão durante a torra é expelido rapidamente. Esse processo de degasagem abre caminho para que a água sature uniformemente as partículas e dissolva os compostos aromáticos e de sabor. Por isso, nessa primeira etapa, observamos a expansão da camada de café e a formação de bolhas na superfície.
+
+> **Nota Prática:** Se observar bolhas contínuas durante os despejos seguintes, significa que o café ainda está liberando gás e não foi totalmente saturado. Isso significa que podemos prolongar o tempo de pré-infusão na receita para aquele grão **naquele tempo de torra**, garantindo assim que a água penetre de forma homogênea e extraindo o máximo do grão. Isso também evita que áreas secas ainda permaneçam no leito, que pode também causar canalização.
+
+ É importante notar também que a química da água altera diretamente esse comportamento. Águas com maior alcalinidade reagem quimicamente com os ácidos do café, podendo gerar uma liberação de gás ainda mais intensa e neutralizar a acidez desejável da bebida. Isso dificulta a extração limpa dos compostos aromáticos e resulta em xícaras de perfil "plano".
+
+Por isso, também é interessante o cuidado com a mineralidade da água. Águas excessivamente minerais ou muito alcalinas prejudicam a qualidade final. No Brasil, embora tenhamos boas opções de águas minerais comerciais (com baixo resíduo seco e menor alcalinidade), isso não é necessariamente uma regra. Uma opção, que pode ser ou não extrema, é a remineralização de água purificada: ajustando cálcio, magnésio e bicarbonatos nas proporções ideais, de forma similar ao controle feito na produção cervejeira.
