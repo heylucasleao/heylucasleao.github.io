@@ -11,3 +11,5 @@ Para métodos específicos de percolação, a pré-infusão é fundamental. No m
  É importante notar também que a química da água altera diretamente esse comportamento. Águas com maior alcalinidade reagem quimicamente com os ácidos do café, podendo gerar uma liberação de gás ainda mais intensa e neutralizar a acidez desejável da bebida. Isso dificulta a extração limpa dos compostos aromáticos e resulta em xícaras de perfil "plano".
 
 Por isso, também é interessante o cuidado com a mineralidade da água. Águas excessivamente minerais ou muito alcalinas prejudicam a qualidade final. No Brasil, embora tenhamos boas opções de águas minerais comerciais (com baixo resíduo seco e menor alcalinidade), isso não é necessariamente uma regra. Uma opção, que pode ser ou não extrema, é a remineralização de água purificada: ajustando cálcio, magnésio e bicarbonatos nas proporções ideais, de forma similar ao controle feito na produção cervejeira.
+
+Um ótimo vídeo sobre pré-infusão eu diria que é [este aqui](https://www.youtube.com/watch?v=2mrLiE4ilXw).
