@@ -14,8 +14,8 @@
 | Grama - Grão     | 15                |
 | Miligrama - Água | 250               |
 | Celsius          | 84, 88, 92        |
-| Borrifadas (WDT) | 3                 |
-| Quantidade (WDT) | 0,30g             |
+| Borrifadas (RDT) | 3                 |
+| Quantidade (RDT) | 0,30g             |
 
 # Receita
 
