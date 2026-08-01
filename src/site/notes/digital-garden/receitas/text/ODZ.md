@@ -56,7 +56,7 @@ Focado em clareza, acidez, floral, corpo leve.
 | ----------- | --------------- | -------------- | --------------- | -------- |
 | ~1:00’      | 1:00’           | –              | –               | –        |
 
-O tempo de extração deve variar conforme o grão, o tempo de torra e o tipo de processo de secagem. Devido ao auxilio na volatilização durante pré-infusão com o bastão de vidro, acabo por não me importar muito esses intervalos entre os ataques. O importante, ainda sim, é respeitar o tempo durante a pré-infusão. Um minuto costuma ser o melhor tempo, mas pode variar devido as estruturas de grãos por tipos de processo de fermentação:
+O tempo de extração deve variar conforme o grão, o tempo de torra e o tipo de processo de secagem. Devido ao auxilio na volatilização durante pré-infusão com o bastão de vidro, acabo por não me importar muito esses intervalos entre os ataques. O importante, ainda sim, é respeitar o tempo durante a [[digital-garden/receitas/text/Pré-Infusão\|Pré-Infusão]]. Um minuto costuma ser o melhor tempo, mas pode variar devido as estruturas de grãos por tipos de processo de fermentação:
 
 - **Anaeróbico:** Pode preferir pré-infusões mais curtas. Cafés fermentados são extremamente solúveis. Se deixar a água em contato por muito tempo na pré-infusão, corre o risco de extrair notas alcoólicas ou acéticas (vinagre) indesejadas. 
 	

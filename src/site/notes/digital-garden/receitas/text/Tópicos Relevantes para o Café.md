@@ -2,6 +2,8 @@
 {"dg-publish":true,"permalink":"/digital-garden/receitas/text/topicos-relevantes-para-o-cafe/"}
 ---
 
+- [[digital-garden/receitas/text/Pré-Infusão\|Pré-Infusão]]
+	
 - [[digital-garden/receitas/text/Controle de Extração\|Controle de Extração]]
 	
 - [[digital-garden/receitas/text/Difusão e Advecção\|Difusão e Advecção]]
