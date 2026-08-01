@@ -11,6 +11,8 @@
 - [[digital-garden/receitas/text/Etapas para identificar notas sensoriais\|Etapas para identificar notas sensoriais]]
 	
 - [[digital-garden/receitas/text/Moagem\|Moagem]]
+	
+- [[digital-garden/receitas/text/Migração de Fines\|Migração de Fines]]
 ## Artigos
 
 - [Coffee extraction: A review of parameters and their influence on the physicochemical characteristics and flavour of coffee brews](https://www.sciencedirect.com/science/article/abs/pii/S0924224419305692)

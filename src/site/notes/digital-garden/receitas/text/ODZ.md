@@ -34,7 +34,7 @@ Focado em clareza, acidez, floral, corpo leve.
 	
  2. **WDT + Kubomi:** importante fazer os dois. Não é necessário fazer especificamente a depressão do Kubomi. O importante é o [formato final](https://www.youtube.com/watch?v=dS9NwmLtDsA), pois ajuda na pré-infusão com a liberação do dióxido de carbono.
 	
- 3. **Ataques:** iniciar no centro do método até as bordas, de dentro para fora, de forma circular. Manter fluxo **mediano** em toda a extração com Melodrip. Os ataques ocorrem direto após coagem da água do despejo anterior, para deixar sempre hidratado o grão. 
+ 3. **Ataques:** iniciar no centro do método até as bordas, de dentro para fora, de forma circular. Manter fluxo **baixo** em toda a extração com Melodrip. Os ataques ocorrem direto após coagem da água do despejo anterior, para deixar sempre hidratado o grão. 
 	
  4. **Filtração e clareza:** fazer com que cada grão participe da extração e que a filtração seja eficiente. Evitar que os microfines se concentrem no fundo, pois isso reduz a clareza das notas. Para isso, é importante que os grãos não fiquem na superfície da água.
 	 
@@ -44,11 +44,11 @@ Focado em clareza, acidez, floral, corpo leve.
 	
 	![defeitos-1.jpg|279](/img/user/digital-garden/receitas/assets/defeitos-1.jpg)
 	
-1. **Melodrip:** Ele altera o padrão de fluxo da extração e, em geral, reduz o TDS em comparação com a chaleira (por diminuir a turbulência e a erosão do leito). Também ajuda a redistribuir os microfines e tende a levantar o *chaff*. Por isso, gosto de usar nos três ataques: como ele naturalmente extrai menos, eu acelero o máximo possível  (mantendo a mesma trajetória do centro para as bordas e fluxo forte) para aumentar a agitação do leito e, ao mesmo tempo, aumentar a força de centrifugação. Em muitos casos, isso encurta a percolação e realça a acidez. A diferença é que, com o [Melodrip](https://youtu.be/zVbWBsWcNz0?si=rgd1tpFg80X0cCBD), [a água atua mais na camada superior do método, sem “empurrar” os fines para baixo.](https://www.youtube.com/watch?v=JiLN2phMey4)
+7. **Melodrip:** Ele altera o padrão de fluxo da extração e, em geral, reduz o TDS em comparação com a chaleira (por diminuir a turbulência e a erosão do leito). Também ajuda a redistribuir os microfines e tende a levantar o *chaff*. Em muitos casos, isso encurta realça a clareza de notas (leia em [[digital-garden/receitas/text/Migração de Fines\|Migração de Fines]]). [Ray Murakawa](https://www.youtube.com/watch?v=zVbWBsWcNz0) retrata sobre isso também. Para algo mais ilustrativo, veja em [Melodrip](https://www.youtube.com/watch?v=JiLN2phMey4).
 	
-2. **Altura:** Importante também notar a altura do melodrip. Muitos gostam de fazer bem próximo do café, eu inclusivo. Isso vai perturbar pouco a camada de café, diminuindo a extração indesejada de insolúveis e auxiliando para acidez e floral, enaltecendo clareza de notas. 
+8. **Altura:** Importante também notar a altura do melodrip. Muitos gostam de fazer bem próximo do café, eu inclusivo. Isso vai perturbar pouco o leito de café, diminuindo a extração indesejada de insolúveis, enaltecendo clareza de notas. 
 	
-3. **Descanso:** Assim que a extração finalizar, já insira a esfera e comece a aerar. É crucial fazer isso o quanto antes para preservar o máximo dos compostos aromáticos na xícara. A temperatura vai cair entre 75°C a 65°C, o que ajuda para as primeiras percepções sensoriais, seguindo o [Specialty Coffee Association - Protocols and Best Practices](https://www.scith.coffee/wp-content/uploads/2021/03/SCA-Protocols-_-Best-Practices.pdf). Caso esteja no inverno e a temperatura ambiente estiver abaixo dos 15°C, não recomendo.
+9. **Descanso:** Assim que a extração finalizar, já insira a esfera e comece a aerar. É crucial fazer isso o quanto antes para preservar o máximo dos compostos aromáticos na xícara. A temperatura vai cair entre 75°C a 65°C, o que ajuda para as primeiras percepções sensoriais, seguindo o [Specialty Coffee Association - Protocols and Best Practices](https://www.scith.coffee/wp-content/uploads/2021/03/SCA-Protocols-_-Best-Practices.pdf). Caso esteja no inverno e a temperatura ambiente estiver abaixo dos 15°C, não recomendo.
 
 ## [Tabela de Tempos](https://youtu.be/2mrLiE4ilXw?si=kgibIVmc5mHBm7GN)
 
@@ -70,7 +70,7 @@ O importante é provar e ajustar conforme a necessidade. Trinta segundos para pr
 
 - **Quantidade:** 40g a 60g
 	
-- **Técnica:** Fluxo médio no centro para as bordas. Mexer com bastão de vidro de fora para dentro e repetir até dar vinte segundos.
+- **Técnica:** Fluxo baixo no centro para as bordas. Mexer com bastão de vidro de fora para dentro e repetir até dar vinte segundos.
 
 ### Primeiro Ataque
 

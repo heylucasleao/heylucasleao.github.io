@@ -51,7 +51,7 @@ Focado em corpo, doçura, textura.
 	
 10. **Melodrip:** Ele altera o padrão de fluxo da extração e, em geral, reduz o TDS em comparação com a chaleira (por diminuir a turbulência e a erosão do leito). Também ajuda a redistribuir os microfines e tende a levantar o *chaff*. Por isso, gosto de usar nos três ataques: como ele naturalmente extrai menos, neste caso faço o mais lento possível  (mantendo a mesma trajetória do centro para as bordas e fluxo lento, mas rápido) para aumentar o tempo de contato do café com a água, já que a moagem mais fina em comparação ao ODZ, isso dá uma permeabilidade menor, facilitando a extração dos insolúveis. 
 	
-11. **Altura:** Nesta receita, por ser mais "delicada" devido aos fines, eu prefiro fazer mais perto do café.
+11. **Altura:** Importante também notar a altura do melodrip. Muitos gostam de fazer bem próximo do café, eu inclusivo. Isso vai perturbar pouco o leito de café, diminuindo a extração indesejada de insolúveis, enaltecendo clareza de notas. 
 
 ## [Tabela de Tempos](https://youtu.be/2mrLiE4ilXw?si=kgibIVmc5mHBm7GN)
 
