@@ -2,6 +2,8 @@
 {"dg-publish":true,"permalink":"/digital-garden/receitas/text/degradacao-e-conservacao-do-grao/"}
 ---
 
+# Degradação e Conservação do Grão
+
 O café, como é uma matéria processada pela torra, ele permanece dinâmico mesmo após o resfriamento. Isso quer dizer que os sabores produzidos durante a torra vão sendo liberados ao longo do tempo, por um processo de desgaseificação: o $CO_2$ é liberado continuamente, carregando consigo os compostos aromáticos voláteis responsáveis pelo sensorial do café. À medida que esses voláteis se perdem, o perfil de sabor torna-se plano.
 
 Para desacelerar esse processo de envelhecimento e preservar a qualidade sensorial do grão, é necessário controlar variáveis fundamentais:
