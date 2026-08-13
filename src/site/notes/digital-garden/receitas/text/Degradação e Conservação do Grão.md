@@ -17,3 +17,6 @@ Para desacelerar esse processo de envelhecimento e preservar a qualidade sensori
 Por conta dos fatores mencionados, embalagens dedicadas a essa preservação, não sendo transparentes, são preferíveis. Caso pense em armazenar por mais de três meses um grão, talvez seja preferível congelar os grãos, o que aumenta seu tempo de vida. Outra opção também é, utilizar caixas como Airscape para tal. Entretanto, caso o consumo seja diário, fazendo com que o grão tenha contato direto, deixar na embalagem já resolva, mas preferível para um consumo semanal, seja o reparticionamento de doses únicas entre tubos de centrifugação, por exemplo. Assim, quando aberto para consumo, as outras doses irão ser preservadas. 
 
 Não existe uma resposta clara para qual e como iremos armazenar, mas é importante entender que o café é um produto instável, uma fruta viva. Quanto mais envelhecimento, pior será a qualidade na xícara.
+
+>[!tip] Potes de Cosmético
+> Para microdoses (15 a 20 gramas), eu gosto de guardar em potes de âmbar de 50 gramas. Aqui está o [link](https://www.oleumvitta.com/products/frasco-de-vidro-ambar-com-tampa-preta-para-cosmetico-15-gramas-1?_pos=1&_sid=552e10b9a&_ss=r) ao qual uso.

@@ -34,7 +34,7 @@ Focado em clareza, acidez, floral, corpo leve.
 	
  2. **WDT + Kubomi:** importante fazer os dois. Não é necessário fazer especificamente a depressão do Kubomi. O importante é o [formato final](https://www.youtube.com/watch?v=dS9NwmLtDsA), pois ajuda na pré-infusão com a liberação do dióxido de carbono.
 	
- 3. **Ataques:** iniciar no centro do método até as bordas do Melodrip, de dentro para fora, de forma circular, mas sem movê-lo. Manter fluxo **baixo** em toda a extração com Melodrip. Os ataques ocorrem direto após coagem da água do despejo anterior, para deixar sempre hidratado o grão. 
+ 3. **Ataques:** iniciar no centro do método até as bordas do Melodrip, de dentro para fora, de forma circular, mas sem movê-lo. Manter fluxo bem **lento** em toda a extração com Melodrip. Os ataques ocorrem direto após coagem da água do despejo anterior, para deixar sempre hidratado o grão. 
 	 
  4. **Bastão de vidro:** Para auxiliar na volatilização dos compostos aromáticos, faço uma mistura mecânica durante a pré-infusão. Isso é, utilizo um [bastão de vidro](https://www.rbrvidros.com.br/bastao-de-vidro-8x150mm/prod-10560784/) para homogeneizar o contato da água. A ideia é quebrar os caminhos de menor resistência no leito do café e as bolsas de ar que surgem naturalmente no leito. Sem essa intervenção, a água tende a criar canais para canalização. O bastão desfaz as "pontes de gás" e bolsas de ar que expulsam a água e impedem o contato da água com o café, permitindo que nas etapas seguintes da extração a água extraia melhor os aromas.
 	
@@ -68,13 +68,13 @@ O importante é provar e ajustar conforme a necessidade. Trinta segundos para pr
 
 - **Quantidade:** 40g a 60g
 	
-- **Técnica:** Fluxo baixo no centro para as bordas. Mexer com bastão de vidro de fora para dentro e repetir até dar vinte segundos.
+- **Técnica:** Fluxo bem lento no centro para as bordas. Mexer com bastão de vidro de fora para dentro e repetir até dar vinte segundos.
 
 ### Primeiro Ataque
 
 - **Quantidade:** Completar 100g
 	
-- **Técnica:** Fluxo usando Melodrip do centro até as bordas em todos os ataques. A altura dele deve ser o mais próximo do café possível.
+- **Técnica:** Fluxo usando Melodrip centralizado ao método, enquanto faz despejos circulares nele. A altura dele deve ser o mais próximo do café possível. Repetir em todos os ataques.
 
 ### Segundo Ataque
 

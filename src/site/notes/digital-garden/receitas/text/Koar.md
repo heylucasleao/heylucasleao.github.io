@@ -73,13 +73,13 @@ O importante é provar e ajustar conforme a necessidade. Trinta segundos para pr
 
 - **Quantidade:** 40g a 60g
 	
-- **Técnica:** Fluxo médio no centro para as bordas. Mexer com bastão de vidro de fora para dentro.
+- **Técnica:** Fluxo lento no centro para as bordas. Mexer com bastão de vidro de fora para dentro.
 
 ### Segunda Pré-infusão
 
 - **Quantidade:** Completar 100g
 	
-- **Técnica:** Ataque após coar toda água.
+- **Técnica:** Ataque após coar toda água. Fluxo usando Melodrip centralizado ao método, enquanto faz despejos circulares nele. A altura dele deve ser o mais próximo do café possível. Repetir em todos os ataques.
 
 ### Primeiro Ataque
 
