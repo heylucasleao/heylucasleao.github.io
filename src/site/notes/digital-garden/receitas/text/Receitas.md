@@ -20,6 +20,8 @@ Caso ainda tenha ficado interessado após meu monólogo sobre um tema não tão 
 
 Dito tudo isso, bons experimentos.
 
+![bancada.png](/img/user/digital-garden/receitas/assets/bancada.png)
+
 >[!tip] Apresentação
 > Também tenho uma mini apresentação sobre o tema. Caso interesse, [aqui está o link](https://docs.google.com/presentation/d/1Yn3M1YgUzXmtEoegj_EgP8scOqjQvshpezrr1qJzVGg/edit?usp=sharing).
 
