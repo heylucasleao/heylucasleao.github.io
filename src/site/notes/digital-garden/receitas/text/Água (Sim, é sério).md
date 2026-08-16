@@ -19,7 +19,7 @@ A química da água para café divide-se em dois pilares principais:
 
 Poucos minerais resultam em uma xícara sem vida e aquosa. Minerais em excesso mascaram o perfil e tornam o café pesado ou plano. Ao assumir o controle dos sais, conseguimos direcionar a extração exatamente para o perfil desejado. Entender o papel de cada íon nos permite ajustar a água ao saber qual mineral traz doçura, vivacidade ou corpo, fica claro o que adicionar à receita.
 
-> Também, é importante notar que existem duas abordagens, com suas vantagens e desvantagens: nesse espectro de mineralização, existem receitas que trabalham com teores baixíssimos e outras que utilizam níveis bem mais elevados. Isso impacta diretamente no [[digital-garden/receitas/text/Controle de Extração\|Controle de Extração]]  e no total de sólidos dissolvidos (TDS), trazendo apresentações diferentes na xícara. Eu, particularmente, sou fã de compostos aromáticos bem leve. Por conta disso, sou da abordagem de baixíssimos minerais, mas sabendo trabalhar com eles. Desta forma, consigo ter um TDS baixo mas uma clareza e percepção de notas maiores. Novamente, não há certo e errado, é uma área relativamente nova de extração, vale a experimentação e pesquisa. 
+Também, é importante notar que existem duas abordagens, com suas vantagens e desvantagens: nesse espectro de mineralização, existem receitas que trabalham com teores baixíssimos e outras que utilizam níveis bem mais elevados. Isso impacta diretamente no [[digital-garden/receitas/text/Controle de Extração\|Controle de Extração]]  e no total de sólidos dissolvidos (TDS), trazendo apresentações diferentes na xícara. Eu, particularmente, sou fã de compostos aromáticos bem leve. Por conta disso, sou da abordagem de baixíssimos minerais, mas sabendo trabalhar com eles. Desta forma, consigo ter um TDS baixo mas uma clareza e percepção de notas maiores. Novamente, não há certo e errado, é uma área relativamente nova de extração, vale a experimentação e pesquisa. 
 
 ### Sais Minerais
 
@@ -42,7 +42,7 @@ Determinam a alcalinidade (KH) e como a acidez é processada pelo nosso paladar,
     
 -  **Finalização e Textura:** Íons como sulfato ($\text{SO}_4^{2-}$) e cloreto ($\text{Cl}^-$) alteram o retrogosto e a sensação tátil. Uma proporção maior de sulfato entrega um final limpo, seco e vibrante; uma presença maior de cloreto favorece a textura aveludada e a doçura.
 
-### Tabela de Íons no Preparo de Café
+### Tabela de Íons
 
 A tabela abaixo é baseada nos artigos do [Apax Lab](https://apaxlab.com/), que me auxiliaram a chegar na receita que quis construir.
 
