@@ -2,7 +2,7 @@
 {"dg-publish":true,"permalink":"/digital-garden/receitas/text/agua-sim-e-serio/"}
 ---
 
-# Água  (Sim, é sério)
+# Água
 
 Quando falamos sobre composição química da água na extração do café, isto costuma soar exagero para muita gente mesmo dentro da comunidade de entusiastas. É um tópico que não vou mentir, eu mesmo negligenciei por cerca de seis anos. Por outro lado, se pensarmos que cerca de 98% de uma xícara de café filtrado é puramente água, começa a fazer sentido controlarmos esta etapa. Ainda assim, é um tópico relativamente novo – como [este aqui](https://www.bwt.com/en/-/media/bwt/global-data/documents/literatur-pou-ps/reprint_cafe-eu_winter_2016_22-26.pdf?rev=f403150cc528457bbffc712ccf1569a0) em 2016. Empresas como [Empirical Water](https://empiricalwater.com/), [Apax Lab](http://apaxlab.com/), [Sapolab](https://sapolabwater.com/), [Lotus Coffee](https://lotuscoffeeproducts.com/) não só vendem concentrações para auxiliar, como participam ativamente de pesquisas sobre o tema e de competições.
 
