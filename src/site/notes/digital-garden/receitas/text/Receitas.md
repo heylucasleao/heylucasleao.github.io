@@ -2,6 +2,8 @@
 {"dg-publish":true,"permalink":"/digital-garden/receitas/text/receitas/"}
 ---
 
+# Intro
+
 Para quem não me conhece – ou atura – no dia a dia, deve estranhar um pouco eu ter um tópico sobre receitas. Pois bem, não apenas tento manter um método socrático entre as coisas no meu âmbito de trabalho, mas também o faço na cozinha. Em especial, com café.
 
 Se tratando de uma bebida que vem de um processo físico-químico, com mais de 800 compostos aromáticos, com uma variedade imensa de espécies, pós-colheita e torrefação, os cafés especiais encontram um lugar reservado no meu coração desde 2020. Fazer uma boa xícara demanda tempo e história. E quando digo história, são as suas preferências, o seu gosto, seu paladar. Parece estranho, mas cada um, como na cozinha, se expressa de uma forma. Nela, receita todo mundo faz, mas a mão é diferente. Sempre diferente.
