@@ -4,10 +4,10 @@
 
 # Água  (Sim, é sério)
 
-A relevância da composição química da água na extração do café costuma soar exagerada para bastante gente que consome café no dia a dia, principalmente na comunidade de amantes de café. Ainda sim, é um tópico que eu mesmo, negligenciava. É bastante estranho pensarmos isso quando cerca de 98% de uma xícara de café filtrado é puramente água. Eu particularmente também não julgo, pois é um tema que não é fácil de absorver.
+A relevância da composição química da água na extração do café costuma soar exagerada para muita gente que consome café no dia a dia, mesmo dentro da comunidade de entusiastas. Ainda assim, é um tópico que eu mesmo negligenciava. É curioso pensarmos assim quando cerca de 98% de uma xícara de café filtrado é puramente água. Eu particularmente não julgo, pois não é um tema fácil de absorver.
 
 >[!tip] Água no Brasil
->Comparado algumas com outros países, o Brasil tem a vantagem de ter várias águas minerais consideradas "moles" (baixa mineralização nativa), o que garante um café em geral bom sem grandes problemas. Talvez seja por isso que o tema não seja tão abordado aqui.
+>Comparado a outros países, o Brasil tem a vantagem de ter várias águas minerais consideradas "moles" (baixa mineralização nativa), o que garante um café em geral bom sem grandes problemas. Talvez seja por isso que o assunto não seja tão abordado por aqui.
 
 ## A Dinâmica Fundamental da Água
 
@@ -17,15 +17,13 @@ A química da água para café divide-se em dois pilares principais:
     
 - **Dureza Total (Cátions):** Concentração de íons que se ligam aos compostos aromáticos e de sabor, puxando-os do pó para a solução.
 
-Poucos minérios resultam em uma xícara sem vida e aquosa. Minérios em excesso mascaram o perfil e tornam o café pesado ou plano. Sabendo conseguir controlar os sais, conseguimos melhor a extração no perfil que queremos.
-
-We focused on understanding the positives and negatives each ion can bring to coffee. This information is particularly useful when you're trying to improve coffee. If you know which ion can make coffee sweeter or heavier, you know precisely what you should add.
+Poucos minerais resultam em uma xícara sem vida e aquosa. Minerais em excesso mascaram o perfil e tornam o café pesado ou plano. Ao assumir o controle dos sais, conseguimos direcionar a extração exatamente para o perfil desejado. Entender o papel de cada íon nos permite ajustar a água ao saber qual mineral traz doçura, vivacidade ou corpo, fica claro o que adicionar à receita.
 
 ## Cátions
 
-Cátions determinam a dureza total da água e moldam a extração:
+Cátions determinam a dureza total da água ($GH$) e moldam a extração:
 
-- **Magnésio ($\text{Mg}^{2+}$):** Devido à sua alta densidade de carga, atrai compostos voláteis e florais com grande eficiência. Entrega clareza de notas, divisão sensorial limpa e acidez brilhante. É a escolha para cafés filtrados e torras claras.
+- **Magnésio ($\text{Mg}^{2+}$):** - **):** Devido à sua alta densidade de carga, atrai compostos voláteis e florais com grande eficiência. Entrega clareza de notas, definição sensorial limpa e acidez brilhante. É a escolha ideal para filtrados e torras claras.
     
 - **Cálcio ($\text{Ca}^{2+}$):** Liga-se a moléculas mais pesadas e açúcares complexos. Aporta corpo, viscosidade e sensação aveludada, embora em excesso possa opacar a acidez.
     
@@ -33,14 +31,11 @@ Cátions determinam a dureza total da água e moldam a extração:
 
 ## Ânions
 
-Ânions determinam a alcalinidade e como essa extração é processada pelo nosso paladar:
+Ânions determinam a alcalinidade ($KH$) e como a acidez é processada pelo nosso paladar:
 
-- **Capacidade Tampão (Buffer):** Gerenciam os prótons de hidrogênio dos ácidos do café. O bicarbonato ($\text{HCO}_3^-$) é o regulador primário, mas o uso de tampões orgânicos (como citrato e fosfato) permite lapidar a acidez sem deixá-la pesada ou opaca.
+- **Capacidade Tampão (Buffer):** Gerencia os prótons de hidrogênio dos ácidos do café. O bicarbonato ($\text{HCO}_3^-$) é o regulador primário, mas o uso de tampões orgânicos (como citrato e fosfato) permite lapidar a acidez sem deixá-la pesada ou opaca.
     
--  **Finalização e Textura:** Íons como sulfato ($\text{SO}_4^{2-}$) e cloreto ($\text{Cl}^-$) alteram o retrogosto e a sensação tátil. Uma razão mais alta de sulfato entrega um final limpo, seco e vibrante; uma maior proporção de cloreto favorece a textura aveludada e a doçura.
-
-
-Vou deixar disponível uma tabela para ter noção.
+-  **Finalização e Textura:** Íons como sulfato ($\text{SO}_4^{2-}$) e cloreto ($\text{Cl}^-$) alteram o retrogosto e a sensação tátil. Uma proporção maior de sulfato entrega um final limpo, seco e vibrante; uma presença maior de cloreto favorece a textura aveludada e a doçura.
 
 # Tabela de Íons no Preparo de Café
 
@@ -67,7 +62,7 @@ A tabela abaixo são baseadas nos artigos do [Apax Lab](https://apaxlab.com/), a
 | **Bicarbonato**<br><br>  <br><br>($\text{HCO}_3^{-}$)                | **Brilho:** ~0.3 / 5<br><br>  <br><br>**Corpo:** ~4.3 / 5 | **11 – 30 ppm**             | Funciona como tampão (_buffer_), neutralizando o excesso de acidez e reduzindo o amargor cortante para criar uma bebida mais macia e arredondada. | • Inibidor de Amargor<br><br>• Inibidor de Acidez                                                                          | Suaviza notas ácidas/amargas pontiagudas, resultando em uma xícara equilibrada, aveludada e de baixa acidez.  |
 # Receitas
 
-O uso de receitas direcionadas permite ajustar a água em função da massa mineral total (GH), do tampão de acidez (KH) e da proporção de íons específicos. 
+O uso de receitas direcionadas permite ajustar a água em função da massa mineral total ($GH$), do tampão de acidez ($KH$) e da proporção de íons específicos.
 
 Para aplicar esses conceitos no dia a dia, existem dois caminhos principais de preparo:
 
@@ -78,3 +73,11 @@ Para aplicar esses conceitos no dia a dia, existem dois caminhos principais de p
 > Para dosar sais secos ou preparar soluções-mãe, é importante termos certos materiais antes disso.  Vou deixar um guia indicado pela [comunidade](https://forum.clubedocafe.net/topic/10243-diy-%C3%A1gua-para-caf%C3%A9/#comment-239199) com bem mais experiência que eu em como iniciar isso.
 
 Caso seja do seu interesse, também disponibilizo as **[três receitas de água personalizadas para Filtrados](https://docs.google.com/spreadsheets/d/e/2PACX-1vSlvN6mj2sZ-r0pD1Ukcf725hb56GtaF_qkdKBfp4ev_9w_U2BpN99ZORk6YRjJYjwIuvfxhrswGagl/pubhtml)**. Elas foram estruturadas com base em duas águas minerais da minha região; portanto, caso queira replicar, vale adaptar a receita conforme as águas disponíveis onde você mora. Você pode se guiar pela composição esperada e buscar algo próximo ou, se preferir, [baixar](https://docs.google.com/spreadsheets/d/e/2PACX-1vSlvN6mj2sZ-r0pD1Ukcf725hb56GtaF_qkdKBfp4ev_9w_U2BpN99ZORk6YRjJYjwIuvfxhrswGagl/pub?output=xlsx) a calculadora para encontrar o seu próprio meio-termo.
+
+### Visão Geral das Três Receitas e Seus Objetivos
+
+- **GH 30 ppm / KH 13,5 ppm (Perfil Leve & Cítrico):** Mineralização baixa focada em extração limpa. Ideal para grãos delicados e florais. Objetiva maximizar o brilho cítrico e a transparência aromática sem interferência de corpo.
+    
+- **GH 40 ppm / KH 19,8 ppm (Perfil Doce & Equilibrado):** Perfil sedoso e macio. O incremento de $KH$ amortece pontas ácidas agressivas e destaca os açúcares. Objetiva entregar textura aveludada em cafés com notas confortáveis de chocolate, caramelo e castanhas.
+    
+- **GH 60 ppm / KH 21,8 ppm (Perfil Encorpado & Frutado):** Carga mineral alta, com destaque dobrado em Magnésio + Sulfato. Objetiva suportar cafés frutados intensos, conferindo corpo denso, estrutura e um final de boca marcante.
