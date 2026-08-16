@@ -33,7 +33,7 @@ Determinam a dureza total da água ($GH$) e moldam a extração, como:
 - **Cálcio ($\text{Ca}^{2+}$):** Liga-se a moléculas mais pesadas. Aporta corpo, viscosidade e sensação aveludada, embora em excesso possa opacar a acidez.
     
 - **Sódio ($\text{Na}^{+}$) e Potássio ($\text{K}^{+}$):** Atuam no paladar arredondando a entrada da bebida, suprimindo amargores e trazendo suculência frutada.
-
+	
 #### Ânions
 
 Determinam a alcalinidade (KH) e como a acidez é processada pelo nosso paladar, como:
@@ -41,7 +41,7 @@ Determinam a alcalinidade (KH) e como a acidez é processada pelo nosso paladar,
 - **Capacidade Tampão (Buffer):** Gerencia os prótons de hidrogênio dos ácidos do café. O bicarbonato ($\text{HCO}_3^-$) é o regulador primário, mas o uso de tampões orgânicos (como citrato e fosfato) permite lapidar a acidez sem deixá-la pesada ou opaca.
     
 -  **Finalização e Textura:** Íons como sulfato ($\text{SO}_4^{2-}$) e cloreto ($\text{Cl}^-$) alteram o retrogosto e a sensação tátil. Uma proporção maior de sulfato entrega um final limpo, seco e vibrante; uma presença maior de cloreto favorece a textura aveludada e a doçura.
-
+	
 ### Tabela de Íons
 
 A tabela abaixo é baseada nos artigos do [Apax Lab](https://apaxlab.com/), que me auxiliaram a chegar na receita que quis construir.
@@ -53,7 +53,7 @@ A tabela abaixo é baseada nos artigos do [Apax Lab](https://apaxlab.com/), que 
 - [Introducing the Apax Ion Chart](https://apaxlab.com/blogs/news/introducing-the-apax-ion-chart)
 	
 - [The Synergy of Ions: How Mineral Combinations Shape Coffee's Flavour Profile](https://apaxlab.com/blogs/news/the-synergy-of-ions-how-mineral-combinations-shape-coffees-flavour-profile)
-
+	
 | **Íon / Fórmula**                                                    | **Posição no Gráfico (Brilho x Corpo)**                   | **Papel na Sinergia Mineral (Artigo APAX LAB)**                                                                                            | **Participação nos Perfis Moduladores da APAX**                                                                            | **Impacto Combinado na Xícara**                                                                               |
 | -------------------------------------------------------------------- | --------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------ | -------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------- |
 | **Magnésio**<br><br>  <br><br>($\text{Mg}^{2+}$)                     | **Brilho:** ~5.0 / 5<br><br>  <br><br>**Corpo:** ~1.8 / 5 | Destaca notas de frutas cítricas, tropicais e de caroço. Traz vivacidade e clareza, elevando a complexidade sem pesar no paladar.          | • Realçador de Doçura<br><br>• Realçador de Acidez<br><br>• Realçador de Amargor<br><br>• Realçador de Intensidade         | Traz brilho cítrico/frutado, eleva o amargor controlado e evita que a bebida fique pesada em perfis intensos. |

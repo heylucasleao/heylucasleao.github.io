@@ -2,6 +2,8 @@
 {"dg-publish":true,"permalink":"/digital-garden/receitas/text/topicos-relevantes-para-o-cafe/"}
 ---
 
+# Tópicos
+	
 - [[digital-garden/receitas/text/Pré-Infusão\|Pré-Infusão]]
 	
 - [[digital-garden/receitas/text/Controle de Extração\|Controle de Extração]]
@@ -17,6 +19,7 @@
 - [[digital-garden/receitas/text/Degradação e Conservação do Grão\|Degradação e Conservação do Grão]]
 	
 - [[digital-garden/receitas/text/Água\|Água]]
+	
 ## Artigos
 
 - [Coffee extraction: A review of parameters and their influence on the physicochemical characteristics and flavour of coffee brews](https://www.sciencedirect.com/science/article/abs/pii/S0924224419305692)
@@ -36,6 +39,12 @@
 - [Deep into Taste Perception with Neuroscientist Fabiana Carvalho](https://www.youtube.com/watch?v=11B1XuRphlo)
 	
 - [Assessing the influence of the coffee cup on the multisensory tasting experience](https://www.sciencedirect.com/science/article/abs/pii/S095032931831036X)
+	
+- [The Role of Ions in Coffee](https://apaxlab.com/blogs/news/apax-ion-triangle-the-role-of-ions-on-coffee)
+	
+- [Introducing the Apax Ion Chart](https://apaxlab.com/blogs/news/introducing-the-apax-ion-chart)
+	
+- [The Synergy of Ions: How Mineral Combinations Shape Coffee's Flavour Profile](https://apaxlab.com/blogs/news/the-synergy-of-ions-how-mineral-combinations-shape-coffees-flavour-profile)
 ## Livros
 
 - [Coffee Sensory & Cupping Handbook — Specialty Coffee Association](https://sca.coffee/store/p/coffee-sensory-cupping-handbook)
