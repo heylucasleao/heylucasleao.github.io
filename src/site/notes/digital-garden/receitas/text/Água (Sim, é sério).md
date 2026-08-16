@@ -4,7 +4,7 @@
 
 # Água  (Sim, é sério)
 
-Quando falamos sobre composição química da água na extração do café, isto costuma soar exagero para muita gente mesmo dentro da comunidade de entusiastas. É um tópico que não vou mentir, eu mesmo negligenciei por cerca seis anos. Por outro lado, se pensarmos que cerca de 98% de uma xícara de café filtrado é puramente água, começa a fazer sentido controlarmos esta etapa. Ainda sim, é um tópico relativamente novo – como [este aqui](https://www.bwt.com/en/-/media/bwt/global-data/documents/literatur-pou-ps/reprint_cafe-eu_winter_2016_22-26.pdf?rev=f403150cc528457bbffc712ccf1569a0) em 2016. Empresas como [Empirical Water](https://empiricalwater.com/), [Apax Lab](http://apaxlab.com/), [Sapolab](https://sapolabwater.com/), [Lotus Coffee](https://lotuscoffeeproducts.com/) não só vendem concentrações para auxiliar, como participam ativamente de pesquisas sobre o tema, como estão ativamente com competições.
+Quando falamos sobre composição química da água na extração do café, isto costuma soar exagero para muita gente mesmo dentro da comunidade de entusiastas. É um tópico que não vou mentir, eu mesmo negligenciei por cerca de seis anos. Por outro lado, se pensarmos que cerca de 98% de uma xícara de café filtrado é puramente água, começa a fazer sentido controlarmos esta etapa. Ainda assim, é um tópico relativamente novo – como [este aqui](https://www.bwt.com/en/-/media/bwt/global-data/documents/literatur-pou-ps/reprint_cafe-eu_winter_2016_22-26.pdf?rev=f403150cc528457bbffc712ccf1569a0) em 2016. Empresas como [Empirical Water](https://empiricalwater.com/), [Apax Lab](http://apaxlab.com/), [Sapolab](https://sapolabwater.com/), [Lotus Coffee](https://lotuscoffeeproducts.com/) não só vendem concentrações para auxiliar, como participam ativamente de pesquisas sobre o tema e de competições.
 
 >[!tip] Água no Brasil
 >Comparado a outros países, o Brasil tem a vantagem de ter várias águas minerais consideradas "moles" (baixa mineralização nativa), o que garante um café em geral bom sem grandes problemas. Talvez seja por isso que o assunto não seja tão abordado por aqui.
@@ -19,7 +19,7 @@ A química da água para café divide-se em dois pilares principais:
 
 Poucos minerais resultam em uma xícara sem vida e aquosa. Minerais em excesso mascaram o perfil e tornam o café pesado ou plano. Ao assumir o controle dos sais, conseguimos direcionar a extração exatamente para o perfil desejado. Entender o papel de cada íon nos permite ajustar a água ao saber qual mineral traz doçura, vivacidade ou corpo, fica claro o que adicionar à receita.
 
-Também, é importante notar que existem duas abordagens, com suas vantagens e desvantagens: nesta limiar entre minerais, existem receitas que trabalham com baixíssimos minerais, e receitas que trabalham com minerais elevados em comparações com eles. Isso impacta diretamente no [[digital-garden/receitas/text/Controle de Extração\|Controle de Extração]] e no total de sólidos dissolvidos (TDS), trazendo apresentações diferentes na xícara. Eu, particularmente sou fã de compostos aromáticos bem leve. Por conta disso, sou da abordagem de baixíssimos minerais, mas sabendo trabalhar com eles. Desta forma, consigo ter um TDS baixo mas uma clareza e percepção de notas maiores. Novamente, não há certo e errado, é uma área relativamente nova de extração, vale a experimentação e pesquisa. 
+> Também, é importante notar que existem duas abordagens, com suas vantagens e desvantagens: nesse espectro de mineralização, existem receitas que trabalham com teores baixíssimos e outras que utilizam níveis bem mais elevados. Isso impacta diretamente no [[digital-garden/receitas/text/Controle de Extração\|Controle de Extração]]  e no total de sólidos dissolvidos (TDS), trazendo apresentações diferentes na xícara. Eu, particularmente, sou fã de compostos aromáticos bem leve. Por conta disso, sou da abordagem de baixíssimos minerais, mas sabendo trabalhar com eles. Desta forma, consigo ter um TDS baixo mas uma clareza e percepção de notas maiores. Novamente, não há certo e errado, é uma área relativamente nova de extração, vale a experimentação e pesquisa. 
 
 ### Sais Minerais
 
@@ -28,7 +28,7 @@ Podemos dividir os sais de carga nativa entre dois grupos:
 
 Determinam a dureza total da água ($GH$) e moldam a extração, como:
 
-- **Magnésio ($\text{Mg}^{2+}$):** - **):** Devido à sua alta densidade de carga, atrai compostos voláteis e florais com grande eficiência. Entrega clareza de notas, definição sensorial limpa e acidez brilhante. É a escolha ideal para filtrados e torras claras.
+- **Magnésio ($\text{Mg}^{2+}$):** Devido à sua alta densidade de carga, atrai compostos voláteis e florais com grande eficiência. Entrega clareza de notas, definição sensorial limpa e acidez brilhante. É a escolha ideal para filtrados e torras claras.
     
 - **Cálcio ($\text{Ca}^{2+}$):** Liga-se a moléculas mais pesadas. Aporta corpo, viscosidade e sensação aveludada, embora em excesso possa opacar a acidez.
     
@@ -36,7 +36,7 @@ Determinam a dureza total da água ($GH$) e moldam a extração, como:
 
 #### Ânions
 
-Dterminam a alcalinidade ($KH$) e como a acidez é processada pelo nosso paladar, como:
+Determinam a alcalinidade (KH) e como a acidez é processada pelo nosso paladar, como:
 
 - **Capacidade Tampão (Buffer):** Gerencia os prótons de hidrogênio dos ácidos do café. O bicarbonato ($\text{HCO}_3^-$) é o regulador primário, mas o uso de tampões orgânicos (como citrato e fosfato) permite lapidar a acidez sem deixá-la pesada ou opaca.
     
@@ -44,7 +44,7 @@ Dterminam a alcalinidade ($KH$) e como a acidez é processada pelo nosso paladar
 
 ### Tabela de Íons no Preparo de Café
 
-A tabela abaixo são baseadas nos artigos do [Apax Lab](https://apaxlab.com/), ao qual me auxiliaram para chegar na receita que quis construir.
+A tabela abaixo é baseada nos artigos do [Apax Lab](https://apaxlab.com/), que me auxiliaram a chegar na receita que quis construir.
 
 #### Artigos
 
@@ -71,13 +71,13 @@ O uso de receitas direcionadas permite ajustar a água em função da massa mine
 
 Para aplicar esses conceitos no dia a dia, existem dois caminhos principais de preparo:
 
-- **Remineralização do Zero (Água Pura):** Parte-se de água de osmose reversa, destilada ou de desionizador para reconstruir toda a remineralização. Vários gostam de fazer a partir deste método, mas particularmente acho trabalhoso e lento esse processo.
+- **Remineralização do Zero (Água Pura):** Parte-se de água de osmose reversa, destilada ou de desionizador para reconstruir toda a remineralização. Muitos preferem este método, mas particularmente acho bem trabalhoso e lento esse processo.
     
 - **Blend de Águas Moles (Corte de Águas):** Utiliza-se a combinação de duas águas minerais para que se completem ou diluam suas cargas nativas até o nível desejado. Dessa forma, você só se preocupa em suplementar com concentrações de buffer e de, por exemplo, magnésio.
 
-> Para dosar sais secos ou preparar soluções-mãe, é importante termos certos materiais antes disso.  Vou deixar um guia indicado pela [comunidade](https://forum.clubedocafe.net/topic/10243-diy-%C3%A1gua-para-caf%C3%A9/#comment-239199) com bem mais experiência que eu em como iniciar isso.
+> Para dosar sais secos ou preparar soluções-mãe, é importante termos certos materiais em mãos. Vou deixar um guia indicado pela [comunidade](https://forum.clubedocafe.net/topic/10243-diy-%C3%A1gua-para-caf%C3%A9/#comment-239199), que tem bem mais experiência do que eu, sobre como começar. 
 
-Caso seja do seu interesse, disponibilizo as **[três receitas de água personalizadas para Filtrados](https://docs.google.com/spreadsheets/d/e/2PACX-1vSlvN6mj2sZ-r0pD1Ukcf725hb56GtaF_qkdKBfp4ev_9w_U2BpN99ZORk6YRjJYjwIuvfxhrswGagl/pubhtml)**. Elas foram estruturadas com base em duas águas minerais da minha região; portanto, caso queira replicar, vale adaptar a receita conforme as águas disponíveis onde você mora. Você pode se guiar pela composição esperada e buscar algo próximo ou, se preferir, [baixar](https://docs.google.com/spreadsheets/d/e/2PACX-1vSlvN6mj2sZ-r0pD1Ukcf725hb56GtaF_qkdKBfp4ev_9w_U2BpN99ZORk6YRjJYjwIuvfxhrswGagl/pub?output=xlsx) a calculadora para encontrar o seu próprio meio-termo.
+Caso seja do seu interesse, disponibilizo as [três receitas de água personalizadas para filtrados](https://docs.google.com/spreadsheets/d/e/2PACX-1vSlvN6mj2sZ-r0pD1Ukcf725hb56GtaF_qkdKBfp4ev_9w_U2BpN99ZORk6YRjJYjwIuvfxhrswGagl/pubhtml). Elas foram estruturadas com base em duas águas minerais da minha região; portanto, caso queira replicar, vale adaptar a receita conforme as águas disponíveis onde você mora. Você pode se guiar pela composição esperada e buscar algo próximo ou, se preferir, [baixar](https://docs.google.com/spreadsheets/d/e/2PACX-1vSlvN6mj2sZ-r0pD1Ukcf725hb56GtaF_qkdKBfp4ev_9w_U2BpN99ZORk6YRjJYjwIuvfxhrswGagl/pub?output=xlsx) a calculadora para encontrar o seu próprio meio-termo.
 
 ### Visão Geral das Receitas
 
