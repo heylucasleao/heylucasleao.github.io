@@ -91,4 +91,4 @@ Não indico este perfil para espressos, para métodos que transportem microfines
     
 - **GH 40 ppm / KH 19,8 ppm:** Perfil mais sedoso e macio, com uma acidez mais baixa, puxando mais o málico. O incremento de $KH$ amortece acidez mais cítricas e destaca uma doçura com uma xícara mais redonda. O foco é entregar textura aveludada em cafés com notas mais confortáveis, como chocolate, caramelo e avelã.
     
-- **GH 60 ppm / KH 21,8 ppm (Perfil Encorpado & Frutado):** Carga mineral alta, com destaque dobrado em Magnésio + Sulfato. Objetiva eleva cafés frutados intensos, tropicais por exemplo, dando um corpo denso, estruturado e um final mais denso.
+- **GH 60 ppm / KH 21,8 ppm:** Carga mineral alta, com destaque dobrado em Magnésio + Sulfato. Objetiva eleva cafés frutados intensos, tropicais por exemplo, dando um corpo denso, estruturado e um final mais denso.
