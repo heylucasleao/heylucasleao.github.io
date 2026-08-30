@@ -37,11 +37,14 @@
 </div>
 </header>
 <h1 id="4-previsao-pontual" tabindex="-1">4. Previsão pontual</h1>
+<hr>
 <p>Há um grande desafio em conseguir diferenciar o sinal do ruído dentro da previsão, como descrevi anteriormente. Esses métodos, da forma como podem ser utilizados para prever, variam de modelo para modelo. Não irei detalhar muito os tipos mais comuns, mas passarei breve – sobre univariados, multivariados, e abordarei dois métodos menos comuns de previsão de target &quot;y&quot;.</p>
 <h2 id="metodos-univariados-e-multivariados" tabindex="-1">Métodos univariados e multivariados</h2>
+<hr>
 <p>Os métodos mais antigos são conhecidos como <strong>univariados</strong> e estatísticos, onde analisam o sinal – como o <em>Autoregressive Integrated Moving Average</em> (ARIMA) e o <em>Error, Trend, and Seasonality</em> (ETS) – de forma endógena. Isto é, apenas o comportamento passado da própria variável preditora auxilia na previsão futura; como exemplo, o preço de ontem da gasolina auxilia a prever o preço de amanhã. Entretanto, nos dias de hoje, apenas isso não demonstra o cenário inteiro.</p>
 <p>Modelos <strong>multivariados</strong>, que podem englobar tanto múltiplos sinais diferentes da mesma variável – como <em>lag 7</em> e <em>lag 1</em> – quanto variáveis que se correlacionam com ela – como, por exemplo, o preço do petróleo ou a inflação – conseguem detectar essas flutuações de forma mais sensível. Não existe o certo ou o errado: vai depender da disponibilidade de variáveis e do quão previsível e complexo é o seu dado.</p>
 <h2 id="modelos-hibridos" tabindex="-1">Modelos híbridos</h2>
+<hr>
 <p>Há também uma outra opção mista entre esses métodos. Baseados na ideia de <a href="https://nixtlaverse.nixtla.io/statsforecast/docs/models/multipleseasonaltrend.html" target="_blank" class="external-link">MSTL</a>, decompomos o sinal entre tendência, sazonalidade e resíduo (ruído):</p>
 <ul>
 <li>
@@ -60,8 +63,10 @@
 <p>Por fim, somamos os resultados da tendência, da sazonalidade e do ruído previsto. Isso gerará a previsão do movimento futuro. Deixarei <a href="https://github.com/heylucasleao/tinyshift/blob/main/tinyshift/examples/decomp_mstl_ml.ipynb" target="_blank" class="external-link">exemplos</a> na qual fiz desta forma.</p>
 <p>Essa abordagem não é garantia de sucesso, mas nos permite preservar a <strong>interpretabilidade</strong>: teremos a demonstração da tendência natural de nossa variável, a sua sazonalidade e podemos até aplicar o SHAP isoladamente no modelo de <em>Machine Learning</em> para entender o comportamento do ruído, facilitando estimar de taxa de crescimento ou periodos de alta demanda. Não é uma tarefa fácil, e quando mexemos com milhares de SKUs, isto pode se tornar impraticável. Assim, apenas deixar o modelo de ML atuar diretamente sobre a sazonalidade e a tendência juntas pode atuar melhor.</p>
 <h3 id="dtl-e-dmstl-modelagem-hibrida-por-decomposicao-com-modelos-locais-ou-globais" tabindex="-1">DTL e DMSTL: Modelagem híbrida por decomposição com modelos locais ou globais</h3>
+<hr>
 <p>No <code>tinyshift</code>, a decomposição pode também fazer parte do próprio <em>pipeline</em> de previsão. A ideia é não pedir que um único modelo aprenda simultaneamente tendência, sazonalidade e as relações não lineares restantes. Primeiro separamos os componentes; depois aplicamos a cada um a família de modelo mais apropriada; por fim, recombinamos as previsões.</p>
 <h4 id="dtl-tendencia-e-residuo" tabindex="-1">DTL: tendência e resíduo</h4>
+<hr>
 <p>O <code>DTLWrapper</code> é voltado a séries sem sazonalidade relevante. Para cada <code>SKU</code>, ele:</p>
 <ol>
 <li>Extrai uma tendência robusta por LOWESS;</li>
@@ -93,6 +98,7 @@ PREVISÃO
         └─ opcionalmente: estabilização horizontal
 </code></pre>
 <h4 id="dmstl-tendencia-sazonalidade-e-residuo" tabindex="-1">DMSTL: tendência, sazonalidade e resíduo</h4>
+<hr>
 <p>O <code>DMSTLWrapper</code> é a extensão para séries com uma ou mais sazonalidades. Ele executa MSTL por série e separa tendência, componentes sazonais e resíduo. A tendência e cada sazonalidade são previstas por modelos estatísticos; a parcela residual fica com o modelo de ML. No fim, o <em>wrapper</em> recompõe as três previsões.</p>
 <p>Quando <code>season_length=&quot;auto&quot;</code>, os períodos sazonais candidatos são detectados por FFT, individualmente para cada série. Quando <code>nlags=&quot;auto&quot;</code>, PAMI escolhe a defasagem residual a partir da dependência entre padrões ordinais presentes e passados. Isso evita impor, por exemplo, a mesma sazonalidade semanal ou o mesmo conjunto de lags a todos os SKUs.</p>
 <pre><code class="language-text">DMSTL — fluxo de treinamento e previsão
@@ -121,6 +127,7 @@ PREVISÃO
         └─ opcionalmente: estabilização horizontal
 </code></pre>
 <h4 id="local-ou-global" tabindex="-1">Local ou global?</h4>
+<hr>
 <p>Em ambos os <em>wrappers</em>, tendência e sazonalidade continuam específicas de cada série. A escolha local/global se aplica ao modelo de resíduos:</p>
 <ul>
 <li><strong>Local:</strong> um modelo residual por SKU. Faz sentido quando cada série possui dinâmica própria e histórico suficiente.</li>
@@ -128,6 +135,7 @@ PREVISÃO
 </ul>
 <p>No modo global, cada série ainda pode ter períodos sazonais e lags escolhidos individualmente; o modelo residual recebe a união ordenada dos lags selecionados. Assim, o compartilhamento global ocorre onde pode ajudar a aprender relações residuais, sem apagar a estrutura temporal local de cada SKU. Em contrapartida, modelagem com milhares de SKUs sobre dados intermitentes, por exemplo, pode ser prejudicial.</p>
 <h2 id="previsao-hierarquica-em-hierarchical-forecasting-em" tabindex="-1">Previsão hierárquica (<em>Hierarchical Forecasting</em>)</h2>
+<hr>
 <p>Outra abordagem é o uso de <strong>forecasting hierárquico</strong>. Nesse contexto, prevemos a demanda agregada em diferentes níveis de granularidade (ex.: País <mjx-container class="MathJax" jax="SVG" style="direction:ltr;position:relative"><svg style="overflow:visible;min-height:1px;min-width:1px;vertical-align:-.025ex" xmlns="http://www.w3.org/2000/svg" width="2.262ex" height="1.181ex" role="img" focusable="false" viewBox="0 -511 1000 522" aria-hidden="true"><g stroke="currentColor" fill="currentColor" stroke-width="0" transform="scale(1,-1)"><g data-mml-node="math"><g data-mml-node="mo"><path data-c="2192" d="M56 237T56 250T70 270H835Q719 357 692 493Q692 494 692 496T691 499Q691 511 708 511H711Q720 511 723 510T729 506T732 497T735 481T743 456Q765 389 816 336T935 261Q944 258 944 250Q944 244 939 241T915 231T877 212Q836 186 806 152T761 85T740 35T732 4Q730 -6 727 -8T711 -11Q691 -11 691 0Q691 7 696 25Q728 151 835 230H70Q56 237 56 250Z" style="stroke-width:3"></path></g></g></g></svg><mjx-assistive-mml unselectable="on" display="inline" style="top:0;left:0;clip:rect(1px,1px,1px,1px);-webkit-touch-callout:none;-webkit-user-select:none;-khtml-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none;position:absolute;padding:1px 0 0 0;border:0;display:block;width:auto;overflow:hidden"><math xmlns="http://www.w3.org/1998/Math/MathML"><mo stretchy="false">→</mo></math></mjx-assistive-mml></mjx-container> Região <mjx-container class="MathJax" jax="SVG" style="direction:ltr;position:relative"><svg style="overflow:visible;min-height:1px;min-width:1px;vertical-align:-.025ex" xmlns="http://www.w3.org/2000/svg" width="2.262ex" height="1.181ex" role="img" focusable="false" viewBox="0 -511 1000 522" aria-hidden="true"><g stroke="currentColor" fill="currentColor" stroke-width="0" transform="scale(1,-1)"><g data-mml-node="math"><g data-mml-node="mo"><path data-c="2192" d="M56 237T56 250T70 270H835Q719 357 692 493Q692 494 692 496T691 499Q691 511 708 511H711Q720 511 723 510T729 506T732 497T735 481T743 456Q765 389 816 336T935 261Q944 258 944 250Q944 244 939 241T915 231T877 212Q836 186 806 152T761 85T740 35T732 4Q730 -6 727 -8T711 -11Q691 -11 691 0Q691 7 696 25Q728 151 835 230H70Q56 237 56 250Z" style="stroke-width:3"></path></g></g></g></svg><mjx-assistive-mml unselectable="on" display="inline" style="top:0;left:0;clip:rect(1px,1px,1px,1px);-webkit-touch-callout:none;-webkit-user-select:none;-khtml-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none;position:absolute;padding:1px 0 0 0;border:0;display:block;width:auto;overflow:hidden"><math xmlns="http://www.w3.org/1998/Math/MathML"><mo stretchy="false">→</mo></math></mjx-assistive-mml></mjx-container> Categoria <mjx-container class="MathJax" jax="SVG" style="direction:ltr;position:relative"><svg style="overflow:visible;min-height:1px;min-width:1px;vertical-align:-.025ex" xmlns="http://www.w3.org/2000/svg" width="2.262ex" height="1.181ex" role="img" focusable="false" viewBox="0 -511 1000 522" aria-hidden="true"><g stroke="currentColor" fill="currentColor" stroke-width="0" transform="scale(1,-1)"><g data-mml-node="math"><g data-mml-node="mo"><path data-c="2192" d="M56 237T56 250T70 270H835Q719 357 692 493Q692 494 692 496T691 499Q691 511 708 511H711Q720 511 723 510T729 506T732 497T735 481T743 456Q765 389 816 336T935 261Q944 258 944 250Q944 244 939 241T915 231T877 212Q836 186 806 152T761 85T740 35T732 4Q730 -6 727 -8T711 -11Q691 -11 691 0Q691 7 696 25Q728 151 835 230H70Q56 237 56 250Z" style="stroke-width:3"></path></g></g></g></svg><mjx-assistive-mml unselectable="on" display="inline" style="top:0;left:0;clip:rect(1px,1px,1px,1px);-webkit-touch-callout:none;-webkit-user-select:none;-khtml-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none;position:absolute;padding:1px 0 0 0;border:0;display:block;width:auto;overflow:hidden"><math xmlns="http://www.w3.org/1998/Math/MathML"><mo stretchy="false">→</mo></math></mjx-assistive-mml></mjx-container> SKU), o que garante estabilidade nos níveis mais altos e precisão operacional nos níveis mais baixos, mantendo a coerência matemática entre todas as pontas da organização.</p>
 <p>As abordagens mais comuns para conciliação hierárquica são:</p>
 <ul>
@@ -145,10 +153,11 @@ PREVISÃO
 </li>
 </ul>
 <blockquote>
-<p><strong>Dica de Implementação:</strong></p>
-<p>Bibliotecas modernas de ecossistemas como a <a href="https://nixtlaverse.nixtla.io/hierarchicalforecast/index.html" target="_blank" class="external-link"><strong>Nixtla</strong></a> (com o framework <code>HierarchicalForecast</code>) possuem rotinas eficientes e otimizadas para aplicar esses métodos de reconciliação de forma escalável.</p>
+<p><strong>Dica de Implementação</strong><br>
+Bibliotecas modernas de ecossistemas como a <a href="https://nixtlaverse.nixtla.io/hierarchicalforecast/index.html" target="_blank" class="external-link"><strong>Nixtla</strong></a> (com o framework <code>HierarchicalForecast</code>) possuem rotinas eficientes e otimizadas para aplicar esses métodos de reconciliação de forma escalável.</p>
 </blockquote>
 <h2 id="nota" tabindex="-1">Nota</h2>
+<hr>
 <p>Algo interessante de se pontuar, é que tanto a metodologia de modelo híbrido, como hierarquico, podem ser utilizados sob outras abordagens, inclusive entre eles. Só lembre que, conforme for aumentando a complexidade, deverá ser justificavel a fazer isso. Não há vergonha ter modelos baselines simples rodando em primeiro momento antes de por exemplo, fazer um via DMSTL a decomposição e fazer um Stacking de 4 modelos de gradientes diferentes sob configurações e inserir uma camada hierarquica no final. Obviamente é uma visão extrema ao qual comentei, mas é apenas para se ter uma ideia.</p>
 </main>
 <script>window.location.hash&&document.getElementById(window.location.hash.slice(1)).classList.add("referred"),window.addEventListener("hashchange",(e=>{const t=e.oldURL.split("#");t[1]&&document.getElementById(t[1]).classList.remove("referred");const n=e.newURL.split("#");n[1]&&document.getElementById(n[1]).classList.add("referred")}),!1);const url_parts=window.location.href.split("#"),url=url_parts[0],referrence=url_parts[1];document.querySelectorAll(".cm-s-obsidian > *[id]").forEach((function(e){e.ondblclick=function(e){const t=url+"#"+e.target.id;navigator.clipboard.writeText(t)}}))</script>
