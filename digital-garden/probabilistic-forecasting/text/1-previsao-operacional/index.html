@@ -40,8 +40,8 @@
 <p>A minha primeira experiência de colocar forecasting em diferentes caixinhas veio do livro <a href="https://www.amazon.com.br/Little-Illustrated-Book-Operational-Forecasting/dp/1789013429" target="_blank" class="external-link">The Little (illustrated) Book of Operational Forecasting</a>. Para mim, tudo parecia seguir a mesma receita: você tem uma série que não é i.i.d. e precisa prevê-la de forma ordenada. Olha as métricas, fica feliz, entrega resultados. Entretanto, o universo é grande. Bem grande.</p>
 <p>Imagine que você vai à padaria todos os dias, mas resolve seguir por um caminho diferente. Naquela manhã, você quer caminhar um pouco mais e acaba conhecendo uma padaria que nunca havia visto. “Desde quando ela existe?”, provavelmente se pergunta. Talvez você nem saiba se a qualidade é melhor que a da padaria de sempre, mas percebe que ela é diferente, com produtos diferentes.</p>
 <p>Com forecasting, foi a mesma coisa. Foi um choque ler sobre pessoas de formações diversas aplicando-o em contextos igualmente diversos. Não estou aqui para dizer o que é melhor ou pior, mas para redigir e compartilhar anotações sobre tópicos que li e que me ajudaram de alguma forma.</p>
+<br>
 <h2 id="pergunte-se-antes-de-prever" tabindex="-1">Pergunte-se antes de prever</h2>
-<hr>
 <p>No livro de <a href="https://www.linkedin.com/in/vandeputnicolas/" target="_blank" class="external-link">Nicolau Vandeput</a>, um dos tópicos abordados é pensar primeiro na regra de negócio, antes de focar na solução. Parece óbvio, ou até redundante, mas percebo que, quanto <strong>mais</strong> aprendo e convivo com pessoas de outras áreas, menos tento trazer tudo para o meu próprio universo. O livro propõe perguntas como:</p>
 <ul>
 <li>
@@ -53,8 +53,8 @@
 <p>Para escolher a melhor forma de apresentar e interpretar os resultados, precisamos compreender quem será o usuário final. Isso garante uma comunicação alinhada e um entendimento claro de ponta a ponta. Quanto melhor a previsão se integrar ao dia a dia do usuário, melhores serão os resultados obtidos.</p>
 </li>
 </ul>
+<br>
 <h2 id="horizontes-de-previsao" tabindex="-1">Horizontes de previsão</h2>
-<hr>
 <p>Dentro da previsão de demanda trabalhamos com três horizontes de visão:</p>
 <ul>
 <li>
@@ -70,8 +70,8 @@
 <p>Neste último cenário, há diversos tipos de modelagem. Você pode encontrar técnicas de Pesquisa Operacional e modelos de espaço de estados, como o ISSM pela <a href="https://www.lokad.com/" target="_blank" class="external-link">Lokad</a> na <a href="https://www.kaggle.com/competitions/m5-forecasting-accuracy" target="_blank" class="external-link">competição M5</a>, ou modelos probabilísticos, como os apresentados pela <a href="https://www.vekia.fr/" target="_blank" class="external-link">Vekia</a> na competição <a href="https://www.datasource.ai/en/home/data-science-competitions-for-startups/phase-2-vn1-forecasting-accuracy-challenge/description" target="_blank" class="external-link">VN1</a>, a partir do trabalho de <a href="https://fr.linkedin.com/in/johann-robette" target="_blank" class="external-link">Johann Robette</a>.</p>
 <p>Há diversos meios e métodos. Pelo meu background — o que não deve surpreender ninguém —, interessei-me por modelos probabilísticos que utilizam machine learning para incorporar variáveis exógenas e lags de ponto de venda. Retomarei o tema mais adiante.<br>
 Foi justamente Johann Robette quem despertou meu interesse pelo assunto. Agradeço a ele por ter me direcionado a leituras específicas sobre modelagem probabilística quando o procurei. Sei que ainda tenho muito a aprender, mas esse direcionamento me ajudou bastante. Para quem se interessar, recomendo também sua <a href="https://www.youtube.com/watch?v=kO2pgydf5GA" target="_blank" class="external-link">palestra de 2024</a>.</p>
+<br>
 <h2 id="o-impacto-do-erro-de-previsao" tabindex="-1">O impacto do erro de previsão</h2>
-<hr>
 <p>Um desafio central é deixar de observar métricas cegamente e passar a perceber o erro de previsão por seus outros impactos. Se reduzirmos esses impactos a duas formas, seriam:</p>
 <ul>
 <li>
@@ -82,8 +82,8 @@ Foi justamente Johann Robette quem despertou meu interesse pelo assunto. Agrade�
 </li>
 </ul>
 <p>Nesse cenário, o <em>forecasting</em> não deve ser tratado como uma classificação binária de acerto ou erro. O objetivo é <strong>garantir o nível de serviço ao menor custo possível</strong>.</p>
+<br>
 <h2 id="forecastability" tabindex="-1">Forecastability</h2>
-<hr>
 <p>Algo que também mudou bastante minha perspectiva sobre como abordar séries temporais não veio de agora. Em outubro de 2025, participei da primeira <a href="https://maven.com/valeriy-manokhin/modern-forecasting-mastery" target="_blank" class="external-link">turma</a> sobre series temporais com <a href="https://www.linkedin.com/in/vmanokhin/" target="_blank" class="external-link">Valeriy Manokhin</a> e também falamos seu <a href="https://valeman.gumroad.com/l/MasteringModernTimeSeriesForecastingPro" target="_blank" class="external-link">livro</a>. Há diversos tópicos, mas o que mais me chamou atenção foi o conceito de previsibilidade: <em>o quanto a sua série é previsível?</em></p>
 <p>Por natureza, lidamos com choques exógenos, volatilidade sazonal e comportamentos específicos — inclusive geopolíticos. Ainda assim, uma série pode seguir alguma ordem ou mecanismo interno. Para modelá-la, precisamos medir se há lógica suficiente nesse movimento, ainda que mínima, e entender como incorporá-la ao modelo. <em>Forecastability</em> é o campo dessa mensuração.</p>
 <p>Comum em estudos de hidrologia, sismologia e sinais humanos (ECG, EEG, EMG, EOG), <em>forecastability</em> diagnostica a estabilidade e a previsibilidade de uma série temporal. Quanto mais organizada ela for, mais fácil será prevê-la. Quanto menos estrutura houver, maior a chance de ela se aproximar de um passeio aleatório — e de o modelo oferecer mais apostas do que estimativas úteis.</p>

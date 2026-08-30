@@ -45,8 +45,8 @@
 <blockquote>
 <p><strong>Nota:</strong> Uma abordagem simples para inferir a demanda não observada é expurgar da análise os períodos em que o estoque esteve em níveis criticamente baixos (<em>stockouts</em>) por problemas logísticos, configurando como demanda censurada. Ao eliminar essa restrição que afeta as vendas, torna-se possível estimar a média real de demanda ao longo do tempo.</p>
 </blockquote>
+<br>
 <h2 id="substituicao-e-canibalizacao" tabindex="-1">Substituição e canibalização</h2>
-<hr>
 <p>Além do efeito direto do estoque no produto analisado, algumas abordagens mais avançadas de modelagem avaliam como os produtos do portfólio interagem entre si:</p>
 <ul>
 <li>
@@ -57,6 +57,7 @@
 </li>
 </ul>
 <p>Não abordarei técnicas para corrigir demanda ou preço. Elas se inserem em métodos de séries temporais especificamente ligados à inferência causal, que infelizmente não tenho aptidão dos dois temas juntos. Ainda sim, o objetivo aqui é dar uma visão geral.</p>
+<br>
 <h2 id="granularidade-da-demanda" tabindex="-1">Granularidade da demanda</h2>
 <p>Decompor o sinal de demanda — por algoritmo ou como exercício de raciocínio — é interessante para entendermos o consumo no problema em questão. Também importa saber com que granularidade conseguimos observá-la: diariamente, semanalmente ou mensalmente? Algumas visões têm mais ruído que outras. Um SKU pode apresentar demanda diária irregular, enquanto seu consumo mensal é estável, por exemplo. O conceito de <em>previsibilidade</em> é útil para essa avaliação.</p>
 <p>Também é preciso considerar como fornecedores e a própria empresa conseguem responder às previsões. Não adianta prever a demanda dia a dia se a operação só consegue repor mensalmente. Nesse caso, o problema pode ser menos de previsão e mais de alocação entre lojas. Problemas parecidos podem exigir abordagens diferentes.</p>

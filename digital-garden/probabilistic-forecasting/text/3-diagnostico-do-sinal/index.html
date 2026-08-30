@@ -37,6 +37,7 @@
 </div>
 </header>
 <h1 id="3-diagnostico-do-sinal" tabindex="-1">3. Diagnóstico do sinal</h1>
+<br>
 <h2 id="o-desafio-da-previsao" tabindex="-1">O desafio da Previsão</h2>
 <p><em>It is not possible to forecast future outcome precisely.</em></p>
 <p><em>Only the signal is optentially forecastable – noise is unforecastable in principle.</em></p>
@@ -49,8 +50,8 @@
 <ul>
 <li><a href="https://github.com/heylucasleao/tinyshift/blob/main/tinyshift/series/forecastability.py" target="_blank" class="external-link"><code>theorical_limit</code></a></li>
 </ul>
+<br>
 <h2 id="quao-frequente-e-a-demanda" tabindex="-1">Quão frequente é a demanda?</h2>
-<hr>
 <p>Entender o comportamento da demanda antes de qualquer modelagem além de ser indispensável, auxilia sabermos em como tomarmos ação. Por conta disso, foi desenvolvido a classificação de Syntetos–Boylan. É um guia para decidir como tratar a série, mas importante falar que não é uma taxonomia natural e definitiva da demanda.</p>
 <p>Uma classificação comum combina duas medidas calculadas sobre a série:</p>
 <ul>
@@ -115,6 +116,7 @@
 </ul>
 <p>Saindo do escopo de demanda e olhando para índices financeiros, em mercados líquidos as variações podem se aproximar de um passeio aleatório. Isso não torna o mercado literalmente imprevisível, mas pode limitar o sinal estável explorável para previsão. Nesses casos, um modelo complexo talvez não supere um baseline ingênuo fora da amostra.<br>
 Métricas de previsibilidade ajudam a identificar essa limitação antes de investir em modelagem. No caso da demanda, ADI/CV² exerce um papel diferente: orienta a escolha da abordagem conforme a frequência e a volatilidade dos pedidos. Às vezes, escolher a abordagem certa para cada tipo de demanda evita meses de projeto sem ganho decisório real.</p>
+<br>
 <h2 id="decomposicao-de-series-temporais" tabindex="-1">Decomposição de séries temporais</h2>
 <p>Algoritmos de <a href="https://www.statsmodels.org/dev/examples/notebooks/generated/mstl_decomposition.html" target="_blank" class="external-link">decomposição</a> são uma das ferramentas para observar esses comportamentos.</p>
 <p>Para fins de diagnóstico, uma série pode ser representada por três componentes principais:</p>
