@@ -4,33 +4,38 @@
 
 # Forecasting operacional: da previsão à decisão
 
-- [Introdução](./00.%20Introdução.md)
+- [[digital-garden/probabilistic-forecasting/text/0. Introdução\|0. Introdução]]
 
 ## Parte I — Entender o problema antes de prever
 
-- [1. Previsão Operacional](./01.%20Previsão%20operacional.md)
-- [2. Demanda](./02.%20Demanda.md)
-- [3. Diagnóstico do sinal](./03.%20Diagnóstico%20do%20sinal.md)
+- [[digital-garden/probabilistic-forecasting/text/1. Previsão operacional\|1. Previsão operacional]]
+	
+- [[digital-garden/probabilistic-forecasting/text/2. Demanda\|2. Demanda]]
+	
+- [[digital-garden/probabilistic-forecasting/text/3. Diagnóstico do sinal\|3. Diagnóstico do sinal]]
 
 ## Parte II — Previsão pontual: construir e avaliar
 
-- [4. Previsão Pontual](./04.%20Previsão%20pontual.md)
-- [5. Avaliação](./05.%20Avaliação.md)
+- [[digital-garden/probabilistic-forecasting/text/4. Previsão pontual\|4. Previsão pontual]]
+	
+- [[digital-garden/probabilistic-forecasting/text/5. Avaliação\|5. Avaliação]]
 
 ## Parte III — O limite da média
 
-- [6. Por que uma média não basta](./06.%20Uma%20média%20não%20basta.md)
-- [7. Forecasting Probabilístico](./07.%20Forecasting%20probabilístico.md)
+- [[digital-garden/probabilistic-forecasting/text/6. Uma média não basta\|6. Uma média não basta]]
+	
+- [[digital-garden/probabilistic-forecasting/text/7. Forecasting probabilístico\|7. Forecasting probabilístico]]
 
 ## Parte IV — Da distribuição à decisão
 
-- [8. A economia da decisão](./08.%20A%20economia%20da%20decisão.md)
+- [[digital-garden/probabilistic-forecasting/text/8. A economia da decisão\|8. A economia da decisão]]
 
 ## Apêndices
 
 Não sei se estes apêndices vão ser úteis, mas, já que redigi, ficam aqui. Um dia, quem sabe.
 
-
-  - [A.1. Quais decisões estamos tomando?](./Apêndice%20A.1.%20Quais%20decisões%20estamos%20tomando.md)
-  - [A.2. Como medimos a qualidade da decisão?](./Apêndice%20A.2.%20Como%20medimos%20a%20qualidade%20da%20decisão.md)
-  - [A.3. Quais incertezas afetam a performance?](./Apêndice%20A.3.%20Quais%20incertezas%20afetam%20a%20performance.md)
+  - [[digital-garden/probabilistic-forecasting/text/Apêndice A.1. Quais decisões estamos tomando\|Apêndice A.1. Quais decisões estamos tomando]]
+	  
+  - [[digital-garden/probabilistic-forecasting/text/Apêndice A.2. Como medimos a qualidade da decisão\|Apêndice A.2. Como medimos a qualidade da decisão]]
+	
+  - [[digital-garden/probabilistic-forecasting/text/Apêndice A.3. Quais incertezas afetam a performance\|Apêndice A.3. Quais incertezas afetam a performance]]
