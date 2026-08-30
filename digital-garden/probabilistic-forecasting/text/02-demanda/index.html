@@ -1,0 +1,68 @@
+<!doctype html>
+<html lang="pt-br">
+<head>
+<title>02. Demanda</title>
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<script async type="module">import mermaid from"https://cdn.jsdelivr.net/npm/mermaid@10/dist/mermaid.esm.min.mjs"</script>
+<script async src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.25.0/prism.min.js" integrity="sha512-hpZ5pDCF2bRCweL5WoA0/N1elet1KYL5mx3LP555Eg/0ZguaHawxNvEjF6O3rufAChs16HVNhEc6blF/rZoowQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+<script async src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.25.0/plugins/autoloader/prism-autoloader.min.js" integrity="sha512-sv0slik/5O0JIPdLBCR2A3XDg/1U3WuDEheZfI/DI5n8Yqc3h5kjrnr46FGBNiUAJF7rE4LHKwQ/SoSLRKAxEA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+<script async src="https://cdn.jsdelivr.net/npm/lucide@0.115.0/dist/umd/lucide.min.js"></script>
+<script>window.addEventListener("load",(()=>{document.querySelectorAll(".callout").forEach((e=>{const t=getComputedStyle(e).getPropertyValue("--callout-icon"),l=t&&t.trim().replace(/^lucide-/,"");if(l){const t=e.querySelector(".callout-title");if(t){const e=document.createElement("div"),c=document.createElement("i");e.appendChild(c),c.setAttribute("icon-name",l),e.setAttribute("class","callout-icon"),t.insertBefore(e,t.firstChild)}}})),lucide.createIcons(),Array.from(document.querySelectorAll(".callout.is-collapsible")).forEach((e=>{e.querySelector(".callout-title").addEventListener("click",(t=>{e.classList.contains("is-collapsed")?e.classList.remove("is-collapsed"):e.classList.add("is-collapsed")}))}))}))</script>
+<script async src="https://fastly.jsdelivr.net/npm/force-graph@1.43.0/dist/force-graph.min.js"></script>
+<script async src="https://fastly.jsdelivr.net/npm/@alpinejs/persist@3.11.1/dist/cdn.min.js"></script>
+<script src="https://fastly.jsdelivr.net/npm/alpinejs@3.11.1/dist/cdn.min.js" async></script>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.25.0/themes/prism-okaidia.min.css" integrity="sha512-mIs9kKbaw6JZFfSuo+MovjU+Ntggfoj8RwAmJbVXQ5mkAX5LlgETQEweFPI18humSPHymTb5iikEOKWF7I8ncQ==" crossorigin="anonymous" referrerpolicy="no-referrer" async>
+<script src="https://fastly.jsdelivr.net/npm/whatwg-fetch@3.6.2/dist/fetch.umd.min.js" crossorigin="anonymous" referrerpolicy="no-referrer" async></script>
+<link href="/styles/digital-garden-base.css" rel="stylesheet">
+<link href="/styles/obsidian-base.css" rel="stylesheet">
+<link href="/styles/_theme.7a72eb34.css" rel="stylesheet">
+<link href="/styles/custom-style.css" rel="stylesheet">
+<link rel="icon" href="/favicon.ico" sizes="any">
+<link rel="icon" href="/favicon.svg" type="image/svg+xml">
+<link rel="apple-touch-icon" href="/apple-touch-icon.png">
+<link rel="manifest" href="/manifest.webmanifest">
+<style></style>
+</head>
+<body class="theme-dark markdown-preview-view markdown-rendered markdown-preview-section">
+<nav class="navbar">
+<div class="navbar-inner">
+<a href="/" style="text-decoration:none">
+<h1 style="margin:15px!important">Hey, Lucas Leão!</h1>
+</a>
+</div>
+</nav>
+<main class="content cm-s-obsidian">
+<header>
+<div class="header-meta">
+</div>
+</header>
+<h1 id="2-demanda" tabindex="-1">2. Demanda</h1>
+<blockquote>
+<p><em>Forecasting demand is always a means to an end, not the end itself.</em></p>
+<p><em>The end is to help decision-makers by providing them with helpful information.</em> - <em><a href="https://www.amazon.com.br/Demand-Forecasting-Best-Practices-English-ebook/dp/B0C59PHF12" target="_blank" class="external-link">Nicolau Vandeput</a></em></p>
+</blockquote>
+<p>É fundamental definir e projetar a previsão com base na <strong>demanda</strong>, e não na <strong>venda</strong>. A demanda representa a intenção real de compra do cliente e não é limitada pela disponibilidade de estoque — o consumidor continua desejando o produto mesmo que você não o tenha para vender. A venda, por outro lado, é restrita ao estoque disponível; se não há produto, você observa apenas a venda realizada, e não a intenção real do mercado, perdendo visibilidade sobre o potencial futuro. Para muito bobo esse tópico, mas compreender essa diferença é importante para definir quais dados coletar, suas limitações e quando possível, como sanitizá-los a isso e construir modelos de projeção alinhados ao objetivo do negócio.</p>
+<blockquote>
+<p><strong>Nota:</strong> Uma abordagem simples para inferir a demanda não observada é expurgar da análise os períodos em que o estoque esteve em níveis criticamente baixos (<em>stockouts</em>) por problemas logísticos, configurando como demanda censurada. Ao eliminar essa restrição que afeta as vendas, torna-se possível estimar a média real de demanda ao longo do tempo.</p>
+</blockquote>
+<h2 id="substituicao-e-canibalizacao" tabindex="-1">Substituição e canibalização</h2>
+<p>Além do efeito direto do estoque no produto analisado, algumas abordagens mais avançadas de modelagem avaliam como os produtos do portfólio interagem entre si:</p>
+<ul>
+<li>
+<p><strong>Substituição (Efeito de Troca Ativa):</strong> Ocorre quando a indisponibilidade de um item leva o cliente a comprar um produto equivalente (ex.: na ausência da embalagem de 1L, o consumidor compra duas de 500ml, ou troca a marca/variante). Dependendo da modelagem, se não isolarmos esse efeito, a demanda do produto substituto parecerá artificialmente inflacionada, enquanto a demanda real do item faltante continuará subestimada.</p>
+</li>
+<li>
+<p><strong>Canibalização (Efeito Mútuo de Lançamento e Promoção):</strong> Ocorre quando o aumento na demanda de um produto reduz diretamente as vendas de outro item da própria linha. Isso é comum no lançamento de SKUs mais recentes ou em ações promocionais agressivas. O modelo precisa considerar a elasticidade cruzada da demanda para evitar projetar o crescimento de um item sem descontar a retração decorrente nos produtos correlatos.</p>
+</li>
+</ul>
+<p>Não abordarei técnicas para corrigir demanda ou preço. Elas se inserem em métodos de séries temporais especificamente ligados à inferência causal, que infelizmente não tenho aptidão dos dois temas juntos. Ainda sim, o objetivo aqui é dar uma visão geral.</p>
+<h2 id="granularidade-da-demanda" tabindex="-1">Granularidade da demanda</h2>
+<p>Decompor o sinal de demanda — por algoritmo ou como exercício de raciocínio — é interessante para entendermos o consumo no problema em questão. Também importa saber com que granularidade conseguimos observá-la: diariamente, semanalmente ou mensalmente? Algumas visões têm mais ruído que outras. Um SKU pode apresentar demanda diária irregular, enquanto seu consumo mensal é estável, por exemplo. O conceito de <em>previsibilidade</em> é útil para essa avaliação.</p>
+<p>Também é preciso considerar como fornecedores e a própria empresa conseguem responder às previsões. Não adianta prever a demanda dia a dia se a operação só consegue repor mensalmente. Nesse caso, o problema pode ser menos de previsão e mais de alocação entre lojas. Problemas parecidos podem exigir abordagens diferentes.</p>
+</main>
+<script>window.location.hash&&document.getElementById(window.location.hash.slice(1)).classList.add("referred"),window.addEventListener("hashchange",(e=>{const t=e.oldURL.split("#");t[1]&&document.getElementById(t[1]).classList.remove("referred");const n=e.newURL.split("#");n[1]&&document.getElementById(n[1]).classList.add("referred")}),!1);const url_parts=window.location.href.split("#"),url=url_parts[0],referrence=url_parts[1];document.querySelectorAll(".cm-s-obsidian > *[id]").forEach((function(e){e.ondblclick=function(e){const t=url+"#"+e.target.id;navigator.clipboard.writeText(t)}}))</script>
+<script src="https://fastly.jsdelivr.net/npm/luxon@3.2.1/build/global/luxon.min.js"></script>
+<script defer="defer">TIMESTAMP_FORMAT="MMM dd, yyyy h:mm a",document.querySelectorAll(".human-date").forEach((function(e){date=e.getAttribute("data-date")||e.innerText,parsed_date=luxon.DateTime.fromISO(date),null!=parsed_date.invalid&&(parsed_date=luxon.DateTime.fromSQL(date)),null!=parsed_date.invalid&&(parsed_date=luxon.DateTime.fromHTML(date)),e.innerHTML=parsed_date.toFormat(TIMESTAMP_FORMAT)}))</script>
+<script>lucide.createIcons({attrs:{class:["svg-icon"]}})</script>
+</body>
+</html>
