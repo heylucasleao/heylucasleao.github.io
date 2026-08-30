@@ -27,7 +27,7 @@
 
 <br>
 
-## Parte III — O limite da média
+## Parte III — Da média à distribuição
 
 - [[digital-garden/probabilistic-forecasting/text/6. Uma média não basta\|6. Uma média não basta]]
 
