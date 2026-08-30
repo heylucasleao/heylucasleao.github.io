@@ -16,13 +16,13 @@ Outro ponto importante a comentar, é que estruturei este texto propositalmente 
 
 ---
 ## Passo 3: Quais incertezas afetam a performance?
-
+---
 Na ciência de dados tradicional, equipes costumam tratar a incerteza apenas como o erro residual do modelo ($\epsilon$) ou o desvio padrão de um treino. No mundo real da tomada de decisão, a incerteza é dinâmica, temporal e frequentemente dependente da própria decisão que tomamos.
 
 Não basta saber "o que não sabemos". É obrigatório mapear quando, como e sob qual atraso a incerteza se resolve na linha do tempo operacional.
 
 ## A Regra da Revelação Temporal em Ciência de Dados
-
+---
 Toda incerteza opera sob uma fronteira temporal estrita:
 
 1. **Antes da Ação ($t$):** A incerteza reside no modelo como uma crença estatística imperfeita ($B_t$).
@@ -35,6 +35,7 @@ Toda incerteza opera sob uma fronteira temporal estrita:
 > **O Teste da Revelação Temporal:** _Essa informação está disponível para a política antes da ação ou só é observada depois que o sistema a executa?_ Se estiver disponível antes, é informação observada em $I_t$, ainda que sujeita a problemas de qualidade. Se só se revelar depois, é parte do risco $W_{t+1}$ que a política precisa suportar.
 
 ### Tipos Fundamentais de Incerteza
+---
 
 | **Tipo de Incerteza**                                       | **O que representa na Operação**                                                                   | **Exemplos Reais em Projetos de ML**                                                                                                                                                                    |
 | ----------------------------------------------------------- | -------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
@@ -46,7 +47,7 @@ Toda incerteza opera sob uma fronteira temporal estrita:
 | Incerteza de Pipeline e Latência de Engenharia              | Atrasos na ingestão e assincronia que geram discrepância entre o fato no mundo e o dado no modelo. | _Feature Store_ desatualizada consumindo dados de saldo de 2 horas atrás em vez do saldo em tempo real; falha silenciosa de API externa de bureaus de crédito retornando nulo ou valor padrão.          |
 
 ## Roteiro para discussão
-
+---
 Use estas perguntas para enquadrar o problema com o time ou orientar uma LLM:
 
 - O que é conhecido antes da decisão e o que só será revelado depois dela?

@@ -16,13 +16,13 @@ Outro ponto importante a comentar, é que estruturei este texto propositalmente 
 
 ---
 ## Passo 2: Como Medimos a Qualidade da Decisão? (O Triângulo O - M - C)
-
+---
 A base do framework assume que uma decisão é qualquer alavanca que você controla (ex: aprovar/recusar crédito, definir o preço, escolher os 3 itens do ranking, enviar ou não um cupom). É essencial não confundir a decisão que você toma com o resultado estocástico posterior.
 
 Segundo o livro [The Decision Factory](https://www.amazon.com.br/Decision-Factory-Novel-Decisions-Uncertainty/dp/B0GN8SJXR1), muitos times cometem o erro de misturar regras duras, métricas estatísticas e metas financeiras dentro de uma única função com pesos arbitrários ($\lambda$), ocultando os _trade-offs_ reais do negócio. O framework exige a separação rigorosa entre três entidades:
 
 ### 1. Objetivo
-
+---
 É a única função matemática que o algoritmo ou política de decisão tentará maximizar ou minimizar de forma estrita. Ela traduz a meta econômica final.
 
 > **O Teste da Bússola Única:** _Qual é a quantidade financeira ou operacional exata que define, numericamente, se a operação foi rentável ou bem-sucedida?_
@@ -32,13 +32,13 @@ $$\max \mathbb{E}[\text{Lucro}] = (\text{Receita de Juros e Tarifas}) - (\text{C
 - **Sistemas de Recomendação / E-commerce:**
 $$\max \mathbb{E}[\text{GMV}] = \sum_{i \in \text{ranking}} \text{Preço}_i \times \text{Margem}_i \times \hat{P}(\text{Clique}_i) \times \hat{P}(\text{Compra}_i \mid \text{Clique}_i)$$
 #### Função de Perda vs. Função Objetivo
-
+---
 - **A Função de Perda ($\mathcal{L}(\hat{y}, y)$):** É o critério  usado durante o treinamento do algoritmo (ex: _Log-Loss_, _Mean Squared Error_, _Focal Loss_). Ela serve apenas para calibrar crenças estatísticas ($B_t$). **A Loss nunca é o objetivo do negócio.**
     
 - **O Objetivo da Decisão ($\max \mathbb{E}[U(a \mid S_t)]$):** É a função que avalia o impacto econômico e operacional da ação tomada $a_t$. O modelo preditivo apenas fornece insumos de probabilidade para que a decisão maximize essa utilidade real.
 
 ### 2. Restrição
-
+---
 É um limite rígido, absoluto e não negociável (seja ele físico, legal, computacional ou de negócio). Se uma restrição for violada, a solução é **inválida** e o sistema não pode executar a ação. Otimizadores e políticas de decisão sequer devem avaliar cenários fora deste espaço viável.
 
 > **O Teste da Linha Vermelha:** _Se o modelo sugerir uma ação que ultrapasse esse limite, o sistema quebra, a empresa toma um processo regulatório ou a infraestrutura cai?_ Se a resposta for sim, é uma restrição rígida ($C$), e não uma métrica.
@@ -57,7 +57,7 @@ $$\max \mathbb{E}[\text{GMV}] = \sum_{i \in \text{ranking}} \text{Preço}_i \tim
 		
 
 ### 3. Métrica
-
+---
 São os indicadores que os humanos (stakeholders de negócio, cientistas de dados e executivos) acompanham no painel de controle para avaliar a saúde, estabilidade, justiça e qualidade do sistema ao longo do tempo.
 
 > **Atenção à Armadilha Clássica:** Não transforme automaticamente uma meta de negócio ou KPI em restrição matemática. Primeiro explicite o *trade-off* que ele representa. Porém, se sua violação tornar a ação ilegal, contratualmente inadmissível ou operacionalmente impossível, ele deixa de ser apenas uma métrica e passa a ser uma restrição.
@@ -81,7 +81,7 @@ São os indicadores que os humanos (stakeholders de negócio, cientistas de dado
 Muitas vezes usamos uma métrica (como o Nível de Serviço) para julgar se o Objetivo matemático foi bom o suficiente no mundo real. Por exemplo: o algoritmo minimizou o _custo financeiro_ (Objetivo), mas a diretoria vai olhar para o _nível de serviço de 95%_ (Métrica) para ver se o custo foi reduzido sacrificando demais a qualidade da entrega.
 
 ## Objetivo vs. Restrição vs. Métrica em Ação
-
+---
 Para consolidar o alinhamento entre a equipe técnica e a diretoria, o papel de cada vértice do triângulo pode ser resumido da seguinte forma:
 
 - **O Objetivo** é a **bússola matemática** que o algoritmo persegue de forma cega no papel (ex: maximizar o lucro líquido esperado).
@@ -95,7 +95,7 @@ Para consolidar o alinhamento entre a equipe técnica e a diretoria, o papel de 
 > O algoritmo minimizou com sucesso o custo de risco de crédito (Objetivo atingido), mas a diretoria analisa a taxa de aprovação comercial (Métrica de 40%) e percebe que o modelo foi excessivamente conservador, travando o crescimento da empresa. Com base nessa métrica, a liderança ajusta o apetite de risco da política de decisão, reequilibrando a fronteira de eficiência entre risco e volume.
 
 ## Triângulo O-M-C
-
+---
 ```
                          [ OBJETIVO (O) ]
                      A Bússola Matemática Única
@@ -117,7 +117,7 @@ Para consolidar o alinhamento entre a equipe técnica e a diretoria, o papel de 
 | **Métricas (M)**   | Painel de Controle (KPIs)    | Monitorar _trade-offs_, qualidade estatística, equidade e estabilidade.           | _Como os stakeholders avaliam se a otimização não sacrificou aspectos vitais?_ | Taxa de Aprovação (Negócio), AUC-ROC/ECE (ML), Paridade Demográfica (Fairness), Latência p99 (MLOps).      |
 
 ## Roteiro para discussão
-
+---
 Use estas perguntas para enquadrar o problema com o time ou orientar uma LLM:
 
 - Qual resultado econômico ou operacional a decisão deve maximizar ou minimizar?

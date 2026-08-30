@@ -3,7 +3,7 @@
 ---
 
 # Apêndice A.1 — Quais decisões estamos tomando?
-
+---
 Antes de escrever qualquer linha de código ou escolher uma arquitetura — XGBoost, redes neurais, regressão logística, *conformal prediction* ou um *solver* de otimização — estruture o problema em sua complexidade real.
 
 A premissa central é: separe a decisão — a alavanca sob seu controle — do resultado, que acontece depois sob influência do ambiente e da aleatoriedade.
@@ -16,13 +16,13 @@ Outro ponto importante a comentar, é que estruturei este texto propositalmente 
 
 ---
 ## Passo 1: Quais decisões estamos tomando? (A Anatomia do Estado)
-
+---
 Em um projeto de ciência de dados, a primeira pergunta é: quem toma a decisão, em qual instante ela ocorre e quais informações estão disponíveis nesse instante? Partir do processo atual ajuda a entender o que pode ser alterado, observado ou automatizado sem perder a ótica de quem hoje detém essa decisão.
 
 Para modelar isso de forma acionável, define-se o **Estado do Sistema ($S_t$)** no tempo $t$. O estado $S_t$ é a fotografia da informação necessária para decidir a ação $a_t$ e prever a evolução do sistema. Ele é decomposto em três tipos fundamentais de informação, além do contexto externo:
 
 ### 1. Estado Físico ($R_t$) — Quantidades e Recursos Fatuais
-
+---
 Representa as quantidades concretas e contáveis registradas no sistema no instante $t$. É uma fotografia factual da operação, não algo que permaneça imutável depois dela. Em ciência de dados, o “físico” abrange recursos tangíveis, capacidades computacionais, limites transacionais e saldos monetários.
 
 > **O Teste da Câmera Fotográfica:** Se eu tirar uma foto da operação no milissegundo $t$, o que consigo contar, medir ou consultar como registro atual? Se depende de uma previsão ou probabilidade, não está em $R_t$.
@@ -37,7 +37,7 @@ Representa as quantidades concretas e contáveis registradas no sistema no insta
     
 - **Infraestrutura e MLOps:** Orçamento de latência restante para a requisição ($T_{\text{limite}} - T_{\text{decorrido}}$), cota restante de chamadas de API do cliente no dia, número de instâncias de GPU ativas no cluster.
 ### 2. Estado de Informação ($I_t$)
-
+---
 Engloba dados cadastrais disponíveis, metadados, regras determinísticas e parâmetros que governam o sistema no instante da decisão. São informações observadas e utilizáveis em $t$, ainda que possam conter problemas de qualidade ou ser atualizadas no futuro; não são previsões sobre o que ocorrerá depois.
 
 > **O Teste da Regra do Jogo:** _Quais são as tabelas de referência, regras duras de negócio e atributos cadastrais que trato como fatos estabelecidos e determinísticos no momento da decisão?_
@@ -53,7 +53,7 @@ Engloba dados cadastrais disponíveis, metadados, regras determinísticas e par�
 - **Parâmetros de Calendário e Sistema:** Se o dia atual é feriado nacional ou dia útil, faixa de horário de atendimento humano, taxa de câmbio oficial fixada na abertura do dia.
 
 ### 3. Estado de Crença ($B_t$)
-
+---
 Abriga qualquer estimativa imperfeita, predição, inferência latente ou probabilidade estatística. Em Ciência de Dados, **todo** output gerado por outro modelo, distribuição estatística ou algoritmo de Machine Learning que serve de input para a decisão atual pertence a $B_t$
 
 > **O Teste da Refutabilidade / Inferência Estatística:** _Esse dado é resultado de um cálculo probabilístico, regressão, rede neural ou premissa cujo valor real só poderei confirmar no futuro (ou nunca)?_ (Todo forecast, score e probabilidade mora aqui).
@@ -79,7 +79,7 @@ Abriga qualquer estimativa imperfeita, predição, inferência latente ou probab
 - **Distribuições Posteriores e Bandits:** Parâmetros da distribuição $\text{Beta}(\alpha_t, \beta_t)$ da taxa de conversão de um anúncio em algoritmos de _Thompson Sampling_.
 
 ### 4. Contexto Externo (Features Exógenas)
-
+---
 Informações geradas fora do controle da organização que afetam a operação. 
 
 > **O Teste da Fronteira Temporal:** _Quando essa informação se torna um fato observável e registrado para quem toma a decisão?_
@@ -91,7 +91,7 @@ Informações geradas fora do controle da organização que afetam a operação.
 | **Exógeno Previsto**         | $B_t$                | Expectativa ou modelo preditivo sobre uma variável externa futura.     | Previsão meteorológica para as próximas 6 horas, estimativa de tráfego na rota, projeção de inflação para o trimestre.               |
 | **Choque Exógeno Realizado** | $W_{t+1}$            | Informação estocástica revelada apenas após a tomada da decisão $a_t$. | Ver detalhamento abaixo.                                                                                                             |
 ### O Choque Exógeno Realizado ($W_{t+1}$): A Resposta do Ambiente Pós-Decisão
-
+---
 O vetor $W_{t+1}$ representa a informação nova que chega ao sistema logo após a aplicação da decisão $a_t$. Em Ciência de Dados, ele se manifesta em três frentes principais:
 
 1. **O Feedback Imediato do Usuário:**
@@ -111,7 +111,7 @@ O vetor $W_{t+1}$ representa a informação nova que chega ao sistema logo após
     - A alteração abrupta no padrão de consumo da população decorrente de um evento macroeconômico, alterando a relação $P(Y \mid X)$ em produção.
 
 ## Roteiro para discussão
-
+---
 Use estas perguntas para enquadrar o problema com o time ou orientar uma LLM:
 
 - Qual ação concreta será escolhida, por quem e em qual frequência?
