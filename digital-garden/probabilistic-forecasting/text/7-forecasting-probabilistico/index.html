@@ -298,6 +298,7 @@ CDF · PMF · quantis · intervalos
 <tr>
 <th>Abordagem</th>
 <th>Modelo-base</th>
+<th>Requisito da função de perda</th>
 <th>Saída principal</th>
 <th>Principal vantagem</th>
 <th>Principal limitação</th>
@@ -307,7 +308,8 @@ CDF · PMF · quantis · intervalos
 <tbody>
 <tr>
 <td>Modelo quantílico</td>
-<td>Regressor treinado com perda quantílica</td>
+<td>Regressor quantílico</td>
+<td><em>Pinball loss</em></td>
 <td>Quantis ou intervalos-base</td>
 <td>Representa assimetria e dispersão condicionais às <em>features</em></td>
 <td>Os quantis estimados não asseguram, sozinhos, a cobertura nominal</td>
@@ -316,6 +318,7 @@ CDF · PMF · quantis · intervalos
 <tr>
 <td>MSCP</td>
 <td>Modelo pontual</td>
+<td>Não exige uma perda específica</td>
 <td>Intervalo conforme por horizonte</td>
 <td>É simples e reaproveita a previsão central existente</td>
 <td>A correção reflete os resíduos históricos, mas se adapta pouco à dispersão de cada contexto</td>
@@ -324,6 +327,7 @@ CDF · PMF · quantis · intervalos
 <tr>
 <td>TSCQR</td>
 <td>Modelo quantílico</td>
+<td><em>Pinball loss</em></td>
 <td>Intervalo quantílico conformalizado por horizonte</td>
 <td>Combina incerteza condicional com correção de cobertura</td>
 <td>Exige modelos quantílicos estáveis e calibração para a cobertura escolhida</td>
@@ -332,6 +336,7 @@ CDF · PMF · quantis · intervalos
 <tr>
 <td>TSF</td>
 <td>Modelo da média condicional e família paramétrica</td>
+<td>Deve estimar a média condicional, por exemplo, com MSE ou <em>deviance</em> Poisson/Tweedie</td>
 <td>Distribuição preditiva paramétrica</td>
 <td>Produz CDF, quantis e probabilidades com uma representação compacta, inclusive para demanda discreta</td>
 <td>Depende da adequação da família escolhida e da calibração da dispersão</td>
@@ -340,6 +345,7 @@ CDF · PMF · quantis · intervalos
 <tr>
 <td>CPS</td>
 <td>Modelo pontual, modelo de dispersão e resíduos conformes</td>
+<td>Não exige uma perda específica</td>
 <td>Distribuição preditiva empírica</td>
 <td>Produz diferentes probabilidades, quantis e intervalos sem impor uma família paramétrica à forma dos resíduos</td>
 <td>Requer <em>cross-fitting</em> e histórico de calibração suficiente por série e horizonte</td>
