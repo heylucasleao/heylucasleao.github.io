@@ -297,7 +297,6 @@ CDF · PMF · quantis · intervalos
 <thead>
 <tr>
 <th>Abordagem</th>
-<th>Modelo-base</th>
 <th>Requisito da função de perda</th>
 <th>Saída principal</th>
 <th>Principal vantagem</th>
@@ -308,7 +307,6 @@ CDF · PMF · quantis · intervalos
 <tbody>
 <tr>
 <td>Modelo quantílico</td>
-<td>Regressor quantílico</td>
 <td><em>Pinball loss</em></td>
 <td>Quantis ou intervalos-base</td>
 <td>Representa assimetria e dispersão condicionais às <em>features</em></td>
@@ -317,7 +315,6 @@ CDF · PMF · quantis · intervalos
 </tr>
 <tr>
 <td>MSCP</td>
-<td>Modelo pontual</td>
 <td>Não exige uma perda específica</td>
 <td>Intervalo conforme por horizonte</td>
 <td>É simples e reaproveita a previsão central existente</td>
@@ -326,7 +323,6 @@ CDF · PMF · quantis · intervalos
 </tr>
 <tr>
 <td>TSCQR</td>
-<td>Modelo quantílico</td>
 <td><em>Pinball loss</em></td>
 <td>Intervalo quantílico conformalizado por horizonte</td>
 <td>Combina incerteza condicional com correção de cobertura</td>
@@ -335,7 +331,6 @@ CDF · PMF · quantis · intervalos
 </tr>
 <tr>
 <td>TSF</td>
-<td>Modelo da média condicional e família paramétrica</td>
 <td>Deve estimar a média condicional, por exemplo, com MSE ou <em>deviance</em> Poisson/Tweedie</td>
 <td>Distribuição preditiva paramétrica</td>
 <td>Produz CDF, quantis e probabilidades com uma representação compacta, inclusive para demanda discreta</td>
@@ -344,7 +339,6 @@ CDF · PMF · quantis · intervalos
 </tr>
 <tr>
 <td>CPS</td>
-<td>Modelo pontual, modelo de dispersão e resíduos conformes</td>
 <td>Não exige uma perda específica</td>
 <td>Distribuição preditiva empírica</td>
 <td>Produz diferentes probabilidades, quantis e intervalos sem impor uma família paramétrica à forma dos resíduos</td>
@@ -353,7 +347,14 @@ CDF · PMF · quantis · intervalos
 </tr>
 </tbody>
 </table></div>
-<p>Não há uma abordagem universalmente superior. A escolha deve partir da saída exigida pela decisão: quantis específicos, um intervalo com cobertura-alvo ou uma distribuição completa. Entre métodos que entregam a mesma saída, a comparação deve considerar calibração fora da amostra, nitidez, estabilidade por horizonte e impacto econômico.</p>
+<br>
+<h3 id="quantidade-de-dados-cobertura-e-nitidez" tabindex="-1">Quantidade de dados, cobertura e nitidez</h3>
+<p>A quantidade de dados necessária não depende apenas da abordagem, mas também do número de séries e horizontes, da frequência de eventos de cauda, da estabilidade temporal e do grau de agrupamento usado na calibração. Ainda assim, as estruturas dos métodos produzem diferenças importantes de eficiência amostral.</p>
+<p>O TSF tende a obter uma calibração inicial mais estável com poucos dados em cada série ou horizonte. Isso ocorre porque a família paramétrica resume a incerteza em poucos parâmetros e o encolhimento compartilha informação entre níveis da hierarquia. Essa eficiência, contudo, é comprada com hipóteses mais fortes: quando a família não representa bem a assimetria, a dispersão ou as caudas, a distribuição pode ser conservadora e produzir intervalos menos nítidos, ou até apresentar cobertura inadequada. Portanto, cobertura segura não decorre automaticamente de menor nitidez; ambas precisam ser verificadas fora da amostra. Como o TSF produz uma distribuição completa, é possível consultar qualquer nível de significância, como intervalos de 80%, 90% ou 95%, sem reajustar o modelo. O que ele não oferece é uma garantia conforme de que a cobertura nominal será atingida.</p>
+<p>O MSCP estima quantis dos resíduos separadamente por horizonte. Por isso, sua calibração pode ficar instável quando há poucas janelas de <em>backtesting</em>, sobretudo nos quantis extremos. Aumentar a amostra de calibração melhora a resolução desses quantis, embora dados muito antigos possam deixar de representar o regime atual. O compromisso não é apenas entre mais e menos dados, mas entre tamanho efetivo da amostra e relevância temporal.</p>
+<p>O TSCQR consegue absorver mais facilmente assimetria e heterocedasticidade condicionais porque seus limites-base são aprendidos diretamente por regressão quantílica. Isso o torna atraente quando faltas e excessos têm custos diferentes ou quando as caudas mudam com o contexto. Ele não elimina, porém, a necessidade de dados: quantis extremos são justamente os mais difíceis de estimar, e a camada conforme ainda requer uma amostra de calibração por horizonte.</p>
+<p>O CPS também depende de um histórico de calibração representativo por série e horizonte. Como preserva a distribuição empírica dos escores, estimar probabilidades de cauda com estabilidade costuma exigir mais observações do que estimar apenas um intervalo central. Em compensação, ele não impõe uma família paramétrica à forma dos resíduos e permite consultar diferentes níveis de significância a partir do mesmo ajuste. Isso não torna a parcimônia dispensável: modelos de localização e escala excessivamente complexos ainda podem piorar a estabilidade fora da amostra.</p>
+<p>Em termos práticos, com amostras locais pequenas, o TSF pode ser um ponto de partida eficiente quando existe uma família plausível e o encolhimento é bem especificado. Com dados suficientes para aprender quantis condicionais, o TSCQR oferece intervalos mais adaptáveis ao contexto. MSCP é uma alternativa simples quando basta um intervalo calibrado, enquanto o CPS ganha valor quando a decisão exige consultar a distribuição completa e há calibração suficiente para sustentar sua forma empírica.</p>
 <br>
 </main>
 <script>window.location.hash&&document.getElementById(window.location.hash.slice(1)).classList.add("referred"),window.addEventListener("hashchange",(e=>{const t=e.oldURL.split("#");t[1]&&document.getElementById(t[1]).classList.remove("referred");const n=e.newURL.split("#");n[1]&&document.getElementById(n[1]).classList.add("referred")}),!1);const url_parts=window.location.href.split("#"),url=url_parts[0],referrence=url_parts[1];document.querySelectorAll(".cm-s-obsidian > *[id]").forEach((function(e){e.ondblclick=function(e){const t=url+"#"+e.target.id;navigator.clipboard.writeText(t)}}))</script>
