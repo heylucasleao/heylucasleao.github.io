@@ -33,11 +33,13 @@
 
 - [[digital-garden/probabilistic-forecasting/text/7. Forecasting probabilístico\|7. Forecasting probabilístico]]
 
+- [[digital-garden/probabilistic-forecasting/text/8. Distribuições Preditivas\|8. Distribuições Preditivas]]
+
 <br>
 
 ## Parte IV — Da distribuição à decisão
 
-- [[digital-garden/probabilistic-forecasting/text/8. A economia da decisão\|8. A economia da decisão]]
+- [[digital-garden/probabilistic-forecasting/text/9. A economia da decisão\|9. A economia da decisão]]
 
 <br>
 
