@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/digital-garden/receitas/text/pre-infusao/"}
+{"dg-publish":true,"permalink":"/digital-garden/receitas/text/pre-infusao/","dg-note-properties":{}}
 ---
 
 ## Pré-Infusão

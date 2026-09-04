@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/digital-garden/receitas/text/controle-de-extracao/"}
+{"dg-publish":true,"permalink":"/digital-garden/receitas/text/controle-de-extracao/","dg-note-properties":{}}
 ---
 
 # Controle de Extração

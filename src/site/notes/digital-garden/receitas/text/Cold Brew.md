@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/digital-garden/receitas/text/cold-brew/"}
+{"dg-publish":true,"permalink":"/digital-garden/receitas/text/cold-brew/","dg-note-properties":{}}
 ---
 
 # Preparo Infusão

@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/digital-garden/meu-modelo-conforme/text/meu-modelo-conforme/"}
+{"dg-publish":true,"permalink":"/digital-garden/meu-modelo-conforme/text/meu-modelo-conforme/","dg-note-properties":{}}
 ---
 
 [[digital-garden/meu-modelo-conforme/text/1. Introdução\| 1. Introdução]]

@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/digital-garden/receitas/text/agua/"}
+{"dg-publish":true,"permalink":"/digital-garden/receitas/text/agua/","dg-note-properties":{}}
 ---
 
 # Água

@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/digital-garden/receitas/text/degradacao-e-conservacao-do-grao/"}
+{"dg-publish":true,"permalink":"/digital-garden/receitas/text/degradacao-e-conservacao-do-grao/","dg-note-properties":{}}
 ---
 
 # Degradação e Conservação do Grão

@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/digital-garden/receitas/text/migracao-de-fines/"}
+{"dg-publish":true,"permalink":"/digital-garden/receitas/text/migracao-de-fines/","dg-note-properties":{}}
 ---
 
 

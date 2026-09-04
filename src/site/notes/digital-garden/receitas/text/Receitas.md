@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/digital-garden/receitas/text/receitas/"}
+{"dg-publish":true,"permalink":"/digital-garden/receitas/text/receitas/","dg-note-properties":{}}
 ---
 
 # Intro

@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/digital-garden/probabilistic-forecasting/text/apendice-a-3-quais-incertezas-afetam-a-performance/"}
+{"dg-publish":true,"permalink":"/digital-garden/probabilistic-forecasting/text/apendice-a-3-quais-incertezas-afetam-a-performance/","dg-note-properties":{}}
 ---
 
 

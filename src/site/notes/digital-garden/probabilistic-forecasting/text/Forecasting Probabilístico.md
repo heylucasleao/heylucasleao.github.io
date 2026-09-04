@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/digital-garden/probabilistic-forecasting/text/forecasting-probabilistico/"}
+{"dg-publish":true,"permalink":"/digital-garden/probabilistic-forecasting/text/forecasting-probabilistico/","dg-note-properties":{}}
 ---
 
 

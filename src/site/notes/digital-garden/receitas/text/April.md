@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/digital-garden/receitas/text/april/"}
+{"dg-publish":true,"permalink":"/digital-garden/receitas/text/april/","dg-note-properties":{}}
 ---
 
 # Receita

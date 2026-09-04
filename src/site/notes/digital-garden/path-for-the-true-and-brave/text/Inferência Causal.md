@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/digital-garden/path-for-the-true-and-brave/text/inferencia-causal/"}
+{"dg-publish":true,"permalink":"/digital-garden/path-for-the-true-and-brave/text/inferencia-causal/","dg-note-properties":{}}
 ---
 
 [[digital-garden/path-for-the-true-and-brave/text/0. Roadmap\|0. Roadmap]]

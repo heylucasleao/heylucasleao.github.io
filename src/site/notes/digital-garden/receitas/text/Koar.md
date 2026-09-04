@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/digital-garden/receitas/text/koar/"}
+{"dg-publish":true,"permalink":"/digital-garden/receitas/text/koar/","dg-note-properties":{}}
 ---
 
 

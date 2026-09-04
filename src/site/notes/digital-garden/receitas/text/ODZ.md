@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/digital-garden/receitas/text/odz/"}
+{"dg-publish":true,"permalink":"/digital-garden/receitas/text/odz/","dg-note-properties":{}}
 ---
 
 
@@ -40,7 +40,7 @@ Focado em clareza, acidez, floral, corpo leve.
 	
  5. **Quackers:** ao pesar 15g, faça uma triagem rápida e remova [*quackers*](https://www.youtube.com/watch?v=y8kb80dvxKs) (grãos subdesenvolvidos, muitas vezes mais claros ou esverdeados). Eles costumam ter baixa solubilidade e podem adicionar adstringência, amargo e notas de vegetal, além de “sujar” a clareza em métodos que buscam frutado. Como a dose é pequena, 1 ou 2 grãos já impactam perceptivelmente o resultado. 
 	
-	![defeitos-1.jpg|279](/img/user/digital-garden/receitas/assets/defeitos-1.jpg)
+	![defeitos-1.jpg\|279](/img/user/digital-garden/receitas/assets/defeitos-1.jpg)
 	
 6. **Melodrip:** Ele altera o padrão de fluxo da extração e, em geral, reduz o TDS em comparação com a chaleira (por diminuir a turbulência e a erosão do leito). Também ajuda a redistribuir os microfines e tende a levantar o *chaff*. Em muitos casos, isso encurta realça a clareza de notas (leia em [[digital-garden/receitas/text/Migração de Fines\|Migração de Fines]]). [Ray Murakawa](https://www.youtube.com/watch?v=zVbWBsWcNz0) retrata sobre isso também. Para algo mais ilustrativo, veja em [Melodrip](https://www.youtube.com/watch?v=JiLN2phMey4).
 	

@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/digital-garden/receitas/text/moagem/"}
+{"dg-publish":true,"permalink":"/digital-garden/receitas/text/moagem/","dg-note-properties":{}}
 ---
 
 

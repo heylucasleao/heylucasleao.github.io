@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/digital-garden/receitas/text/aram/"}
+{"dg-publish":true,"permalink":"/digital-garden/receitas/text/aram/","dg-note-properties":{}}
 ---
 
 # Receita
@@ -34,4 +34,4 @@
 - Após pré-infusão do ARAM, girar rapidamente até chegar em 2 bar.
 - A cada mês, fazer manutenção preventiva do ARAM.
 
-![Montagem & Desmontagem do ARAM](https://youtu.be/f96biIs4vMA?si=Ow1i9eco-g9Lz8Wg)
+<div class="youtube-embed"><iframe src="https://www.youtube.com/embed/f96biIs4vMA" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>

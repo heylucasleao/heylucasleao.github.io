@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/digital-garden/receitas/text/tare-do-leao/"}
+{"dg-publish":true,"permalink":"/digital-garden/receitas/text/tare-do-leao/","dg-note-properties":{}}
 ---
 
 # Receita

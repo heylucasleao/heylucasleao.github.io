@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/digital-garden/digital-garden-home/","tags":["gardenEntry"]}
+{"dg-publish":true,"permalink":"/digital-garden/digital-garden-home/","tags":["gardenEntry"],"dg-note-properties":{}}
 ---
 
 - [[digital-garden/meu-modelo-conforme/text/Meu Modelo Conforme\|Meu Modelo Conforme]]

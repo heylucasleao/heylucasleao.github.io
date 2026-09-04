@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/digital-garden/probabilistic-forecasting/text/apendice-a-1-quais-decisoes-estamos-tomando/"}
+{"dg-publish":true,"permalink":"/digital-garden/probabilistic-forecasting/text/apendice-a-1-quais-decisoes-estamos-tomando/","dg-note-properties":{}}
 ---
 
 

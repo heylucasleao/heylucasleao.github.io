@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/digital-garden/receitas/text/caramelo-de-cafe/"}
+{"dg-publish":true,"permalink":"/digital-garden/receitas/text/caramelo-de-cafe/","dg-note-properties":{}}
 ---
 
 

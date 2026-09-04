@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/digital-garden/probabilistic-forecasting/text/apendice-a-2-como-medimos-a-qualidade-da-decisao/"}
+{"dg-publish":true,"permalink":"/digital-garden/probabilistic-forecasting/text/apendice-a-2-como-medimos-a-qualidade-da-decisao/","dg-note-properties":{}}
 ---
 
 

@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/digital-garden/receitas/text/topicos-relevantes-para-o-cafe/"}
+{"dg-publish":true,"permalink":"/digital-garden/receitas/text/topicos-relevantes-para-o-cafe/","dg-note-properties":{}}
 ---
 
 # Tópicos

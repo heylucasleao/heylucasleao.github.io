@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/digital-garden/receitas/text/etapas-para-identificar-notas-sensoriais/"}
+{"dg-publish":true,"permalink":"/digital-garden/receitas/text/etapas-para-identificar-notas-sensoriais/","dg-note-properties":{}}
 ---
 
 # Etapas para identificar notas sensoriais

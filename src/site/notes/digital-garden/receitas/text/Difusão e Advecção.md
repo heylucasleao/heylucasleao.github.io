@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/digital-garden/receitas/text/difusao-e-adveccao/"}
+{"dg-publish":true,"permalink":"/digital-garden/receitas/text/difusao-e-adveccao/","dg-note-properties":{}}
 ---
 
 # Difusão e Advecção
