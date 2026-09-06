@@ -9,7 +9,7 @@ Antes de escrever qualquer linha de código ou escolher uma arquitetura — XGBo
 
 A premissa central é: separe a decisão — a alavanca sob seu controle — do resultado, que acontece depois sob influência do ambiente e da aleatoriedade.
 
-Este Framework não é novidade alguma. Ela é apenas o Framework já conhecido de Warren Powell para otimização de sistemas, apenas com uma vestimenta diferente observada para projetos de ciência de dados. Ao contrário de outros frameworks, acredito que o dele resolve uma dor que sinto em alguns frameworks projetados em Machine Learning: focam na solução, não no negócio. Acredito que se tivermos um design, um passo antes de tudo, pensando no problema como negócio e o que rege ele, o modelo passa a traduzir melhor para diretores e C-level.
+Este *framework* não constitui uma proposta nova. Trata-se do conhecido *framework* de Warren Powell para otimização de sistemas, adaptado ao contexto de projetos de ciência de dados. Sua principal contribuição em relação a algumas abordagens de *Machine Learning* é priorizar o problema de negócio antes da solução. Um desenho explícito do problema e dos mecanismos que o regem facilita a tradução do modelo para diretores e executivos.
 
 Outro ponto importante a comentar, é que estruturei este texto propositalmente para ser utilizado junto a qualquer LLM, para ele ser um assistente à discussão.
 
@@ -81,11 +81,11 @@ São os indicadores que os humanos (stakeholders de negócio, cientistas de dado
 |**Estabilidade da Decisão**|O grau de variação das decisões no tempo.|Quão pouco o limite de crédito ou a recomendação de um mesmo usuário oscila de um dia para o outro sem fatos novos.|
 
 >[!tip] Objetivo vs Métrica
->**O Objetivo** é o que o algoritmo tenta otimizar de forma estrita no papel (ex: o número exato em reais do custo total que queremos minimizar). É a bússola matemática da decisão.
+>**O Objetivo** é o que o algoritmo tenta otimizar de forma estrita no papel (ex.: o valor exato, em reais, do custo total a ser minimizado). É a bússola matemática da decisão.
 >
 >**A Métrica** é o painel de controle (KPI) que os humanos usam para avaliar o sucesso real do negócio depois que a decisão é tomada, muitas vezes olhando para fatias específicas da operação (como o nível de serviço de uma região específica ou o atraso médio).
 
-Muitas vezes usamos uma métrica (como o Nível de Serviço) para julgar se o Objetivo matemático foi bom o suficiente no mundo real. Por exemplo: o algoritmo minimizou o _custo financeiro_ (Objetivo), mas a diretoria vai olhar para o _nível de serviço de 95%_ (Métrica) para ver se o custo foi reduzido sacrificando demais a qualidade da entrega.
+Muitas vezes, uma métrica, como o Nível de Serviço, é usada para julgar se o Objetivo matemático foi bom o suficiente no mundo real. Por exemplo: o algoritmo minimizou o *custo financeiro* (Objetivo), mas a diretoria observará o *nível de serviço de 95%* (Métrica) para verificar se o custo foi reduzido com sacrifício excessivo da qualidade da entrega.
 
 <br>
 
@@ -124,7 +124,7 @@ Para consolidar o alinhamento entre a equipe técnica e a diretoria, o papel de 
 | **Vértice**        | **Definição Operacional**    | **Papel no Sistema**                                                              | **Pergunta-Chave de Validação**                                                | **Exemplo Prático (ML / DS)**                                                                              |
 | ------------------ | ---------------------------- | --------------------------------------------------------------------------------- | ------------------------------------------------------------------------------ | ---------------------------------------------------------------------------------------------------------- |
 | **Objetivo (O)**   | Bússola Matemática Única     | Maximizar ou minimizar estritamente o valor econômico/utilidade da decisão.       | _Qual valor monetário ou operacional único define o sucesso da decisão?_       | Maximizar o Lucro Líquido Esperado (Receita menos Perdas por Inadimplência e Churn).                       |
-| **Restrições (C)** | Linhas Vermelhas Invioláveis | Delimitar o espaço viável; soluções fora daqui quebram a operação ou violam leis. | _Se ultrapassarmos esse limite, a operação quebra ou incorremos em infração?_  | SLA de inferência $\le 80\text{ ms}$, orçamento diário de cupom $\le R\$ 50.000$, conformidade LGPD/BACEN. |
+| **Restrições (C)** | Linhas Vermelhas Invioláveis | Delimitar o espaço viável; soluções fora daqui quebram a operação ou violam leis. | _Se esse limite for ultrapassado, a operação quebrará ou haverá uma infração?_  | SLA de inferência $\le 80\text{ ms}$, orçamento diário de cupom $\le R\$ 50.000$, conformidade LGPD/BACEN. |
 | **Métricas (M)**   | Painel de Controle (KPIs)    | Monitorar _trade-offs_, qualidade estatística, equidade e estabilidade.           | _Como os stakeholders avaliam se a otimização não sacrificou aspectos vitais?_ | Taxa de Aprovação (Negócio), AUC-ROC/ECE (ML), Paridade Demográfica (Fairness), Latência p99 (MLOps).      |
 
 <br>

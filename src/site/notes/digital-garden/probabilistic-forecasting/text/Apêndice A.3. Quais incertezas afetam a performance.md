@@ -9,7 +9,7 @@ Antes de escrever qualquer linha de código ou escolher uma arquitetura — XGBo
 
 A premissa central é: separe a decisão — a alavanca sob seu controle — do resultado, que acontece depois sob influência do ambiente e da aleatoriedade.
 
-Este Framework não é novidade alguma. Ela é apenas o Framework já conhecido de Warren Powell para otimização de sistemas, apenas com uma vestimenta diferente observada para projetos de ciência de dados. Ao contrário de outros frameworks, acredito que o dele resolve uma dor que sinto em alguns frameworks projetados em Machine Learning: focam na solução, não no negócio. Acredito que se tivermos um design, um passo antes de tudo, pensando no problema como negócio e o que rege ele, o modelo passa a traduzir melhor para diretores e C-level.
+Este *framework* não constitui uma proposta nova. Trata-se do conhecido *framework* de Warren Powell para otimização de sistemas, adaptado ao contexto de projetos de ciência de dados. Sua principal contribuição em relação a algumas abordagens de *Machine Learning* é priorizar o problema de negócio antes da solução. Um desenho explícito do problema e dos mecanismos que o regem facilita a tradução do modelo para diretores e executivos.
 
 Outro ponto importante a comentar, é que estruturei este texto propositalmente para ser utilizado junto a qualquer LLM, para ele ser um assistente à discussão.
 
@@ -17,9 +17,9 @@ Outro ponto importante a comentar, é que estruturei este texto propositalmente 
 
 ## Passo 3: Quais incertezas afetam a performance?
 
-Na ciência de dados tradicional, equipes costumam tratar a incerteza apenas como o erro residual do modelo ($\epsilon$) ou o desvio padrão de um treino. No mundo real da tomada de decisão, a incerteza é dinâmica, temporal e frequentemente dependente da própria decisão que tomamos.
+Na ciência de dados tradicional, equipes costumam tratar a incerteza apenas como o erro residual do modelo ($\epsilon$) ou o desvio padrão de um treino. No mundo real da tomada de decisão, a incerteza é dinâmica, temporal e frequentemente dependente da própria decisão tomada.
 
-Não basta saber "o que não sabemos". É obrigatório mapear quando, como e sob qual atraso a incerteza se resolve na linha do tempo operacional.
+Não basta identificar o que é desconhecido. É obrigatório mapear quando, como e sob qual atraso a incerteza se resolve na linha do tempo operacional.
 
 <br>
 

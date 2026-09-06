@@ -9,7 +9,7 @@ Antes de escrever qualquer linha de código ou escolher uma arquitetura — XGBo
 
 A premissa central é: separe a decisão — a alavanca sob seu controle — do resultado, que acontece depois sob influência do ambiente e da aleatoriedade.
 
-Este Framework não é novidade alguma. Ela é apenas o Framework já conhecido de Warren Powell para otimização de sistemas, apenas com uma vestimenta diferente observada para projetos de ciência de dados. Ao contrário de outros frameworks, acredito que o dele resolve uma dor que sinto em alguns frameworks projetados em Machine Learning: focam na solução, não no negócio. Acredito que se tivermos um design, um passo antes de tudo, pensando no problema como negócio e o que rege ele, o modelo passa a traduzir melhor para diretores e C-level.
+Este *framework* não constitui uma proposta nova. Trata-se do conhecido *framework* de Warren Powell para otimização de sistemas, adaptado ao contexto de projetos de ciência de dados. Sua principal contribuição em relação a algumas abordagens de *Machine Learning* é priorizar o problema de negócio antes da solução. Um desenho explícito do problema e dos mecanismos que o regem facilita a tradução do modelo para diretores e executivos.
 
 Outro ponto importante a comentar, é que estruturei este texto propositalmente para ser utilizado junto a qualquer LLM, para ele ser um assistente à discussão.
 
@@ -27,7 +27,7 @@ Para modelar isso de forma acionável, define-se o **Estado do Sistema ($S_t$)**
 
 Representa as quantidades concretas e contáveis registradas no sistema no instante $t$. É uma fotografia factual da operação, não algo que permaneça imutável depois dela. Em ciência de dados, o “físico” abrange recursos tangíveis, capacidades computacionais, limites transacionais e saldos monetários.
 
-> **O Teste da Câmera Fotográfica:** Se eu tirar uma foto da operação no milissegundo $t$, o que consigo contar, medir ou consultar como registro atual? Se depende de uma previsão ou probabilidade, não está em $R_t$.
+> **O Teste da Câmera Fotográfica:** Se uma foto da operação for tirada no milissegundo $t$, o que poderá ser contado, medido ou consultado como registro atual? Se depender de uma previsão ou probabilidade, não estará em $R_t$.
 
 **Exemplos Práticos estão:**
 
@@ -112,7 +112,7 @@ O vetor $W_{t+1}$ representa a informação nova que chega ao sistema logo após
 
     - A transação aprovada em $t$ resultou em contestação (_chargeback_) 45 dias depois ($t+45$).
 
-    - _Problema do Contrafactual Censurado:_ Se a decisão $a_t$ foi "negar crédito", nunca saberemos se o tomador teria honrado a fatura em $t+1$.
+    - _Problema do Contrafactual Censurado:_ Se a decisão $a_t$ foi "negar crédito", não será possível saber se o tomador teria honrado a fatura em $t+1$.
 
 3. **A Degradação do Ambiente (_Data Drift / Concept Drift_):**
 
