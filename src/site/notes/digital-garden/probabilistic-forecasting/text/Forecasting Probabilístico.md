@@ -31,7 +31,7 @@
 
 - [[digital-garden/probabilistic-forecasting/text/6. Uma média não basta\|6. Uma média não basta]]
 
-- [[digital-garden/probabilistic-forecasting/text/7. Forecasting probabilístico\|7. Forecasting probabilístico]]
+- [[digital-garden/probabilistic-forecasting/text/7. Intervalos e quantis\|7. Intervalos e quantis]]
 
 - [[digital-garden/probabilistic-forecasting/text/8. Distribuições Preditivas\|8. Distribuições Preditivas]]
 
@@ -45,7 +45,7 @@
 
 ## Apêndices
 
-Não sei se estes apêndices vão ser úteis, mas, já que redigi, ficam aqui. Um dia, quem sabe.
+Os apêndices aprofundam as três perguntas de enquadramento apresentadas no primeiro capítulo. Podem ser usados como roteiro de discussão antes da modelagem ou como instrumento de revisão do processo decisório.
 
   - [[digital-garden/probabilistic-forecasting/text/Apêndice A.1. Quais decisões estamos tomando\|Apêndice A.1. Quais decisões estamos tomando]]
 
