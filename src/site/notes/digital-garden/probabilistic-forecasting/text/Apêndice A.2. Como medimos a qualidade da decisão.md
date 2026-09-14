@@ -104,6 +104,8 @@ Para consolidar o alinhamento entre a equipe técnica e a diretoria, o papel de 
 <br>
 - **A Métrica** é o **painel de instrumentos** que a diretoria utiliza para avaliar se a otimização matemática não está sacrificando aspectos vitais do negócio.
 
+<br>
+
 **Exemplo Prático de Negociação de Trade-off:**
 
 > O algoritmo minimizou com sucesso o custo de risco de crédito (Objetivo atingido), mas a diretoria analisa a taxa de aprovação comercial (Métrica de 40%) e percebe que o modelo foi excessivamente conservador, travando o crescimento da empresa. Com base nessa métrica, a liderança ajusta o apetite de risco da política de decisão, reequilibrando a fronteira de eficiência entre risco e volume.
