@@ -29,6 +29,8 @@ Segundo o livro [The Decision Factory](https://www.amazon.com.br/Decision-Factor
 
 > **O Teste da Bússola Única:** _Qual é a quantidade financeira ou operacional exata que define, numericamente, se a operação foi rentável ou bem-sucedida?_
 
+<br>
+
 - **Crédito e Prevenção à Fraude:**
 $$\max \mathbb{E}[\text{Lucro}] = \text{Receita} - \hat{P}(\text{Inadimplência}) \times \text{Perda} - \text{Custo de Atrito}$$
 - **Sistemas de Recomendação / E-commerce:**
@@ -39,7 +41,7 @@ $$\max \mathbb{E}[\text{GMV}] = \sum_{i \in \text{ranking}} \text{Preço}_i \tim
 #### Função de Perda vs. Função Objetivo
 
 - **A Função de Perda ($\mathcal{L}(\hat{y}, y)$):** É o critério  usado durante o treinamento do algoritmo (ex: _Log-Loss_, _Mean Squared Error_, _Focal Loss_). Ela serve apenas para calibrar crenças estatísticas ($B_t$). **A Loss nunca é o objetivo do negócio.**
-
+<br>
 - **O Objetivo da Decisão ($\max \mathbb{E}[U(a \mid S_t)]$):** É a função que avalia o impacto econômico e operacional da ação tomada $a_t$. O modelo preditivo apenas fornece insumos de probabilidade para que a decisão maximize essa utilidade real.
 
 <br>
@@ -50,16 +52,18 @@ $$\max \mathbb{E}[\text{GMV}] = \sum_{i \in \text{ranking}} \text{Preço}_i \tim
 
 > **O Teste da Linha Vermelha:** _Se o modelo sugerir uma ação que ultrapasse esse limite, o sistema quebra, a empresa toma um processo regulatório ou a infraestrutura cai?_ Se a resposta for sim, é uma restrição rígida ($C$), e não uma métrica.
 
+<br>
+
 **Exemplos:**
 
 - **Restrições Físicas e de Interface (Espaço em Tela):** O carrossel de recomendação só possui $k=3$ posições visíveis; não é possível recomendar 4 itens.
-
+<br>
 - **Restrições Legais e Regulatórias (_Compliance_):** O modelo de crédito é estritamente proibido por lei (BACEN/LGPD) de usar atributos protegidos (raça, gênero, orientação) na tomada de decisão de concessão.
-
+<br>
 - **Restrições Computacionais e de Engenharia (SLA Técnico):** O tempo total de inferência do pipeline não pode ultrapassar $80\text{ ms}$ (limite rígido para não causar _timeout_ no checkout).
-
+<br>
 - **Restrições Orçamentárias Rígidas:** O montante total de crédito concedido ou de cupons distribuídos na campanha no dia não pode ultrapassar o limite financeiro alocado ($R_t \ge 0$).
-
+<br>
 - **Restrições Lógicas de Estoque:** É proibido recomendar ou vender SKUs cujo estoque físico em $R_t$ seja igual a zero.
 
 <br>
@@ -69,6 +73,7 @@ $$\max \mathbb{E}[\text{GMV}] = \sum_{i \in \text{ranking}} \text{Preço}_i \tim
 São os indicadores que os humanos (stakeholders de negócio, cientistas de dados e executivos) acompanham no painel de controle para avaliar a saúde, estabilidade, justiça e qualidade do sistema ao longo do tempo.
 
 > **Atenção à Armadilha Clássica:** Não transforme automaticamente uma meta de negócio ou KPI em restrição matemática. Primeiro explicite o *trade-off* que ele representa. Porém, se sua violação tornar a ação ilegal, contratualmente inadmissível ou operacionalmente impossível, ele deixa de ser apenas uma métrica e passa a ser uma restrição.
+<br>
 
 **Exemplos de Métricas a Monitorar:**
 
@@ -94,9 +99,9 @@ Muitas vezes, uma métrica, como o Nível de Serviço, é usada para julgar se o
 Para consolidar o alinhamento entre a equipe técnica e a diretoria, o papel de cada vértice do triângulo pode ser resumido da seguinte forma:
 
 - **O Objetivo** é a **bússola matemática** que o algoritmo persegue de forma cega no papel (ex: maximizar o lucro líquido esperado).
-
+<br>
 - **A Restrição** é o **muro intransponível** que delimita onde o algoritmo pode operar (ex: respeitar o SLA de $80\text{ ms}$, o orçamento máximo de descontos e as leis do setor).
-
+<br>
 - **A Métrica** é o **painel de instrumentos** que a diretoria utiliza para avaliar se a otimização matemática não está sacrificando aspectos vitais do negócio.
 
 **Exemplo Prático de Negociação de Trade-off:**
@@ -127,11 +132,11 @@ flowchart TD
 Use estas perguntas para enquadrar o problema com o time ou orientar uma LLM:
 
 - Qual resultado econômico ou operacional a decisão deve maximizar ou minimizar?
-
+<br>
 - Quais condições tornam uma ação inviável, independentemente de seu retorno esperado?
-
+<br>
 - Quais indicadores devem ser monitorados para revelar efeitos indesejados ou *trade-offs*?
-
+<br>
 - Quais métricas são apenas metas negociáveis e quais, de fato, precisam tornar-se restrições?
-
+<br>
 - Como a política será revisada se objetivo, restrições e métricas entrarem em conflito?
