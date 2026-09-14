@@ -28,11 +28,11 @@ Não basta identificar o que é desconhecido. É obrigatório mapear quando, com
 Toda incerteza opera sob uma fronteira temporal estrita:
 
 1. **Antes da Ação ($t$):** A incerteza reside no modelo como uma crença estatística imperfeita ($B_t$).
-
+<br>
 2. **No Momento da Ação ($t$):** Você puxa a alavanca e toma a decisão $a_t$ baseado no estado $S_t = (R_t, I_t, B_t)$.
-
+<br>
 3. **Após a Ação ($t+1$ a $t+H$):** O mundo reage e revela o choque exógeno ou ruído estocástico ($W_{t+1}$).
-
+<br>
 > **O Teste da Revelação Temporal:** _Essa informação está disponível para a política antes da ação ou só é observada depois que o sistema a executa?_ Se estiver disponível antes, é informação observada em $I_t$, ainda que sujeita a problemas de qualidade. Se só se revelar depois, é parte do risco $W_{t+1}$ que a política precisa suportar.
 
 <br>
@@ -55,11 +55,11 @@ Toda incerteza opera sob uma fronteira temporal estrita:
 Use estas perguntas para enquadrar o problema com o time ou orientar uma LLM:
 
 - O que é conhecido antes da decisão e o que só será revelado depois dela?
-
+<br>
 - Em que instante cada incerteza se resolve e com qual atraso o feedback chega?
-
+<br>
 - A ação escolhida altera o que poderá ser observado depois, criando censura ou viés de seleção?
-
+<br>
 - Qual incerteza ameaça mais a decisão: comportamento, *drift*, dados fora de distribuição ou falha de pipeline?
-
+<br>
 - Como a política se protege: intervalo, limite, regra de contingência, experimento ou revisão humana?
