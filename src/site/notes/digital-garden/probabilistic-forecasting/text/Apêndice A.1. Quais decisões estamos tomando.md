@@ -29,14 +29,16 @@ Representa as quantidades concretas e contáveis registradas no sistema no insta
 
 > **O Teste da Câmera Fotográfica:** Se uma foto da operação for tirada no milissegundo $t$, o que poderá ser contado, medido ou consultado como registro atual? Se depender de uma previsão ou probabilidade, não estará em $R_t$.
 
+<div style="height: 1rem;"></div>
+
 **Exemplos Práticos estão:**
 
 - **Sistemas de Recomendação / E-commerce:** Quantidade de slots livres no carrossel de produtos ($k=3$), número exato de itens atualmente no carrinho, estoque físico restante do SKU pesquisado no centro de distribuição.
-
+<br>
 - **Crédito e Prevenção à Fraude:** Saldo disponível em conta corrente no momento da transação, limite de crédito residual utilizável para aquela compra.
-
+<br>
 - **Plataformas de Mobilidade / Logística:** Número de motoristas logados com status "livre", nível de bateria/combustível de cada veículo, pedidos já aceitos aguardando coleta.
-
+<br>
 - **Infraestrutura e MLOps:** Orçamento de latência restante para a requisição ($T_{\text{limite}} - T_{\text{decorrido}}$), cota restante de chamadas de API do cliente no dia, número de instâncias de GPU ativas no cluster.
 
 <br>
@@ -47,14 +49,16 @@ Engloba dados cadastrais disponíveis, metadados, regras determinísticas e par�
 
 > **O Teste da Regra do Jogo:** _Quais são as tabelas de referência, regras duras de negócio e atributos cadastrais que trato como fatos estabelecidos e determinísticos no momento da decisão?_
 
+<div style="height: 1rem;"></div>
+
 **Exemplos Práticoss:**
 
 - **Features Cadastrais e Metadados:** Categoria fiscal do lojista, data de criação da conta do usuário, versão ativa do pipeline de engenharia de dados.
-
+<br>
 - **Histórico Observado (Features de Velocidade):** Número exato de compras confirmadas feitas pelo cartão nos últimos 15 minutos, histórico de transações passadas já liquidadas.
-
+<br>
 - **Políticas e Regras Duras de Negócio (_Hard Constraints_):** Tabela de tarifas e comissões vigentes, limite total de crédito contratado em contrato, regras regulatórias de bloqueio por lista restritiva (ex: PEP, Sanções, regras LGPD/BACEN).
-
+<br>
 - **Parâmetros de Calendário e Sistema:** Se o dia atual é feriado nacional ou dia útil, faixa de horário de atendimento humano, taxa de câmbio oficial fixada na abertura do dia.
 
 <br>
@@ -69,16 +73,20 @@ Abriga qualquer estimativa imperfeita, predição, inferência latente ou probab
 
 - **Outputs de Modelos em Cascata / Upstream:**
     - O score de propensão ao cancelamento de um cliente ($\hat{P}(\text{churn}) = 0{,}82$) gerado pelo Modelo A.
-
+	<br>
     - A probabilidade de uma transação ser fraudulenta calculada por um modelo de _Gradient Boosting_.
-
+	<br>
     - O vetor de _embeddings_ latentes que estima os gostos e afinidades do usuário.
+    <br>
 - **Previsões de Séries Temporais:** Previsão pontual de demanda de energia ou vendas para o horizonte $t+H$ ($\hat{D}_{t, t+H}$).
+
+<br>
 
 - **Intervalos e Regiões de Incerteza (_Conformal Prediction_):**
     - O intervalo de predição conforme $[\hat{y}_{\text{inf}}, \hat{y}_{\text{sup}}]$ garantindo 90% de cobertura marginal.
 
     - O conjunto de classes possíveis retornado por um classificador de conformalidade (ex: $\mathcal{C}(x) = \{\text{Classe A}, \text{Classe C}\}$).
+<br>
 - **Distribuições Posteriores e Bandits:** Parâmetros da distribuição $\text{Beta}(\alpha_t, \beta_t)$ da taxa de conversão de um anúncio em algoritmos de _Thompson Sampling_.
 
 <br>
@@ -105,13 +113,13 @@ O vetor $W_{t+1}$ representa a informação nova que chega ao sistema logo após
 1. **O Feedback Imediato do Usuário:**
 
     - O usuário clicou ou ignorou o banner recomendado na posição 1?
-
+	<br>
     - O cliente aceitou a proposta de renegociação de dívida ofertada?
 
 2. **O Rótulo Verdadeiro Atrasado (_Delayed Ground Truth / Censored Feedback_):**
 
     - A transação aprovada em $t$ resultou em contestação (_chargeback_) 45 dias depois ($t+45$).
-
+	<br>
     - _Problema do Contrafactual Censurado:_ Se a decisão $a_t$ foi "negar crédito", não será possível saber se o tomador teria honrado a fatura em $t+1$.
 
 3. **A Degradação do Ambiente (_Data Drift / Concept Drift_):**
@@ -125,11 +133,11 @@ O vetor $W_{t+1}$ representa a informação nova que chega ao sistema logo após
 Use estas perguntas para enquadrar o problema com o time ou orientar uma LLM:
 
 - Qual ação concreta será escolhida, por quem e em qual frequência?
-
+<br>
 - Quais recursos e limites já existem em $R_t$?
-
+<br>
 - Quais fatos estão disponíveis em $I_t$ no instante exato da decisão?
-
+<br>
 - Quais previsões, *scores* ou probabilidades formam $B_t$?
-
+<br>
 - O que será revelado apenas depois da ação, como parte de $W_{t+1}$?
