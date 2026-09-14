@@ -27,6 +27,8 @@ Para modelar isso de forma acionável, define-se o **Estado do Sistema ($S_t$)**
 
 Representa as quantidades concretas e contáveis registradas no sistema no instante $t$. É uma fotografia factual da operação, não algo que permaneça imutável depois dela. Em ciência de dados, o “físico” abrange recursos tangíveis, capacidades computacionais, limites transacionais e saldos monetários.
 
+<br>
+
 > **O Teste da Câmera Fotográfica:** Se uma foto da operação for tirada no milissegundo $t$, o que poderá ser contado, medido ou consultado como registro atual? Se depender de uma previsão ou probabilidade, não estará em $R_t$.
 
 <div style="height: 1rem;"></div>
@@ -46,6 +48,8 @@ Representa as quantidades concretas e contáveis registradas no sistema no insta
 ### 2. Estado de Informação ($I_t$)
 
 Engloba dados cadastrais disponíveis, metadados, regras determinísticas e parâmetros que governam o sistema no instante da decisão. São informações observadas e utilizáveis em $t$, ainda que possam conter problemas de qualidade ou ser atualizadas no futuro; não são previsões sobre o que ocorrerá depois.
+
+<br>
 
 > **O Teste da Regra do Jogo:** _Quais são as tabelas de referência, regras duras de negócio e atributos cadastrais que trato como fatos estabelecidos e determinísticos no momento da decisão?_
 
@@ -67,7 +71,11 @@ Engloba dados cadastrais disponíveis, metadados, regras determinísticas e par�
 
 Abriga qualquer estimativa imperfeita, predição, inferência latente ou probabilidade estatística. Em Ciência de Dados, **todo** output gerado por outro modelo, distribuição estatística ou algoritmo de Machine Learning que serve de input para a decisão atual pertence a $B_t$
 
+<br>
+
 > **O Teste da Refutabilidade / Inferência Estatística:** _Esse dado é resultado de um cálculo probabilístico, regressão, rede neural ou premissa cujo valor real só poderei confirmar no futuro (ou nunca)?_ (Todo forecast, score e probabilidade mora aqui).
+
+<br>
 
 **Exemplos Práticos:**
 
@@ -79,14 +87,12 @@ Abriga qualquer estimativa imperfeita, predição, inferência latente ou probab
     - O vetor de _embeddings_ latentes que estima os gostos e afinidades do usuário.
     <br>
 - **Previsões de Séries Temporais:** Previsão pontual de demanda de energia ou vendas para o horizonte $t+H$ ($\hat{D}_{t, t+H}$).
-
 <br>
-
 - **Intervalos e Regiões de Incerteza (_Conformal Prediction_):**
     - O intervalo de predição conforme $[\hat{y}_{\text{inf}}, \hat{y}_{\text{sup}}]$ garantindo 90% de cobertura marginal.
-
+	<br>
     - O conjunto de classes possíveis retornado por um classificador de conformalidade (ex: $\mathcal{C}(x) = \{\text{Classe A}, \text{Classe C}\}$).
-<br>
+	<br>
 - **Distribuições Posteriores e Bandits:** Parâmetros da distribuição $\text{Beta}(\alpha_t, \beta_t)$ da taxa de conversão de um anúncio em algoritmos de _Thompson Sampling_.
 
 <br>
@@ -95,7 +101,12 @@ Abriga qualquer estimativa imperfeita, predição, inferência latente ou probab
 
 Informações geradas fora do controle da organização que afetam a operação.
 
+<br>
+
 > **O Teste da Fronteira Temporal:** _Quando essa informação se torna um fato observável e registrado para quem toma a decisão?_
+
+
+<br>
 
 | **Categoria Exógena**        | **Onde se Enquadra** | **Critério Temporal**                                                  | **Exemplos Práticos em Ciência de Dados**                                                                                            |
 | ---------------------------- | -------------------- | ---------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------ |
@@ -110,17 +121,21 @@ Informações geradas fora do controle da organização que afetam a operação.
 
 O vetor $W_{t+1}$ representa a informação nova que chega ao sistema logo após a aplicação da decisão $a_t$. Em Ciência de Dados, ele se manifesta em três frentes principais:
 
+<br>
+
 1. **O Feedback Imediato do Usuário:**
 
     - O usuário clicou ou ignorou o banner recomendado na posição 1?
 	<br>
     - O cliente aceitou a proposta de renegociação de dívida ofertada?
+	<br>
 
 2. **O Rótulo Verdadeiro Atrasado (_Delayed Ground Truth / Censored Feedback_):**
 
     - A transação aprovada em $t$ resultou em contestação (_chargeback_) 45 dias depois ($t+45$).
 	<br>
     - _Problema do Contrafactual Censurado:_ Se a decisão $a_t$ foi "negar crédito", não será possível saber se o tomador teria honrado a fatura em $t+1$.
+	<br>
 
 3. **A Degradação do Ambiente (_Data Drift / Concept Drift_):**
 
