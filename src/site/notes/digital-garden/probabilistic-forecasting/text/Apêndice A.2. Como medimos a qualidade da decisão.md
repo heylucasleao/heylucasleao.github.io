@@ -30,7 +30,7 @@ Segundo o livro [The Decision Factory](https://www.amazon.com.br/Decision-Factor
 > **O Teste da Bússola Única:** _Qual é a quantidade financeira ou operacional exata que define, numericamente, se a operação foi rentável ou bem-sucedida?_
 
 - **Crédito e Prevenção à Fraude:**
-$$\max \mathbb{E}[\text{Lucro}] = (\text{Receita de Juros e Tarifas}) - (\text{Custo de Inadimplência Previsto} \times \hat{P}(\text{Default})) - (\text{Custo de Atrito com Falsos Positivos})$$
+$$\max \mathbb{E}[\text{Lucro}] = \text{Receita} - \hat{P}(\text{Inadimplência}) \times \text{Perda} - \text{Custo de Atrito}$$
 - **Sistemas de Recomendação / E-commerce:**
 $$\max \mathbb{E}[\text{GMV}] = \sum_{i \in \text{ranking}} \text{Preço}_i \times \text{Margem}_i \times \hat{P}(\text{Clique}_i) \times \hat{P}(\text{Compra}_i \mid \text{Clique}_i)$$
 
