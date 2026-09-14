@@ -3,7 +3,7 @@
 ---
 
 
-# Forecasting operacional: da previsão à decisão
+# Forecasting Probabilístico
 
 - [[digital-garden/probabilistic-forecasting/text/0. Introdução\|0. Introdução]]
 
