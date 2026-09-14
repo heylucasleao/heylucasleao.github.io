@@ -105,23 +105,16 @@ Para consolidar o alinhamento entre a equipe técnica e a diretoria, o papel de 
 
 <br>
 
-## Triângulo O-M-C
+## Bússola O-M-C
 
-```
-                         [ OBJETIVO (O) ]
-                     A Bússola Matemática Única
-                     (Impacto Econômico / Utilidade)
-                               ▲
-                              / \
-                             /   \
-                            /     \
-    [ RESTRIÇÕES (C) ] ◄───'       '───► [ MÉTRICAS (M) ]
-    Limites Rígidos Invioláveis         Painel Multidimensional (KPIs)
-    (Físicos, Legais, SLAs, Lógica)     (Estatística, Negócio, Equidade)
-
+```mermaid
+flowchart TD
+    O["<b>OBJETIVO</b><br/>Valor que orienta a decisão"] --> D(("DECISÃO"))
+    C["<b>RESTRIÇÕES</b><br/>Limites da rota viável"] --- D
+    D --- M["<b>MÉTRICAS</b><br/>Painel que acompanha o percurso"]
 ```
 
-| **Vértice**        | **Definição Operacional**    | **Papel no Sistema**                                                              | **Pergunta-Chave de Validação**                                                | **Exemplo Prático (ML / DS)**                                                                              |
+| **Elemento**       | **Definição Operacional**    | **Papel no Sistema**                                                              | **Pergunta-Chave de Validação**                                                | **Exemplo Prático (ML / DS)**                                                                              |
 | ------------------ | ---------------------------- | --------------------------------------------------------------------------------- | ------------------------------------------------------------------------------ | ---------------------------------------------------------------------------------------------------------- |
 | **Objetivo (O)**   | Bússola Matemática Única     | Maximizar ou minimizar estritamente o valor econômico/utilidade da decisão.       | _Qual valor monetário ou operacional único define o sucesso da decisão?_       | Maximizar o Lucro Líquido Esperado (Receita menos Perdas por Inadimplência e Churn).                       |
 | **Restrições (C)** | Linhas Vermelhas Invioláveis | Delimitar o espaço viável; soluções fora daqui quebram a operação ou violam leis. | _Se esse limite for ultrapassado, a operação quebrará ou haverá uma infração?_  | SLA de inferência $\le 80\text{ ms}$, orçamento diário de cupom $\le R\$ 50.000$, conformidade LGPD/BACEN. |
