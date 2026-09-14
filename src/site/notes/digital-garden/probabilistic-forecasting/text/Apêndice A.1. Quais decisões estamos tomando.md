@@ -27,8 +27,6 @@ Para modelar isso de forma acionável, define-se o **Estado do Sistema ($S_t$)**
 
 Representa as quantidades concretas e contáveis registradas no sistema no instante $t$. É uma fotografia factual da operação, não algo que permaneça imutável depois dela. Em ciência de dados, o “físico” abrange recursos tangíveis, capacidades computacionais, limites transacionais e saldos monetários.
 
-<br>
-
 > **O Teste da Câmera Fotográfica:** Se uma foto da operação for tirada no milissegundo $t$, o que poderá ser contado, medido ou consultado como registro atual? Se depender de uma previsão ou probabilidade, não estará em $R_t$.
 
 <div style="height: 1rem;"></div>
@@ -49,8 +47,6 @@ Representa as quantidades concretas e contáveis registradas no sistema no insta
 
 Engloba dados cadastrais disponíveis, metadados, regras determinísticas e parâmetros que governam o sistema no instante da decisão. São informações observadas e utilizáveis em $t$, ainda que possam conter problemas de qualidade ou ser atualizadas no futuro; não são previsões sobre o que ocorrerá depois.
 
-<br>
-
 > **O Teste da Regra do Jogo:** _Quais são as tabelas de referência, regras duras de negócio e atributos cadastrais que trato como fatos estabelecidos e determinísticos no momento da decisão?_
 
 <div style="height: 1rem;"></div>
@@ -70,8 +66,6 @@ Engloba dados cadastrais disponíveis, metadados, regras determinísticas e par�
 ### 3. Estado de Crença ($B_t$)
 
 Abriga qualquer estimativa imperfeita, predição, inferência latente ou probabilidade estatística. Em Ciência de Dados, **todo** output gerado por outro modelo, distribuição estatística ou algoritmo de Machine Learning que serve de input para a decisão atual pertence a $B_t$
-
-<br>
 
 > **O Teste da Refutabilidade / Inferência Estatística:** _Esse dado é resultado de um cálculo probabilístico, regressão, rede neural ou premissa cujo valor real só poderei confirmar no futuro (ou nunca)?_ (Todo forecast, score e probabilidade mora aqui).
 
@@ -101,8 +95,6 @@ Abriga qualquer estimativa imperfeita, predição, inferência latente ou probab
 
 Informações geradas fora do controle da organização que afetam a operação.
 
-<br>
-
 > **O Teste da Fronteira Temporal:** _Quando essa informação se torna um fato observável e registrado para quem toma a decisão?_
 
 
@@ -120,8 +112,6 @@ Informações geradas fora do controle da organização que afetam a operação.
 ### O Choque Exógeno Realizado ($W_{t+1}$): A Resposta do Ambiente Pós-Decisão
 
 O vetor $W_{t+1}$ representa a informação nova que chega ao sistema logo após a aplicação da decisão $a_t$. Em Ciência de Dados, ele se manifesta em três frentes principais:
-
-<br>
 
 1. **O Feedback Imediato do Usuário:**
 
