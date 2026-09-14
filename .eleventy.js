@@ -236,7 +236,7 @@ const tagRegex = /(^|\s|\>)(#[^\s!@#$%^&*()=+\.,\[{\]};:'"?><]+)(?!([^<]*>))/g;
 const markdownFileTypeRegex = /\.(md|markdown)$/i;
 const isMarkdownPage = (inputPath) => inputPath && inputPath.match(markdownFileTypeRegex);
 
-module.exports = function(eleventyConfig) {
+module.exports = function (eleventyConfig) {
   eleventyConfig.setLiquidOptions({
     dynamicPartials: true,
   });
@@ -252,8 +252,8 @@ module.exports = function(eleventyConfig) {
     })
     .use(require("markdown-it-mark"))
     .use(require("markdown-it-footnote"))
-    .use(function(md) {
-      md.renderer.rules.hashtag_open = function(tokens, idx) {
+    .use(function (md) {
+      md.renderer.rules.hashtag_open = function (tokens, idx) {
         return '<a class="tag">';
       };
     })
@@ -272,11 +272,11 @@ module.exports = function(eleventyConfig) {
     })
     .use(namedHeadingsFilter)
     .use(basesPlugin)
-    .use(function(md) {
+    .use(function (md) {
       //https://github.com/DCsunset/markdown-it-mermaid-plugin
       const origFenceRule =
         md.renderer.rules.fence ||
-        function(tokens, idx, options, env, self) {
+        function (tokens, idx, options, env, self) {
           return self.renderToken(tokens, idx, options, env, self);
         };
       md.renderer.rules.fence = (tokens, idx, options, env, slf) => {
@@ -367,7 +367,7 @@ module.exports = function(eleventyConfig) {
 
       const defaultImageRule =
         md.renderer.rules.image ||
-        function(tokens, idx, options, env, self) {
+        function (tokens, idx, options, env, self) {
           return self.renderToken(tokens, idx, options, env, self);
         };
       md.renderer.rules.image = (tokens, idx, options, env, self) => {
@@ -402,7 +402,7 @@ module.exports = function(eleventyConfig) {
 
       const defaultLinkRule =
         md.renderer.rules.link_open ||
-        function(tokens, idx, options, env, self) {
+        function (tokens, idx, options, env, self) {
           return self.renderToken(tokens, idx, options, env, self);
         };
       function isExternalHref(href) {
@@ -421,7 +421,7 @@ module.exports = function(eleventyConfig) {
         return /^[a-z][a-z0-9+.-]*:/i.test(trimmed);
       }
 
-      md.renderer.rules.link_open = function(tokens, idx, options, env, self) {
+      md.renderer.rules.link_open = function (tokens, idx, options, env, self) {
         const hrefIndex = tokens[idx].attrIndex("href");
         const href =
           hrefIndex >= 0 && tokens[idx].attrs && tokens[idx].attrs[hrefIndex]
@@ -465,14 +465,14 @@ module.exports = function(eleventyConfig) {
 
   eleventyConfig.setLibrary("md", markdownLib);
 
-  eleventyConfig.addFilter("isoDate", function(date) {
+  eleventyConfig.addFilter("isoDate", function (date) {
     return date && date.toISOString();
   });
 
-  eleventyConfig.addFilter("link", function(str) {
+  eleventyConfig.addFilter("link", function (str) {
     return (
       str &&
-      str.replace(/\[\[(.*?\|.*?)\]\]/g, function(match, p1) {
+      str.replace(/\[\[(.*?\|.*?)\]\]/g, function (match, p1) {
         //Check if it is an embedded excalidraw drawing or mathjax javascript
         if (p1.indexOf("],[") > -1 || p1.indexOf('"$"') > -1) {
           return match;
@@ -490,7 +490,7 @@ module.exports = function(eleventyConfig) {
   // browser resolve them one directory too deep.
   // pageInputPath overrides this.page for contexts like the feed, where the
   // rendered content belongs to a looped-over note rather than the current page.
-  eleventyConfig.addFilter("resolveMdLinks", function(str, pageInputPath) {
+  eleventyConfig.addFilter("resolveMdLinks", function (str, pageInputPath) {
     const inputPath = pageInputPath || (this.page && this.page.inputPath);
     if (!str || !inputPath) {
       return str;
@@ -518,25 +518,25 @@ module.exports = function(eleventyConfig) {
     });
   });
 
-  eleventyConfig.addFilter("taggify", function(str) {
+  eleventyConfig.addFilter("taggify", function (str) {
     return (
       str &&
-      str.replace(tagRegex, function(match, precede, tag) {
+      str.replace(tagRegex, function (match, precede, tag) {
         return `${precede}<a class="tag" data-content="${tag}">${tag}</a>`;
       })
     );
   });
 
-  eleventyConfig.addFilter("hideDataview", function(str) {
+  eleventyConfig.addFilter("hideDataview", function (str) {
     return (
       str &&
-      str.replace(/\(\S+\:\:(.*)\)/g, function(_, value) {
+      str.replace(/\(\S+\:\:(.*)\)/g, function (_, value) {
         return value.trim();
       })
     );
   });
 
-  eleventyConfig.addFilter("xmlSafe", function(str) {
+  eleventyConfig.addFilter("xmlSafe", function (str) {
     if (!str) return str;
     // Remove invalid XML characters (0xFFFE, 0xFFFF, etc.)
     str = str.replace(/\uFFFE|\uFFFF/g, '');
@@ -588,7 +588,7 @@ module.exports = function(eleventyConfig) {
 
       content = content.replace(
         calloutMeta,
-        function(metaInfoMatch, callout, metaData, collapse, title) {
+        function (metaInfoMatch, callout, metaData, collapse, title) {
           isCollapsable = Boolean(collapse);
           isCollapsed = collapse === "-";
           const titleText = title.replace(/(<\/{0,1}\w+>)/, "")
@@ -721,7 +721,7 @@ module.exports = function(eleventyConfig) {
     }
   }
 
-  eleventyConfig.addTransform("obsidian-html", async function(str) {
+  eleventyConfig.addTransform("obsidian-html", async function (str) {
     if (!str || !isMarkdownPage(this.page.inputPath)) {
       return str;
     }
@@ -737,7 +737,7 @@ module.exports = function(eleventyConfig) {
   function convertCanvasLinks(str) {
     return (
       str &&
-      str.replace(/\[\[(.*?\|.*?)\]\]/g, function(match, p1) {
+      str.replace(/\[\[(.*?\|.*?)\]\]/g, function (match, p1) {
         if (p1.indexOf("],[") > -1 || p1.indexOf('"$"') > -1) {
           return match;
         }
@@ -751,14 +751,14 @@ module.exports = function(eleventyConfig) {
   function convertCanvasTags(str) {
     return (
       str &&
-      str.replace(tagRegex, function(match, precede, tag) {
+      str.replace(tagRegex, function (match, precede, tag) {
         return `${precede}<a class="tag" data-content="${tag}">${tag}</a>`;
       })
     );
   }
 
   // Render markdown in canvas text nodes at build time
-  eleventyConfig.addTransform("canvas-markdown", function(str) {
+  eleventyConfig.addTransform("canvas-markdown", function (str) {
     if (!str || !str.includes('data-markdown="')) {
       return str;
     }
@@ -799,7 +799,7 @@ module.exports = function(eleventyConfig) {
     }
   });
 
-  eleventyConfig.addTransform("htmlMinifier", async function(content) {
+  eleventyConfig.addTransform("htmlMinifier", async function (content) {
     if (
       (process.env.NODE_ENV === "production" || process.env.ELEVENTY_ENV === "prod") &&
       (this.page.outputPath || "").endsWith(".html")
@@ -845,6 +845,7 @@ module.exports = function(eleventyConfig) {
 
   eleventyConfig.addPassthroughCopy("src/site/img");
   eleventyConfig.addPassthroughCopy("src/site/scripts");
+  eleventyConfig.addPassthroughCopy("src/site/html-files");
   eleventyConfig.addPassthroughCopy("src/site/styles/_theme.*.css");
   eleventyConfig.addPassthroughCopy({ "src/site/logo.*": "/" });
   eleventyConfig.on("eleventy.before", () => {
@@ -869,7 +870,7 @@ module.exports = function(eleventyConfig) {
   // Canvas files are pre-compiled HTML by the plugin - don't process as markdown
   eleventyConfig.addExtension("canvas", {
     read: true,
-    compile: async function(inputContent, inputPath) {
+    compile: async function (inputContent, inputPath) {
       // Extract content after frontmatter (canvas HTML is already compiled by plugin)
       const parsed = matter(inputContent, matterOptions);
       return async (data) => {
@@ -879,7 +880,7 @@ module.exports = function(eleventyConfig) {
     }
   });
 
-  eleventyConfig.addFilter("dateToZulu", function(date) {
+  eleventyConfig.addFilter("dateToZulu", function (date) {
     try {
       return new Date(date).toISOString("dd-MM-yyyyTHH:mm:ssZ");
     } catch {
@@ -887,7 +888,7 @@ module.exports = function(eleventyConfig) {
     }
   });
 
-  eleventyConfig.addFilter("jsonify", function(variable) {
+  eleventyConfig.addFilter("jsonify", function (variable) {
     return JSON.stringify(variable) || '""';
   });
 
