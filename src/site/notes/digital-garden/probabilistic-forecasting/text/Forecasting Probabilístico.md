@@ -19,11 +19,11 @@
 
 <br>
 
-## Parte II — Previsão pontual: construir e avaliar
+## Parte II — Avaliar e construir a previsão pontual
 
-- [[digital-garden/probabilistic-forecasting/text/4. Previsão pontual\|4. Previsão pontual]]
+- [[digital-garden/probabilistic-forecasting/text/4. Avaliação\|4. Avaliação]]
 
-- [[digital-garden/probabilistic-forecasting/text/5. Avaliação\|5. Avaliação]]
+- [[digital-garden/probabilistic-forecasting/text/5. Previsão pontual\|5. Previsão pontual]]
 
 <br>
 
