@@ -142,3 +142,8 @@ Use estas perguntas para enquadrar o problema com o time ou orientar uma LLM:
 - Quais métricas são apenas metas negociáveis e quais, de fato, precisam tornar-se restrições?
 <br>
 - Como a política será revisada se objetivo, restrições e métricas entrarem em conflito?
+
+## Referências
+
+- DeJans Jr., A. e Elam, J. B. (2026). [*The Decision Factory: A Novel about Decisions Under Uncertainty*](https://thedecisionfactory.com/). Bit Bros.
+- Powell, W. B. (2022). [*Reinforcement Learning and Stochastic Optimization: A Unified Framework for Sequential Decisions*](https://doi.org/10.1002/9781119815068). Wiley.

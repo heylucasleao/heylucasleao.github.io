@@ -146,3 +146,7 @@ Use estas perguntas para enquadrar o problema com o time ou orientar uma LLM:
 - Quais previsões, *scores* ou probabilidades formam $B_t$?
 <br>
 - O que será revelado apenas depois da ação, como parte de $W_{t+1}$?
+
+## Referências
+
+- Powell, W. B. (2022). [*Reinforcement Learning and Stochastic Optimization: A Unified Framework for Sequential Decisions*](https://doi.org/10.1002/9781119815068). Wiley.
