@@ -15,31 +15,41 @@
 
 - [[digital-garden/probabilistic-forecasting/text/2. Demanda\|2. Demanda]]
 
-- [[digital-garden/probabilistic-forecasting/text/3. Diagnóstico do sinal\|3. Diagnóstico do sinal]]
+- [[digital-garden/probabilistic-forecasting/text/3. Comportamento e estabilidade da demanda\|3. Comportamento e estabilidade da demanda]]
+
+- [[digital-garden/probabilistic-forecasting/text/4. Previsibilidade e estrutura do sinal\|4. Previsibilidade e estrutura do sinal]]
 
 <br>
 
 ## Parte II — Avaliar e construir a previsão pontual
 
-- [[digital-garden/probabilistic-forecasting/text/4. Avaliação\|4. Avaliação]]
+- [[digital-garden/probabilistic-forecasting/text/5. Avaliação da previsão pontual\|5. Avaliação da previsão pontual]]
 
-- [[digital-garden/probabilistic-forecasting/text/5. Previsão pontual\|5. Previsão pontual]]
+- [[digital-garden/probabilistic-forecasting/text/6. Previsão pontual\|6. Previsão pontual]]
 
 <br>
 
 ## Parte III — Da média à distribuição
 
-- [[digital-garden/probabilistic-forecasting/text/6. Uma média não basta\|6. Uma média não basta]]
+- [[digital-garden/probabilistic-forecasting/text/7. Uma média não basta\|7. Uma média não basta]]
 
-- [[digital-garden/probabilistic-forecasting/text/7. Intervalos e quantis\|7. Intervalos e quantis]]
+- [[digital-garden/probabilistic-forecasting/text/8. Avaliação da incerteza\|8. Avaliação da incerteza]]
 
-- [[digital-garden/probabilistic-forecasting/text/8. Distribuições Preditivas\|8. Distribuições Preditivas]]
+- [[digital-garden/probabilistic-forecasting/text/9. Intervalos e quantis\|9. Intervalos e quantis]]
+
+- [[digital-garden/probabilistic-forecasting/text/10. Distribuições Preditivas\|10. Distribuições Preditivas]]
 
 <br>
 
 ## Parte IV — Da distribuição à decisão
 
-- [[digital-garden/probabilistic-forecasting/text/9. A economia da decisão\|9. A economia da decisão]]
+- [[digital-garden/probabilistic-forecasting/text/11. A economia da decisão\|11. A economia da decisão]]
+
+<br>
+
+## Parte V — Operação e monitoramento
+
+- [[digital-garden/probabilistic-forecasting/text/12. Monitoramento de previsões\|12. Monitoramento de previsões]]
 
 <br>
 
