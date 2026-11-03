@@ -45,11 +45,13 @@
 
 - [[digital-garden/probabilistic-forecasting/text/11. A economia da decisão\|11. A economia da decisão]]
 
+- [[digital-garden/probabilistic-forecasting/text/12. Perda Linear Simples\|12. Perda Linear Simples]]
+
 <br>
 
 ## Parte V — Operação e monitoramento
 
-- [[digital-garden/probabilistic-forecasting/text/12. Monitoramento de previsões\|12. Monitoramento de previsões]]
+- [[digital-garden/probabilistic-forecasting/text/13. Monitoramento de previsões\|13. Monitoramento de previsões]]
 
 <br>
 
